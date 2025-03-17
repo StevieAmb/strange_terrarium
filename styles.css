@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+}
+
+
+.disclaimer-strip {
+  margin: 0;
+  padding: .001rem 0;
+  text-align: center;
+  background-color: rgb(229, 183, 35);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  letter-spacing: 3.7px;
+}
+
+.navigation-bar {
+  display: flex;
+  background-color: #F0E9E6;
+  box-shadow: 0 0 20px black;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  margin: 2rem 0  0 20rem;
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+.hero-image-section {
+  display: flex;
+}
+
+.hero-image-slides {
+  background-image: url('images/open_blue_terra.jpeg');
+  background-size: cover;
+  height: 90vh;
+  width: 55vw;
+}
+
+.hero-shop-button {
+  border-color: white;
+  margin: 32rem 0 0 1rem;
+  padding: 1.2rem 3rem;
+  background-color: #768948;
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+
+.logo-section {
+  background-image: url('images/STlogo.png');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30rem 25rem;
+  width: 45vw;
+  height: 90vh;
+}
+
+.welcome-line {
+  margin-top: 2.7rem;
+}
+
+.marketplace-line {
+  margin-top: 32rem;
+  font-size: 33px;
+}
+
+.expectation-section {
+  background-color: #1E2F23;
+  padding: 4rem 0;
+}
+
+.expectation-section h2 {
+  text-align: center;
+  color: #FFF;
+  font-size: 2.7rem;
+}
+
+.standout-list {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.custom-designs {
+  background-image: url('images/terrarium_planter.jpeg');
+  background-size: 20% 150%;
+  background-size: cover;
+  background-position: -2.5rem -3rem;
+  height: 50vh;
+  width: 25vw;
+}
+
+.eco-friendly-materials {
+  background-image: url('images/eco_friendly_terra.jpeg');
+  background-size: 20% 150%;
+  background-size: cover;
+  background-position: -1.7rem -3rem;
+  height: 50vh;
+  width: 25vw;
+}
+.award-winning {
+  background-image: url('images/terrarium_with_blue.jpeg');
+  background-size: 20% 150%;
+  background-size: cover;
+  background-position: -1.7rem -3rem;
+  height: 50vh;
+  width: 25vw;
+}
+
+.standout-square p {
+  text-align: center;
+  margin-top: 16.3rem;
+  padding: 1.7rem;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bolder;
+  background-color: #B39C4D;
+  color: white;
+}
