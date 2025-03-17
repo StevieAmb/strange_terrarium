@@ -18,6 +18,9 @@ body {
   background-color: #F0E9E6;
   box-shadow: 0 0 20px black;
   padding: 1rem 2rem;
+  top: 0;
+  position: sticky;
+  z-index: 2;
 }
 
 .nav-links {
@@ -121,4 +124,42 @@ body {
   font-weight: bolder;
   background-color: #B39C4D;
   color: white;
+}
+
+.featured-plant-section {
+  display: flex;
+}
+
+.featured-info {
+  text-align: center;
+}
+
+.featured-info .heading {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.featured-info, .featured-image-container {
+  text-align: center;
+  padding: 5rem 0 10rem;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.featured-image-container {
+  background-color: #cfcbc0;
+}
+
+.featured-image-container h3 {
+  font-size: 2rem;
+}
+
+.featured-image {
+  margin: 2.7rem 0 0 11rem;
+  background-image: url('images/red_top_terrarium.jpeg');
+  background-size: 40% 100%;
+  background-size: cover;
+  background-position: -1.2rem 0rem;
+  height: 100%;
+  width: 50%;
 }
