@@ -51,7 +51,7 @@ body {
 }
 
 .logo-section {
-  background-image: url(images/STlogo.png);
+  background-image: url('images/STlogo.png');
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
@@ -66,7 +66,7 @@ body {
 }
 
 .marketplace-line {
-  margin-top: 27rem;
+  margin-top: 34rem;
   font-size: 31px;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .custom-designs {
-  background-image: url('images/open_blue_terra.jpeg');
+  background-image: url('images/terrarium_planter.jpeg');
   background-size: 20% 150%;
   background-size: cover;
   background-position: -2.5rem -3rem;
@@ -90,7 +90,15 @@ body {
   width: 25vw;
 }
 
-.eco-friendly-materials, .award-winning {
+.eco-friendly-materials {
+  background-image: url('images/open_blue_terra.jpeg');
+  background-size: 20% 150%;
+  background-size: cover;
+  background-position: -2.5rem -3rem;
+  height: 50vh;
+  width: 25vw;
+}
+.award-winning {
   background-image: url('images/open\ terrarium.webp');
   background-position: center;
   height: 50vh;
