@@ -107,7 +107,7 @@ body {
   width: 25vw;
 }
 .award-winning {
-  background-image: url('images/terrarium_with_blue.jpeg');
+  background-image: url('images/terrarium_row.jpeg');
   background-size: 20% 150%;
   background-size: cover;
   background-position: -1.7rem -3rem;
@@ -147,7 +147,7 @@ body {
 }
 
 .featured-image-container {
-  background-color: #cfcbc0;
+  background-color: #abb595;
 }
 
 .featured-image-container h3 {
@@ -155,11 +155,10 @@ body {
 }
 
 .featured-image {
-  margin: 2.7rem 0 0 11rem;
-  background-image: url('images/red_top_terrarium.jpeg');
-  background-size: 40% 100%;
-  background-size: cover;
+  height: 90%;
+  width: 40%;;
+  margin: 2.7rem 0 0 15rem;
+  background-image: url('images/terrarium_with_blue.jpeg');
+  background-size: 120% 100%;
   background-position: -1.2rem 0rem;
-  height: 100%;
-  width: 50%;
 }
