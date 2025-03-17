@@ -17,7 +17,7 @@ body {
   display: flex;
   background-color: #F0E9E6;
   box-shadow: 0 0 20px black;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
 }
 
 .nav-links {
@@ -36,7 +36,6 @@ body {
   background-size: cover;
   height: 90vh;
   width: 55vw;
-  border-bottom: 1px solid black;
 }
 
 .hero-shop-button {
@@ -58,7 +57,6 @@ body {
   background-size: 30rem 25rem;
   width: 45vw;
   height: 90vh;
-  border-bottom: 1px solid black;
 }
 
 .welcome-line {
@@ -66,19 +64,26 @@ body {
 }
 
 .marketplace-line {
-  margin-top: 34rem;
-  font-size: 31px;
+  margin-top: 32rem;
+  font-size: 33px;
 }
 
 .expectation-section {
   background-color: #1E2F23;
-  padding: 5rem 0;
+  padding: 4rem 0;
+}
+
+.expectation-section h2 {
+  text-align: center;
+  color: #FFF;
+  font-size: 2.7rem;
 }
 
 .standout-list {
+  padding: 5rem 0;
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .custom-designs {
@@ -91,27 +96,29 @@ body {
 }
 
 .eco-friendly-materials {
-  background-image: url('images/open_blue_terra.jpeg');
+  background-image: url('images/eco_friendly_terra.jpeg');
   background-size: 20% 150%;
   background-size: cover;
-  background-position: -2.5rem -3rem;
+  background-position: -1.7rem -3rem;
   height: 50vh;
   width: 25vw;
 }
 .award-winning {
-  background-image: url('images/open\ terrarium.webp');
-  background-position: center;
+  background-image: url('images/terrarium_with_blue.jpeg');
+  background-size: 20% 150%;
+  background-size: cover;
+  background-position: -1.7rem -3rem;
   height: 50vh;
   width: 25vw;
 }
 
 .standout-square p {
   text-align: center;
-  margin-top: 16rem;
-  padding: 2rem;
+  margin-top: 16.3rem;
+  padding: 1.7rem;
   font-size: 24px;
   font-style: italic;
   font-weight: bolder;
-  background-color: rgb(229, 183, 35);
+  background-color: #B39C4D;
   color: white;
 }
