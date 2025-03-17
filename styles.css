@@ -41,9 +41,9 @@ body {
 
 .hero-shop-button {
   border-color: white;
-  margin: 32rem 0 0 30rem;
+  margin: 32rem 0 0 1rem;
   padding: 1.2rem 3rem;
-  background-color: #658E9E;
+  background-color: #768948;
   border-radius: 7px;
   font-weight: bold;
   color: white;
@@ -83,9 +83,9 @@ body {
 
 .custom-designs {
   background-image: url('images/open_blue_terra.jpeg');
-  background-size: 15% 150%;
+  background-size: 20% 150%;
   background-size: cover;
-  background-position: center;
+  background-position: -2.5rem -3rem;
   height: 50vh;
   width: 25vw;
 }
