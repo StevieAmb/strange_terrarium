@@ -209,3 +209,7 @@ input {
 textarea {
   padding: 1rem;
 }
+
+.contact-page-section {
+  display: flex;
+}
