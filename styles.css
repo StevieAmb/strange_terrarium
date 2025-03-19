@@ -177,5 +177,9 @@ body {
 }
 
 .contact-store-owner-section {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
 }
