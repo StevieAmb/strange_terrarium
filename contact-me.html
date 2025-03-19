@@ -27,7 +27,33 @@
       please feel free to use the form to your right! Thank you for stopping by!</p>
     <section>
       <div>
-
+        <div class="input-field">
+          <label>Name: <span>(required)</span> </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ex: Sonia Sanchez"
+            required
+            minlength="4"
+            maxlength="30"
+          />
+        </div>
+        <div class="input-field">
+          <label>Email: <span>(required)</span></label>
+          <input 
+            type="email" 
+            id="email" 
+            placeholder="Ex: sonia.sanchez@blahblah.com"
+            pattern=".+@example\.com" 
+            required 
+          />
+        </div>
+        <div class="input-field">
+          <label>What Can I Make For You? <span>(required)</span></label>
+          <textarea rows="8" cols="65" placeholder="Please let us know what sort of terrarium you'd like, and the plants and materials you would like in it."></textarea>
+        </div>
+        <button>Make It</button>
       </div>
       <img src="images/open_blue_terra.jpeg"
     </section>
