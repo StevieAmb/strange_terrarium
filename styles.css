@@ -211,5 +211,18 @@ textarea {
 }
 
 .contact-page-section {
+  padding: 6rem;
   display: flex;
+}
+
+.contact-form-section {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-page-image {
+  width: 40%;
+  height: 60%;
 }
