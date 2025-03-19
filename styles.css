@@ -163,19 +163,19 @@ body {
   background-image: url('images/terrarium_with_blue.jpeg');
   background-size: 120% 100%;
   background-position: -1.2rem 0rem;
-  background-color: #fff;
-  backdrop-filter: blur(10px);
+  border-radius: 7px;
+  border: 2px solid #F0E9E6;
 }
 
 .get-featured-button {
   margin-top: 2rem;
   padding: 1rem 2.5rem;
-  background-color: rgb(218, 200, 140);
+  background-color: rgb(149, 137, 97);
   border-radius: 7px;
   font-weight: bold;
   color: white;
   font-size: 20px;
-  border: none;
+  border-color: #B39C4D;
 }
 
 .contact-store-owner-section {
