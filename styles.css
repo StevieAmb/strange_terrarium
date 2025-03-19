@@ -141,24 +141,37 @@ body {
 
 .featured-info, .featured-image-container {
   text-align: center;
-  padding: 5rem 0 10rem;
+  padding: 4rem 0rem 15rem 0rem;
   border: 1px solid black;
   width: 50%;
 }
 
 .featured-image-container {
-  background-color: #abb595;
+  background-color: #b3b7ad;
 }
 
-.featured-image-container h3 {
+.featured-info h3, .featured-image-container h3 {
   font-size: 2rem;
 }
 
 .featured-image {
   height: 90%;
-  width: 40%;;
-  margin: 2.7rem 0 0 15rem;
+  width: 40%;
+  margin: 1.7rem 0 0 13.5rem;
   background-image: url('images/terrarium_with_blue.jpeg');
   background-size: 120% 100%;
   background-position: -1.2rem 0rem;
+  background-color: #fff;
+  backdrop-filter: blur(10px);
+}
+
+.get-featured-button {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  background-color: rgb(218, 200, 140);
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border: none;
 }
