@@ -210,12 +210,13 @@ body {
 }
 
 input {
-  width: 90%;
+  width: 100%;
   padding: 1rem;
 }
 
 textarea {
   padding: 1rem;
+  width: 100%;
 }
 
 .contact-page-section {
