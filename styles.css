@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
 }
@@ -141,24 +143,127 @@ body {
 
 .featured-info, .featured-image-container {
   text-align: center;
-  padding: 5rem 0 10rem;
+  padding: 4rem 0rem 15rem 0rem;
   border: 1px solid black;
   width: 50%;
 }
 
 .featured-image-container {
-  background-color: #abb595;
+  background-color: #b3b7ad;
 }
 
-.featured-image-container h3 {
+.featured-info h3, .featured-image-container h3 {
   font-size: 2rem;
 }
 
 .featured-image {
   height: 90%;
-  width: 40%;;
-  margin: 2.7rem 0 0 15rem;
+  width: 40%;
+  margin: 1.7rem 0 0 13.5rem;
   background-image: url('images/terrarium_with_blue.jpeg');
   background-size: 120% 100%;
   background-position: -1.2rem 0rem;
+  border-radius: 7px;
+  border: 2px solid #F0E9E6;
+}
+
+.get-featured-button {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  border-color: #F0E9E6;
+  background-color: #b3b7ad;
+}
+
+.get-featured-button:hover {
+  background-color: #B39C4D;
+}
+
+.contact-store-owner-section {
+  padding: 2.5rem;
+  background-color: #768948;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-store-owner-section h3 {
+  font-size: 26px;
+  margin: 0;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.required-text {
+  color: red;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+}
+
+textarea {
+  padding: 1rem;
+  width: 100%;
+}
+
+.general-inquiries-button {
+  padding: 1rem 2.5rem;
+  background-color: #fff;
+  border: 2px solid black;
+  font-weight: 800;
+}
+
+.general-inquiries-button:hover {
+  background-color: rgb(229, 183, 35);
+  border: 2px solid #fff;
+  color: #FFF;
+}
+
+
+.main-contact-section p {
+  margin: 5rem 14rem;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.contact-page-section {
+  display: flex;
+}
+
+.contact-form-section {
+  padding: .2rem 0 0 3rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  width: 45%;
+}
+
+.contact-page-image {
+  background-image: url('images/terrarium_jarwithlid.jpeg');
+  width: 45%;
+  background-size: cover;
+  background-position: 0rem -9rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  color: white;
+  font-size: 30px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #1E2F23;
 }
