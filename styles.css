@@ -219,9 +219,25 @@ textarea {
   width: 100%;
 }
 
+.general-inquiries-button {
+  padding: 1rem 2.5rem;
+  background-color: #fff;
+  border: 2px solid black;
+  font-weight: 800;
+}
+
+.general-inquiries-button:hover {
+  background-color: rgb(229, 183, 35);
+  border: 2px solid #fff;
+  color: #FFF;
+}
+
+
 .main-contact-section p {
-  margin: 6rem;
+  margin: 5rem 14rem;
   text-align: center;
+  font-size: 20px;
+  line-height: 2rem;
 }
 
 .contact-page-section {
@@ -229,17 +245,25 @@ textarea {
 }
 
 .contact-form-section {
-  padding: 1rem;
+  padding: .2rem 0 0 3rem;
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   flex-direction: column;
-  width: 50%;
+  width: 45%;
 }
 
 .contact-page-image {
-  background-image: url('images/open_blue_terra.jpeg');
-  padding: 1rem 3rem;
-  width: 30%;
+  background-image: url('images/terrarium_jarwithlid.jpeg');
+  width: 45%;
   background-size: cover;
-  background-position: center;
+  background-position: 0rem -9rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  color: white;
+  font-size: 30px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #1E2F23;
 }
