@@ -176,7 +176,10 @@ body {
   font-size: 20px;
   border-color: #F0E9E6;
   background-color: #b3b7ad;
+}
 
+.get-featured-button:hover {
+  background-color: #B39C4D;
 }
 
 .contact-store-owner-section {
@@ -202,6 +205,10 @@ body {
   width: 50%;
 }
 
+.required-text {
+  color: red;
+}
+
 input {
   width: 90%;
   padding: 1rem;
@@ -224,6 +231,7 @@ textarea {
 }
 
 .contact-page-image {
-  width: 35%;
+  padding: 1rem;
+  width: 40%;
   height: 55%;
 }
