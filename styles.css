@@ -219,12 +219,17 @@ textarea {
   width: 100%;
 }
 
+.main-contact-section p {
+  margin: 6rem;
+  text-align: center;
+}
+
 .contact-page-section {
-  padding: 6rem;
   display: flex;
 }
 
 .contact-form-section {
+  padding: 1rem;
   display: flex;
   gap: 2rem;
   flex-direction: column;
@@ -232,7 +237,9 @@ textarea {
 }
 
 .contact-page-image {
-  padding: 1rem;
-  width: 40%;
-  height: 55%;
+  background-image: url('images/open_blue_terra.jpeg');
+  padding: 1rem 3rem;
+  width: 30%;
+  background-size: cover;
+  background-position: center;
 }
