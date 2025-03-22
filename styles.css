@@ -242,7 +242,7 @@ textarea {
   margin: auto;
 }
 
-.closed-terrariums h3, .open-terrariums h3 {
+.closed-terrariums h3, .open-terrariums h3, .general-tips h2 {
   margin-top: 6rem;
   text-align: center;
   font-size: 24px;
@@ -273,7 +273,7 @@ textarea {
 }
 
 .ct-maintenance-section, .ot-maintenance-section {
-  margin: 0 3.5rem;
+  margin: 2rem 3.5rem;
   font-size: 20px;
   line-height: 2rem;
 }
@@ -282,6 +282,13 @@ textarea {
   margin: 1rem 3rem;
   width: 30%;
   height: 32rem;
+}
+
+
+.general-tips {
+  margin: 4rem;
+  font-size: 20px;
+  line-height: 2rem;
 }
 
 .general-inquiries-button {
