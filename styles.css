@@ -243,16 +243,27 @@ textarea {
 }
 
 .closed-terrariums h3 {
+  margin-top: 9rem;
   text-align: center;
+  font-size: 24px;
 }
 
 .closed-terrariums img {
+  margin: 1rem 6rem;
   width: 30%;
+}
+
+.ct-top-section {
+  margin-top: 5rem;
+  display: flex;
+  gap: 4rem;
 }
 
 .ct-right-of-img {
   display: flex;
-  width: 50%;
+  font-size: 20px;
+  line-height: 2rem;
+  width: 40%;
   flex-direction: column;
 }
 
