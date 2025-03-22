@@ -251,12 +251,13 @@ textarea {
 .closed-terrariums img {
   margin: 1rem 6rem;
   width: 30%;
+  height: 32rem;
 }
 
 .ct-top-section {
   margin-top: 5rem;
   display: flex;
-  gap: 4rem;
+  gap: 3.2rem;
 }
 
 .ct-right-of-img {
@@ -265,6 +266,12 @@ textarea {
   line-height: 2rem;
   width: 40%;
   flex-direction: column;
+}
+
+.ct-maintenance-section {
+  margin: 0 3.5rem;
+  font-size: 20px;
+  line-height: 2rem;
 }
 
 .general-inquiries-button {
