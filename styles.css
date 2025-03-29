@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 .disclaimer-strip {
   margin: 0;
@@ -119,7 +123,7 @@ body {
 
 .standout-square p {
   text-align: center;
-  margin-top: 16.3rem;
+  margin-top: 16.5rem;
   padding: 1.7rem;
   font-size: 24px;
   font-style: italic;
@@ -332,10 +336,15 @@ textarea {
 }
 
 .footer {
-  margin-top: 4rem;
   color: white;
   font-size: 30px;
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
   background-color: #1E2F23;
+}
+
+.footer img {
+  width: 5%;
+  height: 7%;
+  border-radius: 10px;
 }
