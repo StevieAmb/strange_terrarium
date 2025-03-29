@@ -241,7 +241,7 @@ textarea {
 
 .care-tips-intro img {
   display: block;
-  width: 60%;
+  width: 55%;
   height: 32rem;
   margin: auto;
 }
@@ -284,8 +284,8 @@ textarea {
 
 .open-terrariums img {
   margin: 1rem 3rem;
-  width: 30%;
-  height: 32rem;
+  width: 31%;
+  height: 28.5rem;
 }
 
 
@@ -306,6 +306,21 @@ textarea {
   background-color: rgb(229, 183, 35);
   border: 2px solid #fff;
   color: #FFF;
+}
+
+.about-founder-section {
+  display: flex;
+}
+
+.about-paragraph, .about-founder-section img {
+  padding: 3rem;
+  width: 50%;
+  height: 70vh;
+}
+
+.about-paragraph {
+  font-size: 1.02rem;
+  line-height: 1.6rem;
 }
 
 
