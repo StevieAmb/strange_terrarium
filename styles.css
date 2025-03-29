@@ -308,6 +308,21 @@ textarea {
   color: #FFF;
 }
 
+.about-founder-section {
+  display: flex;
+}
+
+.about-paragraph, .about-founder-section img {
+  padding: 3rem;
+  width: 50%;
+  height: 70vh;
+}
+
+.about-paragraph {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
 
 .main-contact-section p {
   margin: 5rem 14rem;
