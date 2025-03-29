@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 
 .disclaimer-strip {
   margin: 0;
@@ -59,7 +63,7 @@ body {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 30rem 25rem;
+  background-size: 25rem 25rem;
   width: 45vw;
   height: 90vh;
 }
@@ -119,7 +123,7 @@ body {
 
 .standout-square p {
   text-align: center;
-  margin-top: 16.3rem;
+  margin-top: 16.5rem;
   padding: 1.7rem;
   font-size: 24px;
   font-style: italic;
@@ -219,6 +223,78 @@ textarea {
   width: 100%;
 }
 
+.care-tips-intro h2, .care-tips-intro p {
+  padding: 2.7rem 10rem;
+  margin: 0;
+  text-align: center;
+}
+
+.care-tips-intro ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  text-decoration: underline;
+  gap: 6rem;
+  list-style: none;
+}
+
+.care-tips-intro img {
+  display: block;
+  width: 60%;
+  height: 32rem;
+  margin: auto;
+}
+
+.closed-terrariums h3, .open-terrariums h3, .general-tips h2 {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: 24px;
+}
+
+.closed-terrariums img {
+  margin: 1rem 6rem;
+  width: 30%;
+  height: 32rem;
+}
+
+.ct-top-section, .ot-top-section {
+  margin-top: 5rem;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.ct-right-of-img, .ot-left-of-img {
+  display: flex;
+  font-size: 20px;
+  line-height: 2rem;
+  width: 40%;
+  flex-direction: column;
+}
+
+.ot-left-of-img {
+  margin: 1rem 5rem;
+}
+
+.ct-maintenance-section, .ot-maintenance-section {
+  margin: 2rem 3.5rem;
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.open-terrariums img {
+  margin: 1rem 3rem;
+  width: 30%;
+  height: 32rem;
+}
+
+
+.general-tips {
+  margin: 4rem;
+  font-size: 20px;
+  line-height: 2rem;
+}
+
 .general-inquiries-button {
   padding: 1rem 2.5rem;
   background-color: #fff;
@@ -260,10 +336,15 @@ textarea {
 }
 
 .footer {
-  margin-top: 4rem;
   color: white;
   font-size: 30px;
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
   background-color: #1E2F23;
+}
+
+.footer img {
+  width: 5%;
+  height: 7%;
+  border-radius: 10px;
 }
