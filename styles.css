@@ -352,10 +352,13 @@ textarea {
 
 .footer {
   color: white;
-  font-size: 30px;
+  font-size: 24px;
   padding: 5rem;
-  text-align: center;
   background-color: #1E2F23;
+}
+
+.footer ul {
+  list-style: none;
 }
 
 .footer img {
