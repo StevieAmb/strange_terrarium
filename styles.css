@@ -352,17 +352,33 @@ textarea {
 
 .footer {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   padding: 5rem;
   background-color: #1E2F23;
 }
 
 .footer ul {
   list-style: none;
+  padding: 0;
 }
 
 .footer img {
-  width: 5%;
-  height: 7%;
+  width: 15%;
+  height: 24%;
   border-radius: 10px;
+}
+
+.copyright-section {
+  text-align: center;
+}
+
+.copyright-section p {
+  padding-top: 1.7rem;
+  margin-bottom: 0;
+}
+
+.top-of-footer {
+  width: 100%;
+  display: flex;
+  gap: 56rem;
 }
