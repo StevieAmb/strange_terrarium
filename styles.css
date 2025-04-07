@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 .disclaimer-strip {
   margin: 0;
@@ -29,8 +33,12 @@ a {
   z-index: 2;
 }
 
+.navigation-bar .page-title {
+  width: 15%;
+}
+
 .nav-links {
-  margin: 2rem 0  0 20rem;
+  margin: 4.5rem 0  0 35rem;
   display: flex;
   gap: 5rem;
   list-style: none;
@@ -48,13 +56,12 @@ a {
 }
 
 .hero-shop-button {
-  border-color: white;
-  margin: 32rem 0 0 1rem;
+  margin: 40.5rem 0 0 49rem;
   padding: 1.2rem 3rem;
-  background-color: #768948;
+  background-color: #F0E9E6;
   border-radius: 7px;
   font-weight: bold;
-  color: white;
+  color: #768948;
   font-size: 24px;
 }
 
@@ -356,7 +363,6 @@ textarea {
 }
 
 .footer {
-  color: white;
   font-size: 20px;
   padding: 5rem;
   background-color: #1E2F23;
@@ -371,6 +377,21 @@ textarea {
   width: 15%;
   height: 24%;
   border-radius: 10px;
+}
+
+.footer .socials-logos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.socials-logos a {
+  width: 2%;
+}
+
+.socials-logos img {
+  width: 100%;
 }
 
 .copyright-section {
