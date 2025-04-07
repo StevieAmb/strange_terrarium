@@ -197,6 +197,10 @@ html {
   padding: 4rem;
 }
 
+.terrarium-videos video {
+  border-radius: .8rem;
+}
+
 .terrarium-videos h2 {
   text-align: center;
 }
@@ -206,8 +210,6 @@ html {
   justify-content: center;
   gap: 8rem;
 }
-
-
 
 .contact-store-owner-section {
   padding: 2.5rem;
