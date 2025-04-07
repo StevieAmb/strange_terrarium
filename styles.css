@@ -194,7 +194,7 @@ html {
 }
 
 .terrarium-videos {
-  padding: 4rem;
+  padding: 7rem;
 }
 
 .terrarium-videos video {
@@ -389,6 +389,7 @@ textarea {
 .footer ul {
   list-style: none;
   padding: 0;
+  line-height: 2rem;
 }
 
 .footer img {
