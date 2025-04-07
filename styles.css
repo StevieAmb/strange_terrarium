@@ -193,6 +193,19 @@ html {
   background-color: #B39C4D;
 }
 
+.terrarium-videos h2 {
+  text-align: center;
+}
+
+.terrarium-videos section {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+
+
 .contact-store-owner-section {
   padding: 2.5rem;
   background-color: #768948;
