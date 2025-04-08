@@ -401,10 +401,11 @@ textarea {
   line-height: 2rem;
 }
 
-.footer img {
+.top-of-footer img {
   width: 15%;
   height: 24%;
   border-radius: 10px;
+  padding-bottom: 2rem;
 }
 
 .footer .socials-logos {
