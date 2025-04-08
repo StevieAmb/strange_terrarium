@@ -384,6 +384,7 @@ textarea {
 
 .contact-page-section {
   display: flex;
+  padding-bottom: 5rem;
 }
 
 .contact-form-section {
