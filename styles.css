@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a:active, a:visited {
   color: black;
 }
@@ -27,7 +31,7 @@ a:active, a:visited {
   display: flex;
   background-color: #F0E9E6;
   box-shadow: 0 0 20px black;
-  padding: .45rem 2rem;
+  padding: .75rem 2rem;
   top: 0;
   position: sticky;
   z-index: 2;
@@ -58,12 +62,12 @@ a:active, a:visited {
 }
 
 .hero-shop-button {
-  margin: 40.5rem 0 0 49rem;
+  margin: 32rem 0 0 18rem;
   padding: 1.2rem 3rem;
-  background-color: #F0E9E6;
+  background-color: #1E2F23;
   border-radius: 7px;
   font-weight: bold;
-  color: #768948;
+  color: #fff;
   font-size: 24px;
 }
 
@@ -82,8 +86,10 @@ a:active, a:visited {
 }
 
 .marketplace-line {
-  margin-top: 32rem;
+  margin-top: 30rem;
   font-size: 33px;
+  letter-spacing: .07rem;
+  font-weight: 300;
 }
 
 .expectation-section {
@@ -157,12 +163,12 @@ a:active, a:visited {
 .featured-info, .featured-image-container {
   text-align: center;
   padding: 4rem 0rem 15rem 0rem;
-  border: 1px solid black;
+  border: 1px solid #fff;
   width: 50%;
 }
 
 .featured-image-container {
-  background-color: #b3b7ad;
+  background-color: #F0E9E6;
 }
 
 .featured-info h3, .featured-image-container h3 {
@@ -173,26 +179,25 @@ a:active, a:visited {
   height: 90%;
   width: 40%;
   margin: 1.7rem 0 0 13.5rem;
-  background-image: url('images/terrarium_with_blue.jpeg');
+  background-image: url('images/eco_friendly_terra.jpeg');
   background-size: 120% 100%;
-  background-position: -1.2rem 0rem;
+  background-position: -1rem 0rem;
   border-radius: 7px;
-  border: 2px solid #F0E9E6;
 }
 
 .get-featured-button {
   margin-top: 2rem;
   padding: 1rem 2.5rem;
-  border-radius: 7px;
   font-weight: bold;
-  color: white;
+  color: #1E2F23;
   font-size: 20px;
-  border-color: #F0E9E6;
-  background-color: #b3b7ad;
+  border-color: #1E2F23;
+  background-color: #fff;
 }
 
 .get-featured-button:hover {
-  background-color: #B39C4D;
+  background-color: #1E2F23;
+  color: white;
 }
 
 .terrarium-videos {
@@ -205,12 +210,14 @@ a:active, a:visited {
 
 .terrarium-videos h2 {
   text-align: center;
+  font-size: 2.7rem;
+  padding-bottom: 2.5rem;
 }
 
 .terrarium-videos section {
   display: flex;
   justify-content: center;
-  gap: 8rem;
+  gap: 6.5rem;
 }
 
 .contact-store-owner-section {
