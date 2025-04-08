@@ -226,6 +226,7 @@ h2 {
 }
 
 .contact-store-owner-section {
+  scroll-margin-top: 118px;
   padding: 2.5rem;
   background-color: #768948;
   display: flex;
