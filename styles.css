@@ -42,8 +42,12 @@ h2 {
   z-index: 2;
 }
 
+.navigation-bar a {
+  width: 15%;
+}
+
 .navigation-bar .page-title {
-  width: 16%;
+  width: 100%;
 }
 
 .nav-links {
