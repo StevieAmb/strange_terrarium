@@ -8,10 +8,9 @@ a {
   text-decoration: none;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
-  scroll-margin: 200px;
-} */
+}
 
 a:active, a:visited {
   color: black;
@@ -301,6 +300,11 @@ textarea {
   width: 55%;
   height: 32rem;
   margin: auto;
+}
+
+.closed-terrariums, .open-terrariums {
+  scroll-margin-top: 130px;
+
 }
 
 .closed-terrariums h3, .open-terrariums h3, .general-tips h3 {
