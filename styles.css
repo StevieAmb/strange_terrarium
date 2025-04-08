@@ -16,6 +16,11 @@ a:active, a:visited {
   color: black;
 }
 
+h2 {
+  text-align: center;
+  font-size: 2.7rem;
+}
+
 
 .disclaimer-strip {
   margin: 0;
@@ -98,9 +103,7 @@ a:active, a:visited {
 }
 
 .expectation-section h2 {
-  text-align: center;
   color: #FFF;
-  font-size: 2.7rem;
 }
 
 .standout-list {
@@ -209,8 +212,6 @@ a:active, a:visited {
 }
 
 .terrarium-videos h2 {
-  text-align: center;
-  font-size: 2.7rem;
   padding-bottom: 2.5rem;
 }
 
@@ -270,8 +271,13 @@ textarea {
 }
 
 .care-tips-intro h2, .care-tips-intro p {
-  padding: 2.7rem 10rem;
+  padding: 3rem 10rem 1rem;
   margin: 0;
+}
+
+.care-tips-intro p {
+  line-height: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -292,7 +298,7 @@ textarea {
   margin: auto;
 }
 
-.closed-terrariums h3, .open-terrariums h3, .general-tips h2 {
+.closed-terrariums h3, .open-terrariums h3, .general-tips h3 {
   margin-top: 6rem;
   text-align: center;
   font-size: 24px;
