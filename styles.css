@@ -230,6 +230,18 @@ a:active, a:visited {
   justify-content: center;
 }
 
+.custom-terrarium-button {
+  background-color: #768948;
+  padding: 1rem 2.5rem;
+  border: 2px solid #1E2F23;
+  font-weight: 700;
+}
+
+.custom-terrarium-button:hover {
+  background-color: #1E2F23;
+  color: #FFF;
+}
+
 .contact-store-owner-section h3 {
   font-size: 26px;
   margin: 0;
