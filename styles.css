@@ -10,6 +10,7 @@ a {
 
 html {
   scroll-behavior: smooth;
+  scroll-margin: 200px;
 }
 
 a:active, a:visited {
