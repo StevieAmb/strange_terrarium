@@ -8,8 +8,8 @@ a {
   text-decoration: none;
 }
 
-html {
-  scroll-behavior: smooth;
+a:active, a:visited {
+  color: black;
 }
 
 
@@ -27,19 +27,21 @@ html {
   display: flex;
   background-color: #F0E9E6;
   box-shadow: 0 0 20px black;
-  padding: 1rem 2rem;
+  padding: .45rem 2rem;
   top: 0;
   position: sticky;
   z-index: 2;
 }
 
 .navigation-bar .page-title {
-  width: 15%;
+  width: 16%;
 }
 
 .nav-links {
-  margin: 4.5rem 0  0 35rem;
+  margin: 3rem 0  0 12rem;
+  font-size: 1.25rem;
   display: flex;
+  letter-spacing: .07rem;
   gap: 5rem;
   list-style: none;
 }
