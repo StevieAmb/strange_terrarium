@@ -253,14 +253,17 @@ h2 {
   margin: 0;
 }
 
-.thank-you-custom-order {
+.thank-you-custom-order, .thank-you-for-contact {
   display: flex;
   justify-content: center;
   gap: 6rem;
   padding: 4rem;
 }
 
-.thank-you-custom-order article, .thank-you-custom-order img {
+.thank-you-custom-order article, 
+.thank-you-custom-order img, 
+.thank-you-for-contact article, 
+.thank-you-for-contact img {
   width: 40%;
 }
 
