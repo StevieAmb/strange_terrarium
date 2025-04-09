@@ -253,6 +253,27 @@ h2 {
   margin: 0;
 }
 
+.thank-you-custom-order {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  padding: 4rem;
+}
+
+.thank-you-custom-order article, .thank-you-custom-order img {
+  width: 40%;
+}
+
+.thank-you-custom-order article p {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.thank-you-custom-order img {
+  height: 70vh;
+}
+
 .input-field {
   display: flex;
   flex-direction: column;
