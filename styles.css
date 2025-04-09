@@ -253,7 +253,8 @@ h2 {
   margin: 0;
 }
 
-.thank-you-custom-order, .thank-you-for-contact {
+.thank-you-custom-order, 
+.thank-you-for-contact {
   display: flex;
   justify-content: center;
   gap: 6rem;
@@ -267,7 +268,8 @@ h2 {
   width: 40%;
 }
 
-.thank-you-custom-order article p {
+.thank-you-custom-order article p,
+.thank-you-for-contact article p {
   text-align: center;
   font-size: 1.5rem;
   line-height: 2rem;
