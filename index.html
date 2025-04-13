@@ -78,33 +78,35 @@
      <section class="custom-orders" id="custom-orders">
       <h3>Philly & New York:
         Let's make you a terrarium!</h3>
-      <div class="input-field">
-        <label>Name: <span>(required)</span> </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Ex: Sonia Sanchez"
-          required
-          minlength="4"
-          maxlength="30"
-        />
-      </div>
-      <div class="input-field">
-        <label>Email: <span>(required)</span></label>
-        <input 
-          type="email" 
-          id="email" 
-          placeholder="Ex: sonia.sanchez@blahblah.com"
-          pattern=".+@example\.com" 
-          required 
-        />
-      </div>
-      <div class="input-field">
-        <label>What Can I Make For You? <span>(required)</span></label>
-        <textarea rows="8" cols="65" placeholder="Please let us know what sort of terrarium you'd like, and the plants and materials you would like in it."></textarea>
-      </div>
-      <button class="custom-terrarium-button">MAKE IT</button>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <div class="input-field">
+            <label>Name: <span>(required)</span> </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ex: Sonia Sanchez"
+              required
+              minlength="4"
+              maxlength="30"
+            />
+          </div>
+          <div class="input-field">
+            <label>Email: <span>(required)</span></label>
+            <input 
+              type="email" 
+              id="email" 
+              placeholder="Ex: sonia.sanchez@blahblah.com"
+              pattern=".+@example\.com" 
+              required 
+            />
+          </div>
+          <div class="input-field">
+            <label>What Can I Make For You? <span>(required)</span></label>
+            <textarea rows="8" cols="65" placeholder="Please let us know what sort of terrarium you'd like, and the plants and materials you would like in it."></textarea>
+          </div>
+          <button type="submit" class="custom-terrarium-button">MAKE IT</button>
+        </form>
      </section>
    </main>
    <footer class="footer">
