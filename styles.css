@@ -51,11 +51,11 @@ h2 {
 }
 
 .nav-links {
-  margin: 3rem 0  0 12rem;
-  font-size: 1.25rem;
+  margin: 3rem 0  0 4rem;
+  font-size: 1.15rem;
   display: flex;
   letter-spacing: .07rem;
-  gap: 5rem;
+  gap: 4rem;
   list-style: none;
 }
 
