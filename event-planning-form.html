@@ -105,7 +105,6 @@
           maxlength="30"
         />
       </div>
-       
       <fieldset>
         <legend>What size terrariums are you imagining?</legend>
         <div>
@@ -167,6 +166,86 @@
           <label for="dewey">Not sure yet</label>
         </div>
       </fieldset> 
+      <div class="input-field">
+        <label>Any specific plants, decorations, or materials you’d like included or avoided?<span>(required)</span> </label>
+        <input
+          type="text"
+          id="include-avoid"
+          name="include-avoid"
+          placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+          required
+          minlength="4"
+          maxlength="30"
+        />
+      </div>
+      <fieldset>
+        <legend>Would you like the centerpieces to be take-home gifts for guests?</legend>
+        <div>
+          <input type="radio" id="huey" name="drone" value="huey" checked />
+          <label for="huey">Yes</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">No</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Other</label>
+        </div>
+      </fieldset> 
+      <hr>
+      <h3>Budget & Extra</h3>
+      <div class="input-field">
+        <label>Do you have a per-piece or total budget in mind?<span>(required)</span> </label>
+        <input
+          type="text"
+          id="budget"
+          name="budget"
+          placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+          required
+          minlength="4"
+          maxlength="30"
+        />
+      </div>
+      <fieldset class="checkbox-fields">
+        <legend>Do you need any of the following services?</legend>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Keepsake packaging for guest takeaways</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Themed figurines or decorative elements</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> None</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Other</label><br>
+      </fieldset>
+      <hr>
+      <h3>Contact Info</h3>
+      <div class="input-field">
+        <label>Name: <span>(required)</span></label>
+        <input 
+          type="text" 
+          id="name" 
+          placeholder="Ex: sonia.sanchez@blahblah.com"
+          required 
+        />
+      </div>
+      <div class="input-field">
+        <label>Email: <span>(required)</span></label>
+        <input 
+          type="email" 
+          id="email" 
+          placeholder="Ex: sonia.sanchez@blahblah.com"
+          required 
+        />
+      </div>
+      <div class="input-field">
+        <label>Phone Number: <span>(optional)</span></label>
+        <input 
+          type="text" 
+          id="phonenumber" 
+          placeholder="Ex: sonia.sanchez@blahblah.com"
+        />
+      </div>
     </form>
    </main>
    <footer class="footer">
