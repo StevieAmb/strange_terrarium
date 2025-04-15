@@ -23,13 +23,63 @@
        </ul>
      </div>
    </nav>
-   <main>
+   <main class="event-planning-form">
     <h2>Do you need terrariums for an upcoming events?</h2>
     <p>We do that sort of stuff, too! Fill out the form below, and we'll be sure to have
       everything you need ready for you to pick up (or delivered, if you live close enough!)
     </p>
     <form>
-      
+      <div class="input-field">
+        <label>What date of your event? <span>(required)</span> </label>
+        <input
+          type="date"
+          id="date-time-of-event"
+          name="date-time-of-event"
+          placeholder="Ex: Sonia Sanchez"
+          required
+        />
+      </div>
+      <div class="input-field">
+        <label>Where is the event located? <span>(required)</span> </label>
+        <input
+          type="text"
+          id="location"
+          name="location"
+          placeholder="Brooklyn, NY"
+          required
+          minlength="4"
+          maxlength="30"
+        />
+      </div>
+      <div class="input-field">
+        <label>How many centerpieces are you looking to order? <span>(required)</span> </label>
+        <input
+          type="number"
+          id="num-of-centerpieces"
+          name="num-of-centerpieces"
+          placeholder="12"
+          required
+        />
+      </div>
+      <div class="input-field">
+        <label>What time will setup/delivery be required? <span>(required)</span> </label>
+        <input
+          type="time"
+          id="num-of-centerpieces"
+          name="num-of-centerpieces"
+          placeholder="12"
+          required
+        />
+      </div>
+      <div class="input-field">
+        <label>Email: <span>(required)</span></label>
+        <input 
+          type="email" 
+          id="email" 
+          placeholder="Ex: sonia.sanchez@blahblah.com"
+          required 
+        />
+      </div>
     </form>
    </main>
    <footer class="footer">
