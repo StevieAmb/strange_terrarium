@@ -71,6 +71,17 @@
           required
         />
       </div>
+      <fieldset class="checkbox-fields">
+        <legend>Do you need any of the following services?</legend>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Delivery</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> On-Site setup</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Post-event pickup</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> None - I will handle transpost/pickup</label><br>
+      </fieldset>
       <div class="input-field">
         <label>Email: <span>(required)</span></label>
         <input 
@@ -80,6 +91,82 @@
           required 
         />
       </div>
+      <hr>
+      <h3>Let's Get Creative!</h3>
+      <div class="input-field">
+        <label>What is the overall vibe or theme of the event?<span>(required)</span> </label>
+        <input
+          type="text"
+          id="theme"
+          name="theme"
+          placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+          required
+          minlength="4"
+          maxlength="30"
+        />
+      </div>
+       
+      <fieldset>
+        <legend>What size terrariums are you imagining?</legend>
+        <div>
+          <input type="radio" id="huey" name="drone" value="huey" checked />
+          <label for="huey">Small (under 6”)</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Medium (6–10”)</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Large (10”+)</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Mix of sizes</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Not sure yet </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have a preferred shape or container style?</legend>
+        <div>
+          <input type="radio" id="huey" name="drone" value="huey" checked />
+          <label for="huey">Globe</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Apothecary Jars </label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Geometric</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Other</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>What type of terrarium would you like?</legend>
+        <div>
+          <input type="radio" id="huey" name="drone" value="huey" checked />
+          <label for="huey">Open (dry plants like succulents)</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Closed (humid, mossy) </label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Mix of both</label>
+        </div>
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">Not sure yet</label>
+        </div>
+      </fieldset> 
     </form>
    </main>
    <footer class="footer">
