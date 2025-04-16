@@ -460,9 +460,10 @@ textarea {
 }
 
 .event-planning-form section {
-  background-image: url('images/eco_friendly_terra.jpeg');
+  background-image: url('images/light_green_terra.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
   opacity: 70%;
   padding: 4rem;
   border: .5px solid #1E2F23;
@@ -473,11 +474,14 @@ textarea {
 .event-planning-form h2, .event-planning-form p {
   opacity: 100%;
   text-align: center;
-  text-shadow: 1.2px 1.2px 1.2px black;
+  text-shadow: 1.4px 1.4px 1.4px black;
 }
 
 .event-planning-form p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  width: 71%;
+  line-height: 1.8rem;
+  padding-bottom: 2.3rem;
 }
 
 .event-planning-form form {
@@ -494,11 +498,11 @@ input[type="radio"] {
 }
 
 label {
-  font-size: 1.5rem;
-  text-shadow: 1px 1px 1px black;
+  font-size: 1.2rem;
+  color: #fff;
+  text-shadow: 1.2px 1.2px 1.2px black;
+  letter-spacing: .09rem;
 }
-
-
 
 .footer ul {
   list-style: none;
