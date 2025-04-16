@@ -454,6 +454,52 @@ textarea {
   background-color: #1E2F23;
 }
 
+.event-planning-form {
+  display: flex;
+  justify-content: center;
+}
+
+.event-planning-form section {
+  background-image: url('images/eco_friendly_terra.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 70%;
+  padding: 4rem;
+  border: .5px solid #1E2F23;
+  width: 80%;
+  justify-content: center;
+}
+
+.event-planning-form h2, .event-planning-form p {
+  opacity: 100%;
+  text-align: center;
+  text-shadow: 1.2px 1.2px 1.2px black;
+}
+
+.event-planning-form p {
+  font-size: 1.5rem;
+}
+
+.event-planning-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+input[type="radio"] {
+  margin-top: -2rem;
+  vertical-align: middle;
+}
+
+label {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+
 .footer ul {
   list-style: none;
   padding: 0;

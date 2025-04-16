@@ -24,229 +24,231 @@
      </div>
    </nav>
    <main class="event-planning-form">
-    <h2>Do you need terrariums for an upcoming events?</h2>
-    <p>We do that sort of stuff, too! Fill out the form below, and we'll be sure to have
-      everything you need ready for you to pick up (or delivered, if you live close enough!)
-    </p>
-    <form>
-      <div class="input-field">
-        <label>What date of your event? <span>(required)</span> </label>
-        <input
-          type="date"
-          id="date-time-of-event"
-          name="date-time-of-event"
-          placeholder="Ex: Sonia Sanchez"
-          required
-        />
-      </div>
-      <div class="input-field">
-        <label>Where is the event located? <span>(required)</span> </label>
-        <input
-          type="text"
-          id="location"
-          name="location"
-          placeholder="Brooklyn, NY"
-          required
-          minlength="4"
-          maxlength="30"
-        />
-      </div>
-      <div class="input-field">
-        <label>How many centerpieces are you looking to order? <span>(required)</span> </label>
-        <input
-          type="number"
-          id="num-of-centerpieces"
-          name="num-of-centerpieces"
-          placeholder="12"
-          required
-        />
-      </div>
-      <div class="input-field">
-        <label>What time will setup/delivery be required? <span>(required)</span> </label>
-        <input
-          type="time"
-          id="num-of-centerpieces"
-          name="num-of-centerpieces"
-          placeholder="12"
-          required
-        />
-      </div>
-      <fieldset class="checkbox-fields">
-        <legend>Do you need any of the following services?</legend>
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Delivery</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> On-Site setup</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> Post-event pickup</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> None - I will handle transpost/pickup</label><br>
-      </fieldset>
-      <div class="input-field">
-        <label>Email: <span>(required)</span></label>
-        <input 
-          type="email" 
-          id="email" 
-          placeholder="Ex: sonia.sanchez@blahblah.com"
-          required 
-        />
-      </div>
-      <hr>
-      <h3>Let's Get Creative!</h3>
-      <div class="input-field">
-        <label>What is the overall vibe or theme of the event?<span>(required)</span> </label>
-        <input
-          type="text"
-          id="theme"
-          name="theme"
-          placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
-          required
-          minlength="4"
-          maxlength="30"
-        />
-      </div>
-      <fieldset>
-        <legend>What size terrariums are you imagining?</legend>
-        <div>
-          <input type="radio" id="huey" name="drone" value="huey" checked />
-          <label for="huey">Small (under 6”)</label>
+    <section>
+      <form>
+        <h2>Do you need terrariums for an upcoming events?</h2>
+        <p>We do that sort of stuff, too! Fill out the form below, and we'll be sure to have
+          everything you need ready for you to pick up (or delivered, if you live close enough!)
+        </p>
+        <div class="input-field">
+          <label>What date of your event? <span>(required)</span> </label>
+          <input
+            type="date"
+            id="date-time-of-event"
+            name="date-time-of-event"
+            placeholder="Ex: Sonia Sanchez"
+            required
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Medium (6–10”)</label>
+        <div class="input-field">
+          <label>Where is the event located? <span>(required)</span> </label>
+          <input
+            type="text"
+            id="location"
+            name="location"
+            placeholder="Brooklyn, NY"
+            required
+            minlength="4"
+            maxlength="30"
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Large (10”+)</label>
+        <div class="input-field">
+          <label>How many centerpieces are you looking to order? <span>(required)</span> </label>
+          <input
+            type="number"
+            id="num-of-centerpieces"
+            name="num-of-centerpieces"
+            placeholder="12"
+            required
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Mix of sizes</label>
+        <div class="input-field">
+          <label>What time will setup/delivery be required? <span>(required)</span> </label>
+          <input
+            type="time"
+            id="num-of-centerpieces"
+            name="num-of-centerpieces"
+            placeholder="12"
+            required
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Not sure yet </label>
+        <fieldset class="checkbox-fields">
+          <legend>Do you need any of the following services?</legend>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Delivery</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> On-Site setup</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Post-event pickup</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> None - I will handle transpost/pickup</label><br>
+        </fieldset>
+        <div class="input-field">
+          <label>Email: <span>(required)</span></label>
+          <input 
+            type="email" 
+            id="email" 
+            placeholder="Ex: sonia.sanchez@blahblah.com"
+            required 
+          />
         </div>
-      </fieldset>
-      <fieldset>
-        <legend>Do you have a preferred shape or container style?</legend>
-        <div>
-          <input type="radio" id="huey" name="drone" value="huey" checked />
-          <label for="huey">Globe</label>
+        <hr>
+        <h3>Let's Get Creative!</h3>
+        <div class="input-field">
+          <label>What is the overall vibe or theme of the event?<span>(required)</span> </label>
+          <input
+            type="text"
+            id="theme"
+            name="theme"
+            placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+            required
+            minlength="4"
+            maxlength="30"
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Apothecary Jars </label>
+        <fieldset>
+          <legend>What size terrariums are you imagining?</legend>
+          <div>
+            <label for="huey">Small (under 6”)</label><br>
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+          </div>
+          <div>
+            <label for="dewey">Medium (6–10”)</label>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+          </div>
+          <div>
+            <label for="dewey">Large (10”+)</label>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+          </div>
+          <div>
+            <label for="dewey">Mix of sizes</label>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+          </div>
+          <div>
+            <label for="dewey">Not sure yet </label>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Do you have a preferred shape or container style?</legend>
+          <div>
+            <label for="huey">Globe</label>
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+          </div>
+          <div>
+            <label for="dewey">Apothecary Jars </label>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+          </div>
+          <div>
+            <label for="dewey">Geometric</label>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+          </div>
+          <div>
+            <label for="dewey">Other</label>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>What type of terrarium would you like?</legend>
+          <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+            <label for="huey">Open (dry plants like succulents)</label>
+          </div>
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+            <label for="dewey">Closed (humid, mossy) </label>
+          </div>
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+            <label for="dewey">Mix of both</label>
+          </div>
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+            <label for="dewey">Not sure yet</label>
+          </div>
+        </fieldset> 
+        <div class="input-field">
+          <label>Any specific plants, decorations, or materials you’d like included or avoided?<span>(required)</span> </label>
+          <input
+            type="text"
+            id="include-avoid"
+            name="include-avoid"
+            placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+            required
+            minlength="4"
+            maxlength="30"
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Geometric</label>
+        <fieldset>
+          <legend>Would you like the centerpieces to be take-home gifts for guests?</legend>
+          <div>
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+            <label for="huey">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+            <label for="dewey">No</label>
+          </div>
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+            <label for="dewey">Other</label>
+          </div>
+        </fieldset> 
+        <hr>
+        <h3>Budget & Extra</h3>
+        <div class="input-field">
+          <label>Do you have a per-piece or total budget in mind?<span>(required)</span> </label>
+          <input
+            type="text"
+            id="budget"
+            name="budget"
+            placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+            required
+            minlength="4"
+            maxlength="30"
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Other</label>
+        <fieldset class="checkbox-fields">
+          <legend>Do you need any of the following services?</legend>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Keepsake packaging for guest takeaways</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> Themed figurines or decorative elements</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> None</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Other</label><br>
+        </fieldset>
+        <hr>
+        <h3>Contact Info</h3>
+        <div class="input-field">
+          <label>Name: <span>(required)</span></label>
+          <input 
+            type="text" 
+            id="name" 
+            placeholder="Ex: sonia.sanchez@blahblah.com"
+            required 
+          />
         </div>
-      </fieldset>
-      <fieldset>
-        <legend>What type of terrarium would you like?</legend>
-        <div>
-          <input type="radio" id="huey" name="drone" value="huey" checked />
-          <label for="huey">Open (dry plants like succulents)</label>
+        <div class="input-field">
+          <label>Email: <span>(required)</span></label>
+          <input 
+            type="email" 
+            id="email" 
+            placeholder="Ex: sonia.sanchez@blahblah.com"
+            required 
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Closed (humid, mossy) </label>
+        <div class="input-field">
+          <label>Phone Number: <span>(optional)</span></label>
+          <input 
+            type="text" 
+            id="phonenumber" 
+            placeholder="Ex: sonia.sanchez@blahblah.com"
+          />
         </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Mix of both</label>
-        </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Not sure yet</label>
-        </div>
-      </fieldset> 
-      <div class="input-field">
-        <label>Any specific plants, decorations, or materials you’d like included or avoided?<span>(required)</span> </label>
-        <input
-          type="text"
-          id="include-avoid"
-          name="include-avoid"
-          placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
-          required
-          minlength="4"
-          maxlength="30"
-        />
-      </div>
-      <fieldset>
-        <legend>Would you like the centerpieces to be take-home gifts for guests?</legend>
-        <div>
-          <input type="radio" id="huey" name="drone" value="huey" checked />
-          <label for="huey">Yes</label>
-        </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">No</label>
-        </div>
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">Other</label>
-        </div>
-      </fieldset> 
-      <hr>
-      <h3>Budget & Extra</h3>
-      <div class="input-field">
-        <label>Do you have a per-piece or total budget in mind?<span>(required)</span> </label>
-        <input
-          type="text"
-          id="budget"
-          name="budget"
-          placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
-          required
-          minlength="4"
-          maxlength="30"
-        />
-      </div>
-      <fieldset class="checkbox-fields">
-        <legend>Do you need any of the following services?</legend>
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> Keepsake packaging for guest takeaways</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2"> Themed figurines or decorative elements</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> None</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3"> Other</label><br>
-      </fieldset>
-      <hr>
-      <h3>Contact Info</h3>
-      <div class="input-field">
-        <label>Name: <span>(required)</span></label>
-        <input 
-          type="text" 
-          id="name" 
-          placeholder="Ex: sonia.sanchez@blahblah.com"
-          required 
-        />
-      </div>
-      <div class="input-field">
-        <label>Email: <span>(required)</span></label>
-        <input 
-          type="email" 
-          id="email" 
-          placeholder="Ex: sonia.sanchez@blahblah.com"
-          required 
-        />
-      </div>
-      <div class="input-field">
-        <label>Phone Number: <span>(optional)</span></label>
-        <input 
-          type="text" 
-          id="phonenumber" 
-          placeholder="Ex: sonia.sanchez@blahblah.com"
-        />
-      </div>
-    </form>
+      </form>
+    </section>
    </main>
    <footer class="footer">
     <section class="top-of-footer">
