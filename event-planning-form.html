@@ -46,10 +46,9 @@
             type="text"
             id="location"
             name="location"
-            placeholder="Brooklyn, NY"
+            placeholder="Ex: Brooklyn, NY"
             required
-            minlength="4"
-            maxlength="30"
+            minlength="6"
           />
         </div>
         <div class="input-field">
@@ -58,7 +57,7 @@
             type="number"
             id="num-of-centerpieces"
             name="num-of-centerpieces"
-            placeholder="12"
+            placeholder="Ex: 12"
             required
           />
         </div>
@@ -66,22 +65,21 @@
           <label>What time will setup/delivery be required? <span>(required)</span> </label>
           <input
             type="time"
-            id="num-of-centerpieces"
-            name="num-of-centerpieces"
-            placeholder="12"
+            id="setup-time"
+            name="setup-time"
             required
           />
         </div>
         <fieldset class="checkbox-fields">
           <legend>Do you need any of the following services?</legend>
-          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-          <label for="vehicle1"> Delivery</label><br>
-          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-          <label for="vehicle2"> On-Site setup</label><br>
-          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-          <label for="vehicle3"> Post-event pickup</label><br>
-          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-          <label for="vehicle3"> None - I will handle transpost/pickup</label><br>
+          <input type="checkbox" id="services-needed1" name="services-needed1" value="Delivery">
+          <label for="services-needed1"> Delivery</label><br>
+          <input type="checkbox" id="services-needed2" name="services-needed2" value="On-site Setup">
+          <label for="services-needed2"> On-Site setup</label><br>
+          <input type="checkbox" id="services-needed3" name="services-needed3" value="Post-event pickup">
+          <label for="services-needed3"> Post-event pickup</label><br>
+          <input type="checkbox" id="services-needed4" name="services-needed4" value="None">
+          <label for="services-needed4"> None - I will handle transpost/pickup</label><br>
         </fieldset>
         <hr>
         <h3>Let's Get Creative!</h3>

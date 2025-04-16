@@ -474,12 +474,12 @@ textarea {
 .event-planning-form h2, .event-planning-form p {
   opacity: 100%;
   text-align: center;
-  text-shadow: 1.4px 1.4px 1.4px black;
+  text-shadow: 1.3px 1.3px 1.3px black;
 }
 
 .event-planning-form p {
-  font-size: 1.4rem;
-  width: 71%;
+  font-size: 1.2rem;
+  width: 75%;
   line-height: 1.8rem;
   padding-bottom: 2.3rem;
 }
