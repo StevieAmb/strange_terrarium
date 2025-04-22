@@ -474,13 +474,13 @@ textarea {
 .event-planning-form h2, .event-planning-form p {
   opacity: 100%;
   text-align: center;
-  text-shadow: 1.3px 1.3px 1.3px black;
+  text-shadow: 1.3px 1.3px 1.3px rgb(138, 138, 138);
 }
 
 .event-planning-form p {
   font-size: 1.3rem;
   width: 75%;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.8rem;
   padding-bottom: 2.3rem;
 }
@@ -498,14 +498,14 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 input[type="radio"] {
-  margin-top: -2rem;
+  margin-top: -3rem;
 }
 
 input[type="checkbox"] {
-  margin-bottom: -1.7rem;
+  margin-bottom: -1.9rem;
 }
 
-.event-planning-form legend {
+.event-planning-form legend, label {
   font-size: 1.3rem;
   color: #fff;
   text-shadow: 1.1px 1.1px 1.1px black;
@@ -513,8 +513,8 @@ input[type="checkbox"] {
   padding-bottom: .5rem;
 }
 
-.event-planning-form label {
-  font-size: .95rem;
+.checkbox-fields label {
+  font-size: 1.039rem;
   color: #fff;
   text-shadow: 1.1px 1.1px 1.1px black;
   letter-spacing: .09rem;
