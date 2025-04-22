@@ -497,7 +497,7 @@ input[type="radio"] {
   vertical-align: middle;
 }
 
-label, legend {
+.event-planning-form label, legend {
   font-size: 1.3rem;
   color: #fff;
   text-shadow: 1.1px 1.1px 1.1px black;
