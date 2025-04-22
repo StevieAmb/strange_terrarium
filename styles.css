@@ -464,7 +464,7 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  opacity: 75%;
+  opacity: 78%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
@@ -490,7 +490,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2.8rem;
 }
 
 input[type="text"], 
@@ -498,7 +498,8 @@ input[type="date"],
 input[type="time"], 
 input[type="number"],
 input[type="email"] {
-  background-color: #B39C4D;
+  background-color: #8c7835;
+  border: .5px solid black;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -514,11 +515,11 @@ input[type="checkbox"] {
 }
 
 .event-planning-form legend, label {
-  font-size: 1.4rem;
+  font-size: 1.29rem;
   color: #ffffff;
-  text-shadow: 1.1px 1.1px 1.1px black;
+  text-shadow: 1.1px 1.1px 5.1px black;
   letter-spacing: .09rem;
-  padding-bottom: .5rem;
+  padding-bottom: .3rem;
 }
 
 .checkbox-fields label {
@@ -526,6 +527,10 @@ input[type="checkbox"] {
   color: #fff;
   text-shadow: 1.1px 1.1px 1.1px black;
   letter-spacing: .09rem;
+}
+
+input::placeholder {
+  color: rgb(62, 62, 62);
 }
 
 fieldset {
