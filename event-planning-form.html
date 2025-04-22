@@ -199,14 +199,22 @@
         </div>
         <fieldset class="checkbox-fields">
           <legend>Do you need any of the following services?</legend>
-          <label for="keepsake-packaging"> Keepsake packaging for guest takeaways</label><br>
-          <input type="checkbox" id="keepsake-packaging" name="additional-services" value="keepsake-packaging">
-          <label for="themed-figurines"> Themed figurines or decorative elements</label><br>
-          <input type="checkbox" id="themed-figurines" name="additional-services" value="themed-figurines">
-          <label for="none"> None</label><br>
-          <input type="checkbox" id="none" name="additional-services" value="none">
-          <label for="other-service"> Other</label><br>
-          <input type="checkbox" id="other-service" name="additional-services" value="other-service">
+          <div>
+            <input type="checkbox" id="keepsake-packaging" name="additional-services" value="keepsake-packaging">
+            <label for="keepsake-packaging"> Keepsake packaging for guest takeaways</label><br>
+          </div>
+          <div>
+            <input type="checkbox" id="themed-figurines" name="additional-services" value="themed-figurines">
+            <label for="themed-figurines"> Themed figurines or decorative elements</label><br>
+          </div>
+          <div>
+            <input type="checkbox" id="none" name="additional-services" value="none">
+            <label for="none"> None</label><br>
+          </div>
+          <div>
+            <input type="checkbox" id="other-service" name="additional-services" value="other-service">
+            <label for="other-service"> Other</label><br>
+          </div>
         </fieldset>
         <hr>
         <h3>Contact Info</h3>
@@ -215,7 +223,7 @@
           <input 
             type="text" 
             id="name" 
-            placeholder="Ex: sonia.sanchez@blahblah.com"
+            placeholder="Ex: Sonia Sanchez"
             required 
           />
         </div>
@@ -233,7 +241,7 @@
           <input 
             type="text" 
             id="phonenumber" 
-            placeholder="Ex: sonia.sanchez@blahblah.com"
+            placeholder="Ex: 303-555-5555"
           />
         </div>
       </form>

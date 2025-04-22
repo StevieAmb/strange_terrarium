@@ -478,8 +478,9 @@ textarea {
 }
 
 .event-planning-form p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   width: 75%;
+  font-weight: 500;
   line-height: 1.8rem;
   padding-bottom: 2.3rem;
 }
@@ -492,17 +493,35 @@ textarea {
   gap: 2rem;
 }
 
-input[type="radio"] {
-  margin-top: -2rem;
+input[type="radio"], input[type="checkbox"] {
   vertical-align: middle;
 }
 
-.event-planning-form label, legend {
+input[type="radio"] {
+  margin-top: -2rem;
+}
+
+input[type="checkbox"] {
+  margin-bottom: -1.7rem;
+}
+
+.event-planning-form legend {
   font-size: 1.3rem;
   color: #fff;
   text-shadow: 1.1px 1.1px 1.1px black;
   letter-spacing: .09rem;
   padding-bottom: .5rem;
+}
+
+.event-planning-form label {
+  font-size: .95rem;
+  color: #fff;
+  text-shadow: 1.1px 1.1px 1.1px black;
+  letter-spacing: .09rem;
+}
+
+fieldset {
+  width: 54%;
 }
 
 .footer ul {
