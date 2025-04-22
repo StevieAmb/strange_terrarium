@@ -493,11 +493,11 @@ textarea {
   gap: 2.8rem;
 }
 
-input[type="text"], 
-input[type="date"], 
-input[type="time"], 
-input[type="number"],
-input[type="email"] {
+.event-planning-form input[type="text"], 
+.event-planning-form input[type="date"], 
+.event-planning-form input[type="time"], 
+.event-planning-form input[type="number"],
+.event-planning-form input[type="email"] {
   background-color: #8c7835;
   border: .5px solid black;
 }
@@ -516,7 +516,7 @@ input[type="checkbox"] {
 
 .event-planning-form legend, label {
   font-size: 1.29rem;
-  color: #dfdfdf;
+  color: #d9d9d9;
   text-shadow: 1.1px 1.1px 5.1px black;
   letter-spacing: .09rem;
   padding-bottom: .3rem;
