@@ -464,7 +464,7 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  opacity: 70%;
+  opacity: 75%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
@@ -482,7 +482,7 @@ textarea {
   width: 75%;
   font-weight: 700;
   line-height: 1.8rem;
-  padding-bottom: 2.3rem;
+  padding-bottom: 6.3rem;
 }
 
 .event-planning-form form {
@@ -491,6 +491,14 @@ textarea {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+
+input[type="text"], 
+input[type="date"], 
+input[type="time"], 
+input[type="number"],
+input[type="email"] {
+  background-color: #B39C4D;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -506,8 +514,8 @@ input[type="checkbox"] {
 }
 
 .event-planning-form legend, label {
-  font-size: 1.3rem;
-  color: #fff;
+  font-size: 1.4rem;
+  color: #ffffff;
   text-shadow: 1.1px 1.1px 1.1px black;
   letter-spacing: .09rem;
   padding-bottom: .5rem;
