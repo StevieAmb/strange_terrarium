@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Learn About The Founder | Strange Terrariums</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+   <header class="disclaimer-strip">
+     <p>SMALL TERRARIUMS ONLY ARE AVAILABLE FOR SHIPPING. <a href="etsy.com">SHOP NOW!</a></p>
+   </header>
+   <nav class="navigation-bar">
+    <a href="index.html"><img class="page-title" src="images/ST_logo_stacked.png" alt="strange terrarium logo"/></a>
+     <div>
+       <ul class="nav-links">
+         <li><a href="index.html">Home</a></li>
+         <li>Shop</li>
+         <li><a href="index.html#custom-orders">Custom Orders</a></li>
+         <li><a href="terrarium-care-tips.html">Care Tips</a></li>
+         <li><a href="about-the-founder.html">About</a></li>
+         <li><a href="contact-strange-terrariums.html">Contact Us</a></li>
+         <li><a href="event-planning-form.html">Planning an Event?</a></li>
+       </ul>
+     </div>
+   </nav>
+   <main class="event-planning-form">
+    <section>
+      <form>
+        <h2>Do you need terrariums for an upcoming events?</h2>
+        <p>We do that sort of stuff, too!<br> Fill out the form below, and we'll be sure to have
+          everything you need ready for you to pick up<br> (or delivered, if you live close enough!)
+        </p>
+        <div class="input-field">
+          <label for="date-time-of-event">What is the date of your event? <span>(required)</span> </label>
+          <input
+            type="date"
+            id="date-time-of-event"
+            name="date-time-of-event"
+            placeholder="Ex: Sonia Sanchez"
+            required
+          />
+        </div>
+        <div class="input-field">
+          <label for="location">Where is the event located? <span>(required)</span> </label>
+          <input
+            type="text"
+            id="location"
+            name="location"
+            placeholder="Ex: Brooklyn, NY"
+            required
+            minlength="6"
+          />
+        </div>
+        <div class="input-field">
+          <label for="num-of-centerpieces">How many centerpieces are you looking to order? <span>(required)</span> </label>
+          <input
+            type="number"
+            id="num-of-centerpieces"
+            name="num-of-centerpieces"
+            placeholder="Ex: 12"
+            required
+          />
+        </div>
+        <div class="input-field">
+          <label for="setup-time">What time will setup/delivery be required? <span>(required)</span> </label>
+          <input
+            type="time"
+            id="setup-time"
+            name="setup-time"
+            required
+          />
+        </div>
+        <fieldset class="checkbox-fields">
+          <legend>Do you need any of the following services?</legend>
+          <input type="checkbox" id="services-needed1" name="services-needed" value="Delivery">
+          <label for="services-needed1"> Delivery</label><br>
+          <input type="checkbox" id="services-needed2" name="services-needed" value="On-site Setup">
+          <label for="services-needed2"> On-Site setup</label><br>
+          <input type="checkbox" id="services-needed3" name="services-needed" value="Post-event pickup">
+          <label for="services-needed3"> Post-event pickup</label><br>
+          <input type="checkbox" id="services-needed4" name="services-needed" value="None">
+          <label for="services-needed4"> None - I will handle transport/pickup</label><br>
+        </fieldset>
+        <hr>
+        <h3>Let's Get Creative!</h3>
+        <div class="input-field">
+          <label for="event-theme">What is the overall vibe or theme of the event?<span>(required)</span> </label>
+          <input
+            type="text"
+            id="event-theme"
+            name="theme"
+            placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+            required
+            minlength="4"
+            maxlength="30"
+          />
+        </div>
+        <fieldset>
+          <legend>What size terrariums are you imagining?</legend>
+          <div>
+            <label for="small">Small (under 6”)</label><br>
+            <input type="radio" id="small" name="chosen-terrarium-size" value="small" checked />
+          </div>
+          <div>
+            <label for="medium">Medium (6–10”)</label>
+            <input type="radio" id="medium" name="chosen-terrarium-size" value="medium" />
+          </div>
+          <div>
+            <label for="dewey">Large (10”+)</label>
+            <input type="radio" id="large" name="chosen-terrarium-size" value="large" />
+          </div>
+          <div>
+            <label for="mix">Mix of sizes</label>
+            <input type="radio" id="mix" name="chosen-terrarium-size" value="mix" />
+          </div>
+          <div>
+            <label for="dewey">Not sure yet</label>
+            <input type="radio" id="not-sure" name="chosen-terrarium-size" value="not-sure" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Do you have a preferred shape or container style?</legend>
+          <div>
+            <label for="globe">Globe</label>
+            <input type="radio" id="globe" name="chosen-terrarium-shape" value="globe" checked />
+          </div>
+          <div>
+            <label for="apothecary-jars">Apothecary Jars </label>
+            <input type="radio" id="apothecary-jars" name="chosen-terrarium-shape" value="apothecary-jars" />
+          </div>
+          <div>
+            <label for="geometric">Geometric</label>
+            <input type="radio" id="geometric" name="chosen-terrarium-shape" value="geometric" />
+          </div>
+          <div>
+            <label for="other-shape">Other</label>
+            <input type="radio" id="other-shape" name="chosen-terrarium-shape" value="other-shape" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>What type of terrarium would you like?</legend>
+          <div>
+            <label for="open">Open (dry plants like succulents)</label>
+            <input type="radio" id="open" name="chosen-terrarium-type" value="open" checked />
+          </div>
+          <div>
+            <label for="closed">Closed (humid, mossy)</label>
+            <input type="radio" id="closed" name="chosen-terrarium-type" value="closed" />
+          </div>
+          <div>
+            <label for="mix-of-both">Mix of both</label>
+            <input type="radio" id="dmix-of-both" name="chosen-terrarium-type" value="mix-of-both" />
+          </div>
+          <div>
+            <label for="unsure">Not sure yet</label>
+            <input type="radio" id="unsure" name="chosen-terrarium-type" value="unsure" />
+          </div>
+        </fieldset>
+        <div class="input-field">
+          <label for="include-or-avoid">Any specific plants, decorations, or materials you'd like included or avoided?<span>(required)</span> </label>
+          <input
+            type="text"
+            id="include-or-avoid"
+            name="include-or-avoid"
+            placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+            required
+            minlength="4"
+            maxlength="30"
+          />
+        </div>
+        <fieldset>
+          <legend>Would you like the centerpieces to be take-home gifts for guests?</legend>
+          <div>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="take-home-gifts-option" value="yes" checked />
+          </div>
+          <div>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="take-home-gifts-option" value="no" />
+          </div>
+          <div>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="take-home-gifts-option" value="other" />
+          </div>
+        </fieldset>
+        <hr>
+        <h3>Budget & Extra</h3>
+        <div class="input-field">
+          <label for="budget">Do you have a per-piece or total budget in mind?<span>(required)</span> </label>
+          <input
+            type="text"
+            id="budget"
+            name="budget"
+            placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+            required
+            minlength="4"
+            maxlength="30"
+          />
+        </div>
+        <fieldset class="checkbox-fields">
+          <legend>Do you need any of the following services?</legend>
+          <div>
+            <input type="checkbox" id="keepsake-packaging" name="additional-services" value="keepsake-packaging">
+            <label for="keepsake-packaging"> Keepsake packaging for guests</label><br>
+          </div>
+          <div>
+            <input type="checkbox" id="themed-figurines" name="additional-services" value="themed-figurines">
+            <label for="themed-figurines"> Themed figurines/decorative elements</label><br>
+          </div>
+          <div>
+            <input type="checkbox" id="none" name="additional-services" value="none">
+            <label for="none"> None</label><br>
+          </div>
+          <div>
+            <input type="checkbox" id="other-service" name="additional-services" value="other-service">
+            <label for="other-service"> Other</label><br>
+          </div>
+        </fieldset>
+        <hr>
+        <h3>Contact Info</h3>
+        <div class="input-field">
+          <label for="name">Name: <span>(required)</span></label>
+          <input 
+            type="text" 
+            id="name" 
+            placeholder="Ex: Sonia Sanchez"
+            required 
+          />
+        </div>
+        <div class="input-field">
+          <label for="email">Email: <span>(required)</span></label>
+          <input 
+            type="email" 
+            id="email" 
+            placeholder="Ex: sonia.sanchez@blahblah.com"
+            required 
+          />
+        </div>
+        <div class="input-field">
+          <label for="phonenumber">Phone Number: <span>(optional)</span></label>
+          <input 
+            type="text" 
+            id="phonenumber" 
+            placeholder="Ex: 303-555-5555"
+          />
+        </div>
+        <button class="event-plan-button" type="submit">LET'S PARTY!</button>
+        <input type="hidden" name="access_key" value="1ed02a58-8950-4f9c-b33d-e1e60806271e">
+        <input type="hidden" name="subject" value="Event Planning Form">
+        <input type="hidden" name="from_name" value="Strange Terrarium Event Planning Customer">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        <input type="hidden" name="redirect" value="thank-you-for-your-custom-order.html">
+        <div class="h-captcha" data-captcha="true"></div>
+      </form>
+    </section>
+   </main>
+   <footer class="footer">
+    <section class="top-of-footer">
+      <img class="page-title" src="images/ST_logo_stacked.png" alt="strange terrarium logo"/>
+    </section>
+    <ul>
+      <li><a href="about-the-founder.html">About</a></li>
+      <li><a href="terrarium-care-tips.html">Care Tips</a></li>
+      <li><a href="contact-strange-terrariums.html">Contact Strange Terrariums</a></li>
+    </ul>
+    <div class="socials-logos">
+        <a href="https://www.instagram.com/strangeterrariums/" target="_blank">
+          <img src="images/instagram-logo-svgrepo-com_black.svg" alt="instagram logo">
+        </a>
+        <a>
+          <img src="images/etsy-svgrepo-com-black.svg" alt="etsy logo">
+        </a>
+    </div>
+    <section class="copyright-section">
+      <p>Copyright 2025 &#20;&#20;&#20;|&#20;&#20;&#20;<a href="index.html">Strange Terrariums</a>&#20;&#20;&#20;|&#20;&#20;&#20;<a href="https://softsolves.com/">Powered by SoftSolves, LLC</a></p>
+    </section>
+   </footer>
+   <script src="https://web3forms.com/client/script.js" async defer></script>
+   </body>
+   </html>

@@ -51,11 +51,11 @@ h2 {
 }
 
 .nav-links {
-  margin: 3rem 0  0 12rem;
-  font-size: 1.25rem;
+  margin: 3rem 0  0 4rem;
+  font-size: 1.15rem;
   display: flex;
   letter-spacing: .07rem;
-  gap: 5rem;
+  gap: 4rem;
   list-style: none;
 }
 
@@ -284,7 +284,7 @@ h2 {
   flex-direction: column;
   font-size: 18px;
   font-weight: bold;
-  width: 50%;
+  width: 80%;
 }
 
 .required-text {
@@ -452,6 +452,96 @@ textarea {
   font-size: 20px;
   padding: 5rem;
   background-color: #1E2F23;
+}
+
+.event-planning-form {
+  display: flex;
+  justify-content: center;
+}
+
+.event-planning-form section {
+  background-image: url('images/light_green_terra.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  opacity: 78%;
+  padding: 4rem;
+  border: .5px solid #1E2F23;
+  width: 80%;
+  justify-content: center;
+}
+
+.event-planning-form h2, .event-planning-form p {
+  opacity: 100%;
+  text-align: center;
+  text-shadow: 1.3px 1.3px 1.3px rgb(138, 138, 138);
+}
+
+.event-planning-form p {
+  font-size: 1.3rem;
+  width: 75%;
+  font-weight: 700;
+  line-height: 1.8rem;
+  padding-bottom: 6.3rem;
+}
+
+.event-planning-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.event-planning-form input[type="text"], 
+.event-planning-form input[type="date"], 
+.event-planning-form input[type="time"], 
+.event-planning-form input[type="number"],
+.event-planning-form input[type="email"] {
+  background-color: #8c7835;
+  border: .5px solid black;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+input[type="radio"] {
+  margin-top: -3rem;
+}
+
+input[type="checkbox"] {
+  margin-bottom: -1.9rem;
+}
+
+.event-planning-form legend, label {
+  font-size: 1.29rem;
+  color: #d9d9d9;
+  text-shadow: 1.1px 1.1px 3.9px black;
+  letter-spacing: .09rem;
+  padding-bottom: .3rem;
+}
+
+.checkbox-fields label {
+  font-size: 1.039rem;
+  color: #fff;
+  text-shadow: 1.1px 1.1px 1.1px black;
+  letter-spacing: .09rem;
+}
+
+input::placeholder {
+  color: rgb(62, 62, 62);
+}
+
+fieldset {
+  width: 54%;
+}
+
+.event-plan-button {
+  background-color: #768948;
+  padding: 1rem 2.5rem;
+  border: 2px solid #1E2F23;
+  font-weight: 700;
 }
 
 .footer ul {

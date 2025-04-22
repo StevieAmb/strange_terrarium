@@ -19,6 +19,7 @@
          <li><a href="terrarium-care-tips.html">Care Tips</a></li>
          <li><a href="about-the-founder.html">About</a></li>
          <li><a href="contact-strange-terrariums.html">Contact Us</a></li>
+         <li><a href="event-planning-form.html">Planning an Event?</a></li>
        </ul>
      </div>
    </nav>
@@ -62,7 +63,7 @@
        </div>
      </section>
      <section class="terrarium-videos">
-      <h2>Take A Look Around Inside... </h2>
+      <h2>Look Inside... </h2>
       <section>
         <video width="400" height="320" controls>
          <source src="videos/comp_inside_terr.mp4" type="video/mp4">
@@ -78,33 +79,40 @@
      <section class="custom-orders" id="custom-orders">
       <h3>Philly & New York:
         Let's make you a terrarium!</h3>
-      <div class="input-field">
-        <label>Name: <span>(required)</span> </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          placeholder="Ex: Sonia Sanchez"
-          required
-          minlength="4"
-          maxlength="30"
-        />
-      </div>
-      <div class="input-field">
-        <label>Email: <span>(required)</span></label>
-        <input 
-          type="email" 
-          id="email" 
-          placeholder="Ex: sonia.sanchez@blahblah.com"
-          pattern=".+@example\.com" 
-          required 
-        />
-      </div>
-      <div class="input-field">
-        <label>What Can I Make For You? <span>(required)</span></label>
-        <textarea rows="8" cols="65" placeholder="Please let us know what sort of terrarium you'd like, and the plants and materials you would like in it."></textarea>
-      </div>
-      <button class="custom-terrarium-button">MAKE IT</button>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <div class="input-field">
+            <label>Name: <span>(required)</span> </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ex: Sonia Sanchez"
+              required
+              minlength="4"
+              maxlength="30"
+            />
+          </div>
+          <div class="input-field">
+            <label>Email: <span>(required)</span></label>
+            <input 
+              type="email" 
+              id="email" 
+              placeholder="Ex: sonia.sanchez@blahblah.com"
+              required 
+            />
+          </div>
+          <div class="input-field">
+            <label>What Can I Make For You? <span>(required)</span></label>
+            <textarea rows="8" cols="65" placeholder="Please let us know what sort of terrarium you'd like, and the plants and materials you would like in it."></textarea>
+          </div>
+          <input type="hidden" name="access_key" value="1ed02a58-8950-4f9c-b33d-e1e60806271e">
+          <input type="hidden" name="subject" value="Custom Order Request From Customer">
+          <input type="hidden" name="from_name" value="Strange Terrarium Customer">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          <input type="hidden" name="redirect" value="thank-you-for-your-custom-order.html">
+          <div class="h-captcha" data-captcha="true"></div>
+          <button type="submit" class="custom-terrarium-button">MAKE IT</button>
+        </form>
      </section>
    </main>
    <footer class="footer">
@@ -128,5 +136,6 @@
       <p>Copyright 2025 &#20;&#20;&#20;|&#20;&#20;&#20;<a href="index.html">Strange Terrariums</a>&#20;&#20;&#20;|&#20;&#20;&#20;<a href="https://softsolves.com/">Powered by SoftSolves, LLC</a></p>
     </section>
    </footer>
+   <script src="https://web3forms.com/client/script.js" async defer></script>
  </body>
 </html>
