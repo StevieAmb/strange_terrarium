@@ -514,7 +514,7 @@ input[type="checkbox"] {
   margin-bottom: -1.9rem;
 }
 
-.event-planning-form legend, label {
+.event-planning-form legend, .event-planning-form label {
   font-size: 1.29rem;
   color: #d9d9d9;
   text-shadow: 1.1px 1.1px 3.9px black;
