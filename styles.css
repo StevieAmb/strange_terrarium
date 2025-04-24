@@ -13,7 +13,7 @@ html {
 }
 
 a:active, a:visited, a {
-  color: black;
+  color: black !important; 
 }
 
 h2 {
