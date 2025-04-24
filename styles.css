@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
-a:active, a:visited {
+a:active, a:visited, a {
   color: black;
 }
 
