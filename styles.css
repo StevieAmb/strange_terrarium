@@ -497,14 +497,6 @@ textarea {
   border: .5px solid black;
 }
 
-input[type="radio"] {
-  margin-top: -3rem;
-}
-
-input[type="checkbox"] {
-  margin-bottom: -1.9rem;
-}
-
 .event-planning-form legend, .event-planning-form label {
   font-size: 1.29rem;
   color: #d3d1d1;
@@ -514,19 +506,12 @@ input[type="checkbox"] {
   font-weight: 200;
 }
 
-.checkbox-fields label {
-  font-size: 1.039rem;
-  color: #fff;
-  text-shadow: 1.1px 1.1px 1.1px black;
-  letter-spacing: .09rem;
-}
-
 input::placeholder {
   color: rgb(62, 62, 62);
 }
 
 fieldset {
-  width: 54%;
+  width: 57%;
 }
 
 .event-plan-button {
