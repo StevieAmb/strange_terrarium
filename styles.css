@@ -291,11 +291,6 @@ h2 {
   color: red;
 }
 
-input {
-  width: 100%;
-  padding: 1rem;
-}
-
 textarea {
   padding: 1rem;
   width: 100%;
@@ -498,12 +493,8 @@ textarea {
 .event-planning-form input[type="time"], 
 .event-planning-form input[type="number"],
 .event-planning-form input[type="email"] {
-  background-color: #8c7835;
+  background-color: #B39C4D;
   border: .5px solid black;
-}
-
-input[type="radio"], input[type="checkbox"] {
-  vertical-align: middle;
 }
 
 input[type="radio"] {
@@ -516,10 +507,11 @@ input[type="checkbox"] {
 
 .event-planning-form legend, .event-planning-form label {
   font-size: 1.29rem;
-  color: #d9d9d9;
+  color: #d3d1d1;
   text-shadow: 1.1px 1.1px 3.9px black;
   letter-spacing: .09rem;
   padding-bottom: .3rem;
+  font-weight: 200;
 }
 
 .checkbox-fields label {
