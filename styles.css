@@ -239,6 +239,10 @@ h2 {
   padding: 1rem;
 }
 
+.custom-orders input {
+  margin-bottom: 1.25rem;
+}
+
 .custom-terrarium-button {
   background-color: #768948;
   padding: 1rem 2.5rem;
