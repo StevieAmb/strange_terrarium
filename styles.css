@@ -260,6 +260,15 @@ h2 {
   margin: 0;
 }
 
+.custom-orders form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .thank-you-custom-order, 
 .thank-you-for-contact {
   display: flex;
