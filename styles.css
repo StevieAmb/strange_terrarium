@@ -21,7 +21,6 @@ h2 {
   font-size: 2.7rem;
 }
 
-
 .disclaimer-strip {
   margin: 0;
   padding: .001rem 0;
@@ -236,6 +235,14 @@ h2 {
   justify-content: center;
 }
 
+.custom-orders input, .contact-form-section input {
+  padding: 1rem;
+}
+
+.custom-orders input {
+  margin-bottom: 1.25rem;
+}
+
 .custom-terrarium-button {
   background-color: #768948;
   padding: 1rem 2.5rem;
@@ -251,6 +258,15 @@ h2 {
 .custom-orders h3 {
   font-size: 26px;
   margin: 0;
+}
+
+.custom-orders form {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .thank-you-custom-order, 
@@ -495,6 +511,7 @@ textarea {
 .event-planning-form input[type="email"] {
   background-color: #B39C4D;
   border: .5px solid black;
+  padding: 1rem;
 }
 
 .event-planning-form legend, .event-planning-form label {
