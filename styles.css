@@ -582,11 +582,43 @@ fieldset {
 }
 
 @media screen and (max-width: 767px) {  /*small-mobile*/
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
   .disclaimer-strip {
     font-size: 9px;
     letter-spacing: .15rem;
     line-height: 1rem;
     font-weight: 800;
+  }
+
+  .navigation-bar {
+    padding: .45rem;
+  }
+
+  .navigation-bar a {
+    padding-left: 7.7rem;
+    width: 30%;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    font-size: .5rem;
+    gap: .5rem;
+    margin: 0;
+  }
+
+  .hero-image-slides {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .hidden {
+    display: none;
   }
 }
 
