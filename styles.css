@@ -625,11 +625,12 @@ fieldset {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: 1fr;
-    gap: 4rem;
+    gap: 10rem;
   }
 
   .standout-square {
-    width: 80vw;
+    width: 55vw;
+    margin-left: 2.5rem;
   }
 
   .expectation-section {
@@ -637,20 +638,21 @@ fieldset {
   }
 
   .custom-designs {
-    background: url('images/terrarium_planter.jpeg') center center fixed;
+    background: url('images/terrarium_planter.jpeg') top center fixed;
+    background-repeat: no-repeat;
     background-size: contain;
   }
 
-  .custom-designs div {
-/*  */
-  }
-  
-  .eco-friendly-materials {
-    background-image: url('images/eco_friendly_terra.jpeg');
-  }
   .award-winning {
-    background-image: url('images/terrarium_row.jpeg') center;
+    background: url('images/terrarium_row.jpeg') top center fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+
+  .standout-square div p {
+    width: 120%;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) { /*mobile/tablet*/
