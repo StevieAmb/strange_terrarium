@@ -623,15 +623,33 @@ fieldset {
 
   .standout-list {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr;
     grid-auto-rows: 1fr;
     gap: 4rem;
   }
 
   .standout-square {
-    width: 45vw;
-    margin: 3rem;
-    border-radius: 4rem 4rem;
+    width: 100vw;
+  }
+
+  .expectation-section {
+    background-color: #1E2F23
+  }
+
+  .custom-designs {
+    background: url('images/terrarium_planter.jpeg') center fixed 100%;
+    border-radius: 10rem 10rem 0rem 0rem;
+  }
+
+  .custom-designs div {
+    padding: 4rem;
+  }
+  
+  .eco-friendly-materials {
+    background-image: url('images/eco_friendly_terra.jpeg');
+  }
+  .award-winning {
+    background-image: url('images/terrarium_row.jpeg') center;
   }
 }
 
