@@ -629,7 +629,7 @@ fieldset {
   }
 
   .standout-square {
-    width: 55vw;
+    width: 70vw;
     margin-left: 2.5rem;
   }
 
@@ -640,17 +640,23 @@ fieldset {
   .custom-designs {
     background: url('images/terrarium_planter.jpeg') top center fixed;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 
   .award-winning {
-    background: url('images/terrarium_row.jpeg') top center fixed;
+    background: url('images/terrarium_row.jpeg') bottom center fixed;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .standout-square div p {
-    width: 120%;
+    margin-top: 15rem;
+    width: 100%;
+  }
+
+  .featured-image-container {
+    width: 100%;
+    justify-content: center;
   }
 
 }
