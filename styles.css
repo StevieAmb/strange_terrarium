@@ -117,7 +117,7 @@ h2 {
 }
 
 .custom-designs {
-  background-image: url('images/terrarium_planter.jpeg');
+  background: url('images/terrarium_planter.jpeg');
   background-size: 20% 150%;
   background-size: cover;
   background-position: -2.5rem -3rem;
@@ -629,7 +629,7 @@ fieldset {
   }
 
   .standout-square {
-    width: 100vw;
+    width: 80vw;
   }
 
   .expectation-section {
@@ -637,12 +637,12 @@ fieldset {
   }
 
   .custom-designs {
-    background: url('images/terrarium_planter.jpeg') center fixed 100%;
-    border-radius: 10rem 10rem 0rem 0rem;
+    background: url('images/terrarium_planter.jpeg') center center fixed;
+    background-size: contain;
   }
 
   .custom-designs div {
-    padding: 4rem;
+/*  */
   }
   
   .eco-friendly-materials {
