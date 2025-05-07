@@ -584,7 +584,7 @@ fieldset {
 @media screen and (max-width: 767px) {  /*small-mobile*/
 
   h2 {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
   }
 
   .disclaimer-strip {
@@ -619,6 +619,19 @@ fieldset {
 
   .hidden {
     display: none;
+  }
+
+  .standout-list {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows: 1fr;
+    gap: 4rem;
+  }
+
+  .standout-square {
+    width: 45vw;
+    margin: 3rem;
+    border-radius: 4rem 4rem;
   }
 }
 
