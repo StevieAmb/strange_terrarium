@@ -638,15 +638,15 @@ fieldset {
   }
 
   .custom-designs {
-    background: url('images/terrarium_planter.jpeg') top center fixed;
+    background: url('images/terrarium_planter.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .award-winning {
-    background: url('images/terrarium_row.jpeg') bottom center fixed;
+    background: url('images/terrarium_row.jpeg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
 
   .standout-square div p {
