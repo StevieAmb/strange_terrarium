@@ -684,7 +684,11 @@ fieldset {
   }
 
   .custom-orders {
-    padding: 0;
+    padding: 4rem 0;
+  }
+
+  .custom-orders h3 {
+    text-align: center;
   }
 
   .custom-orders form {
