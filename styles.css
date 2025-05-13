@@ -642,9 +642,11 @@ fieldset {
   }
 
   .standout-square div p {
+    margin-left: -1.6rem;
     margin-top: 21.2rem;
     width: 100%;
   }
+
 
   .featured-image-container {
     width: 100%;
