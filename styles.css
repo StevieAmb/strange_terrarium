@@ -663,8 +663,17 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3rem;
+    gap: 4rem;
   }
+
+  .terrarium-videos section :nth-child(2) {
+    height: 75%;
+  }
+
+  .terrarium-videos section :nth-child(3) {
+    height: 75%;
+  }
+
 
   .terrarium-videos {
     padding: 3rem;
