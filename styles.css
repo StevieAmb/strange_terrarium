@@ -181,7 +181,7 @@ h2 {
   font-size: 2rem;
 }
 
-.featured-image {
+/* .featured-image {
   height: 90%;
   width: 40%;
   margin: 1.7rem 0 0 13.5rem;
@@ -189,7 +189,7 @@ h2 {
   background-size: 120% 100%;
   background-position: -1rem 0rem;
   border-radius: 7px;
-}
+} */
 
 .get-featured-button {
   margin-top: 2rem;
@@ -659,6 +659,7 @@ fieldset {
   .featured-image-container {
     width: 100%;
     justify-content: center;
+    padding: 2rem;
   }
 
   .terrarium-videos {
