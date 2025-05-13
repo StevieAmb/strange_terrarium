@@ -590,7 +590,7 @@ fieldset {
   .disclaimer-strip {
     font-size: 9px;
     letter-spacing: .15rem;
-    line-height: 1rem;
+    line-height: .85rem;
     font-weight: 800;
   }
 
@@ -599,7 +599,7 @@ fieldset {
   }
 
   .navigation-bar a {
-    padding-left: 7.7rem;
+    padding: .5rem .5rem .5rem 7.7rem;
     width: 30%;
   }
 
@@ -659,6 +659,19 @@ fieldset {
   .featured-image-container {
     width: 100%;
     justify-content: center;
+  }
+
+  .terrarium-videos {
+    padding: 1rem;
+  }
+
+  .terrarium-videos section {
+    display: block;
+  }
+  
+  .terrarium-videos section video {
+    width: 90%;
+    margin-bottom: 3rem;
   }
 
 }
