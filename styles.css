@@ -655,21 +655,23 @@ fieldset {
   }
 
   .featured-image-container img {
-    margin: 3rem 0;
+    margin: 4rem 0;
     width: 100%;
   }
 
-  .terrarium-videos {
-    padding: 1rem;
+  .terrarium-videos section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
   }
 
-  .terrarium-videos section {
-    display: block;
+  .terrarium-videos {
+    padding: 3rem;
   }
-  
+
   .terrarium-videos section video {
-    width: 90%;
-    margin-bottom: 3rem;
+    width: 100%;
   }
 
 }
