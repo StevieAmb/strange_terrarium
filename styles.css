@@ -652,6 +652,11 @@ fieldset {
     padding: 2rem;
   }
 
+  .featured-image-container img {
+    margin: 3rem 0;
+    width: 100%;
+  }
+
   .terrarium-videos {
     padding: 1rem;
   }
