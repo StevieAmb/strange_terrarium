@@ -655,7 +655,8 @@ fieldset {
   }
 
   .featured-image-container img {
-    margin: 4rem 0;
+    border-radius: 7px;
+    margin: 3rem 0;
     width: 100%;
   }
 
