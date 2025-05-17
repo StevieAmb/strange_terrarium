@@ -753,11 +753,14 @@ fieldset {
 
   .ct-right-of-img {
     width: 100% ;
-    text-align: center;
   }
 
   .ct-right-of-img ul {
     padding: 1.5rem;
+  }
+
+  .ct-maintenance-section {
+    margin: 0;
   }
 
   .footer {
