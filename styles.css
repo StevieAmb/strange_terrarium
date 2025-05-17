@@ -810,6 +810,29 @@ fieldset {
     padding: 1.5rem 0 17rem .5rem;
   }
 
+  .main-contact-section p {
+    padding: 1.2rem;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .contact-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+  }
+
+  .contact-form-section .input-field {
+    width: 100%;
+  }
+
+  .contact-form-section .input-field textarea {
+    width: 90%;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
