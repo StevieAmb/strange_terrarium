@@ -720,7 +720,6 @@ fieldset {
 
   .top-of-footer img {
     width: 100%;
-    border-radius: 10px;
     padding-bottom: 2rem;
   }
 
@@ -737,7 +736,7 @@ fieldset {
   .footer .socials-logos {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
   }
   
@@ -750,12 +749,12 @@ fieldset {
   }
   
   .copyright-section {
+    width: 185%;
     text-align: center;
   }
   
   .copyright-section p {
     padding-top: 1.7rem;
-    margin-bottom: 0;
   }
 }
 
