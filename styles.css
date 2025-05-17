@@ -752,12 +752,12 @@ fieldset {
   }
 
   .ct-right-of-img {
-    text-align: center;
     width: 100% ;
+    text-align: center;
   }
 
   .ct-right-of-img ul {
-    list-style: none;
+    padding: 1.5rem;
   }
 
   .footer {
