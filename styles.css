@@ -675,7 +675,6 @@ fieldset {
     height: 75%;
   }
 
-
   .terrarium-videos {
     padding: 3rem;
   }
@@ -709,6 +708,35 @@ fieldset {
 
   .custom-terrarium-button {
     margin-top: 1.5rem;
+  }
+
+  .care-tips-intro h2, .care-tips-intro p {
+    padding: 3rem 1rem 1rem .5rem;
+    margin: 0;
+  }
+
+  .care-tips-intro p {
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .care-tips-intro ul {
+    padding: 0;
+    margin: .7rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    gap: 3rem;
+    list-style: none;
+  }
+
+  .care-tips-intro ul li {
+    text-align: center;
+  }
+  
+  .care-tips-intro img {
+    display: block;
+    width: 55%;
+    margin: auto;
   }
 
   .footer {
@@ -749,12 +777,8 @@ fieldset {
   }
   
   .copyright-section {
-    width: 185%;
+    width: 105%;
     text-align: center;
-  }
-  
-  .copyright-section p {
-    padding-top: 1.7rem;
   }
 }
 
