@@ -757,11 +757,19 @@ fieldset {
     margin: 0;
   }
 
-  .ct-right-of-img ul, .ct-maintenance-section ul, .ot-maintenance-section ul, .ot-left-of-img ul {
+  .ct-right-of-img ul, 
+  .ct-maintenance-section ul, 
+  .ot-maintenance-section ul, 
+  .ot-left-of-img ul {
     padding: 1.5rem;
   }
 
-  .ct-maintenance-section, .ot-maintenance-section, .ct-right-of-img h4, .ot-left-of-img h4 {
+  .ct-maintenance-section,
+  .ct-maintenance-section h4, 
+  .ot-maintenance-section h4, 
+  .ot-maintenance-section, 
+  .ct-right-of-img h4, 
+  .ot-left-of-img h4 {
     margin: 0;
   }
 
