@@ -755,7 +755,7 @@ fieldset {
     width: 100% ;
   }
 
-  .ct-right-of-img ul {
+  .ct-right-of-img ul, .ct-maintenance-section ul {
     padding: 1.5rem;
   }
 
