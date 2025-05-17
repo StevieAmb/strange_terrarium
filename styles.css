@@ -800,7 +800,14 @@ fieldset {
   }
 
   .about-founder-section img {
-    width: 80%;
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .about-paragraph {
+    text-align: center;
+    width: 95%;
+    padding: 1.5rem 0 15rem 0;
   }
 
   .footer {
