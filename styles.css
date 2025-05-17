@@ -739,32 +739,38 @@ fieldset {
     margin: auto;
   }
 
-  .ct-top-section, .ot-top-section {
+  .ct-top-section {
     display: flex;
     flex-direction: column;
     margin-top: 2.5rem;
     gap: 3.2rem;
   }
 
-  .ct-top-section img {
+  .ct-top-section img, .ot-top-section img {
     width: 80%;
     margin: 2rem;
   }
 
-  .ct-right-of-img {
-    width: 100% ;
-  }
-
-  .ct-right-of-img ul, .ct-maintenance-section ul {
-    padding: 1.5rem;
-  }
-
-  .ct-maintenance-section, .ct-right-of-img h4 {
+  .ct-right-of-img, .ot-left-of-img {
+    width: 100%;
     margin: 0;
   }
 
-  .ct-right-of-img h4, .ct-maintenance-section h4 {
+  .ct-right-of-img ul, .ct-maintenance-section ul, .ot-maintenance-section ul, .ot-left-of-img ul {
+    padding: 1.5rem;
+  }
+
+  .ct-maintenance-section, .ot-maintenance-section, .ct-right-of-img h4, .ot-left-of-img h4 {
+    margin: 0;
+  }
+
+  .ct-right-of-img h4, .ct-maintenance-section h4, .ot-maintenance-section h4, .ot-left-of-img h4 {
     text-align: center;
+  }
+
+  .ot-top-section {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .footer {
