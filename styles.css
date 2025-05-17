@@ -737,6 +737,7 @@ fieldset {
     display: block;
     width: 95%;
     margin: auto;
+    margin-bottom: 10rem;
   }
 
   .ct-top-section {
@@ -747,7 +748,7 @@ fieldset {
   }
 
   .ct-top-section img, .ot-top-section img {
-    width: 80%;
+    width: 85%;
     margin: 2rem;
   }
 
