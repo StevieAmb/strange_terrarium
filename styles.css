@@ -711,6 +711,53 @@ fieldset {
     margin-top: 1.5rem;
   }
 
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    line-height: 2rem;
+  }
+  
+  .top-of-footer img {
+    width: 55%;
+    height: 24%;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+  }
+  
+  .footer .socials-logos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .socials-logos a {
+    width: 2%;
+  }
+  
+  .socials-logos img {
+    width: 100%;
+  }
+  
+  .copyright-section {
+    text-align: center;
+  }
+  
+  .copyright-section p {
+    padding-top: 1.7rem;
+    margin-bottom: 0;
+  }
+  
+  .top-of-footer {
+    width: 100%;
+    display: flex;
+    gap: 25rem;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) { /*mobile/tablet*/
