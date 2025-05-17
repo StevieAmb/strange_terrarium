@@ -810,6 +810,12 @@ fieldset {
     padding: 1.5rem 0 17rem .5rem;
   }
 
+  .main-contact-section p {
+    padding: 1.2rem;
+    margin: 0;
+    font-size: 1rem;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
