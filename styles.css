@@ -794,6 +794,15 @@ fieldset {
     padding: .5rem;
   }
 
+  .about-founder-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-founder-section img {
+    width: 80%;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
