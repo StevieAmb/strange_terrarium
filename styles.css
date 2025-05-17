@@ -802,6 +802,8 @@ fieldset {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: .7rem;
     list-style: none;
     padding: 0;
     line-height: 2rem;
