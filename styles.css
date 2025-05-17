@@ -773,6 +773,18 @@ fieldset {
     flex-direction: column-reverse;
   }
 
+  .general-tips {
+    margin: 0;
+  }
+
+  .general-tips ul {
+    padding: 1.5rem;
+  }
+
+  .general-tips p {
+    padding: .5rem;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
