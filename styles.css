@@ -751,6 +751,10 @@ fieldset {
     margin: 2rem;
   }
 
+  .ct-right-of-img {
+    width: 100% ;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
