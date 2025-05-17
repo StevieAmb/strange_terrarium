@@ -759,8 +759,12 @@ fieldset {
     padding: 1.5rem;
   }
 
-  .ct-maintenance-section {
+  .ct-maintenance-section, .ct-right-of-img h4 {
     margin: 0;
+  }
+
+  .ct-right-of-img h4, .ct-maintenance-section h4 {
+    text-align: center;
   }
 
   .footer {
