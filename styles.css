@@ -737,6 +737,7 @@ fieldset {
     display: block;
     width: 95%;
     margin: auto;
+    margin-bottom: 10rem;
   }
 
   .ct-top-section {
@@ -747,7 +748,7 @@ fieldset {
   }
 
   .ct-top-section img, .ot-top-section img {
-    width: 80%;
+    width: 85%;
     margin: 2rem;
   }
 
@@ -756,11 +757,19 @@ fieldset {
     margin: 0;
   }
 
-  .ct-right-of-img ul, .ct-maintenance-section ul, .ot-maintenance-section ul, .ot-left-of-img ul {
+  .ct-right-of-img ul, 
+  .ct-maintenance-section ul, 
+  .ot-maintenance-section ul, 
+  .ot-left-of-img ul {
     padding: 1.5rem;
   }
 
-  .ct-maintenance-section, .ot-maintenance-section, .ct-right-of-img h4, .ot-left-of-img h4 {
+  .ct-maintenance-section,
+  .ct-maintenance-section h4, 
+  .ot-maintenance-section h4, 
+  .ot-maintenance-section, 
+  .ct-right-of-img h4, 
+  .ot-left-of-img h4 {
     margin: 0;
   }
 
@@ -771,6 +780,18 @@ fieldset {
   .ot-top-section {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .general-tips {
+    margin: 0;
+  }
+
+  .general-tips ul {
+    padding: 1.5rem;
+  }
+
+  .general-tips p {
+    padding: .5rem;
   }
 
   .footer {
@@ -790,6 +811,8 @@ fieldset {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: .7rem;
     list-style: none;
     padding: 0;
     line-height: 2rem;
