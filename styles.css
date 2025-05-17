@@ -117,7 +117,7 @@ h2 {
 }
 
 .custom-designs {
-  background-image: url('images/terrarium_planter.jpeg');
+  background: url('images/terrarium_planter.jpeg');
   background-size: 20% 150%;
   background-size: cover;
   background-position: -2.5rem -3rem;
@@ -179,16 +179,6 @@ h2 {
 
 .featured-info h3, .featured-image-container h3 {
   font-size: 2rem;
-}
-
-.featured-image {
-  height: 90%;
-  width: 40%;
-  margin: 1.7rem 0 0 13.5rem;
-  background-image: url('images/eco_friendly_terra.jpeg');
-  background-size: 120% 100%;
-  background-position: -1rem 0rem;
-  border-radius: 7px;
 }
 
 .get-featured-button {
@@ -516,7 +506,7 @@ textarea {
 
 .event-planning-form legend, .event-planning-form label {
   font-size: 1.29rem;
-  color: #d3d1d1;
+  color: #dcdcdc;
   text-shadow: 1.1px 1.1px 3.9px black;
   letter-spacing: .09rem;
   padding-bottom: .3rem;
@@ -580,3 +570,197 @@ fieldset {
   display: flex;
   gap: 25rem;
 }
+
+@media screen and (max-width: 767px) {  /*small-mobile*/
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .disclaimer-strip {
+    font-size: 9px;
+    letter-spacing: .15rem;
+    line-height: .85rem;
+    font-weight: 800;
+  }
+
+  .navigation-bar {
+    padding: .45rem;
+  }
+
+  .navigation-bar a {
+    padding: .5rem .5rem .5rem 7.7rem;
+    width: 30%;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    font-size: .5rem;
+    gap: .5rem;
+    margin: 0;
+  }
+
+  .hero-image-slides {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .standout-list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  .standout-square {
+    border-radius: 8rem 8rem 0rem 0rem;
+    width: 75vw;
+    /* margin-left: 2.5rem; */
+  }
+
+  .expectation-section {
+    background-color: #1E2F23
+  }
+
+  .custom-designs {
+    background: url('images/terrarium_planter.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% -180%;
+  }
+
+  .award-winning {
+    background: url('images/terrarium_row.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .standout-square div p {
+    margin-left: -1.6rem;
+    margin-top: 21.2rem;
+    width: 100%;
+  }
+
+
+  .featured-image-container {
+    width: 100%;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .featured-image-container img {
+    border-radius: 7px;
+    margin: 3rem 0;
+    width: 100%;
+  }
+
+  .terrarium-videos section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .terrarium-videos section :nth-child(2) {
+    height: 75%;
+  }
+
+  .terrarium-videos section :nth-child(3) {
+    height: 75%;
+  }
+
+
+  .terrarium-videos {
+    padding: 3rem;
+  }
+
+  .terrarium-videos section video {
+    width: 100%;
+  }
+
+  .custom-orders {
+    padding: 4rem 0;
+  }
+
+  .custom-orders h3 {
+    text-align: center;
+  }
+
+  .custom-orders form {
+    width: 100%;
+  }
+
+  .custom-orders form .input-field {
+    width: 90%;
+    font-weight: 500;
+    letter-spacing: .055rem;
+  }
+
+  .custom-orders form textarea {
+    width: 90.5%;
+    margin-bottom: 1.5rem;
+  }
+
+  .custom-terrarium-button {
+    margin-top: 1.5rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-of-footer img {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    line-height: 2rem;
+  }
+  
+  .footer .socials-logos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .socials-logos a {
+    width: 15%;
+  }
+  
+  .socials-logos img {
+    width: 100%;
+  }
+  
+  .copyright-section {
+    width: 185%;
+    text-align: center;
+  }
+  
+  .copyright-section p {
+    padding-top: 1.7rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { /*mobile/tablet*/
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) { /*portrait mode*/
+}
+
