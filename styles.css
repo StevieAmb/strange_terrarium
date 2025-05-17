@@ -752,6 +752,7 @@ fieldset {
   }
 
   .ct-right-of-img {
+    margin: .3rem;
     width: 100% ;
   }
 
