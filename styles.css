@@ -1035,6 +1035,31 @@ fieldset {
     width: 100%;
   }
 
+  .terrarium-videos section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding-bottom: 8rem;
+  }
+
+  .terrarium-videos section :nth-child(2) {
+    height: 85%;
+  }
+
+  .terrarium-videos section :nth-child(3) {
+    height: 75%;
+  }
+
+  .terrarium-videos {
+    padding: 3rem;
+  }
+
+  .terrarium-videos section video {
+    width: 80%;
+  }
+
   .hidden {
     display: none;
   }
