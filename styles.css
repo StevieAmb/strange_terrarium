@@ -1035,6 +1035,17 @@ fieldset {
     width: 100%;
   }
 
+  .get-featured-button {
+    margin-top: 2rem;
+    padding: 2rem 5rem;
+    font-weight: bolder;
+    color: #1E2F23;
+    font-size: 2rem;
+    border-color: #1E2F23;
+    background-color: #fff;
+    border-radius: 7px;
+  }
+
   .terrarium-videos section {
     display: flex;
     flex-direction: column;
