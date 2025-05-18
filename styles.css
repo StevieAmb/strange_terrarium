@@ -642,15 +642,15 @@ fieldset {
   }
 
   .standout-list {
-    padding: 0;
+    padding-bottom: 5rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 8rem;
+    gap: 9rem;
   }
 
   .standout-square {
     border-radius: 8rem 8rem 0rem 0rem;
-    width: 75vw;
+    width: 80vw;
   }
 
   .expectation-section {
@@ -668,19 +668,17 @@ fieldset {
     background: url('images/eco_friendly_terra.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 30% -180%;
   }
 
   .award-winning {
     background: url('images/terrarium_row.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 30% -180%;
   }
 
   .standout-square div p {
     margin-left: -1.6rem;
-    margin-top: 20.9rem;
+    margin-top: 20.8rem;
     width: 100%;
   }
 
