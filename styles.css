@@ -863,6 +863,40 @@ fieldset {
     width: 90%;
   }
 
+  .event-planning-form .event-planning-form-container {
+    padding: 0;
+    width: 100%;
+  }
+
+  .event-planning-form .event-planning-form-container form .input-field {
+    width: 90%;
+  }
+
+  .event-planning-form .form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: 350px;
+    animation-range-end: 700px;
+  }
+  
+  @keyframes fade-in {
+    from {
+      scale: .8;
+      opacity: 0;
+    }
+  
+    to {
+      scale: 1;
+      opacity: 1;
+    }
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
