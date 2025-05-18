@@ -645,13 +645,12 @@ fieldset {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 8rem;
   }
 
   .standout-square {
     border-radius: 8rem 8rem 0rem 0rem;
     width: 75vw;
-    /* margin-left: 2.5rem; */
   }
 
   .expectation-section {
@@ -665,15 +664,20 @@ fieldset {
     background-position: 30% -180%;
   }
 
+  .eco-friendly-materials {
+    background-position: 30% -180%;
+  }
+
   .award-winning {
     background: url('images/terrarium_row.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 30% -180%;
   }
 
   .standout-square div p {
     margin-left: -1.6rem;
-    margin-top: 21.2rem;
+    margin-top: 20.8rem;
     width: 100%;
   }
 
