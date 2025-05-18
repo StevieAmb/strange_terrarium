@@ -963,11 +963,11 @@ fieldset {
   }
 
   .navigation-bar {
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
   }
 
   .navigation-bar a {
-    padding: .5rem .5rem .5rem 15.5rem;
     width: 30%;
   }
 
