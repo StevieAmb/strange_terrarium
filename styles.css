@@ -461,6 +461,20 @@ textarea {
 }
 
 .event-planning-form section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.event-planning-form section h3 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.event-planning-form .event-planning-form-container {
   background-image: url('images/light_green_terra.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -483,7 +497,7 @@ textarea {
   width: 75%;
   font-weight: 700;
   line-height: 1.8rem;
-  padding-bottom: 6.3rem;
+  padding-bottom: 4.3rem;
 }
 
 .event-planning-form form {
@@ -491,7 +505,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2.8rem;
+  gap: 2rem;
 }
 
 .event-planning-form input[type="text"], 
@@ -506,7 +520,7 @@ textarea {
 
 .event-planning-form legend, .event-planning-form label {
   font-size: 1.29rem;
-  color: #dcdcdc;
+  color: #e5e5e5;
   text-shadow: 1.1px 1.1px 3.9px black;
   letter-spacing: .09rem;
   padding-bottom: .3rem;
