@@ -460,28 +460,28 @@ textarea {
   justify-content: center;
 }
 
-.event-planning-form section {
+.event-planning-form .form-section {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  animation: fade-in linear;
-  animation-timeline: scroll();
+  /* animation: fade-in linear;
+  animation-timeline: view(150px 100px); */
 }
-
+/* 
 @keyframes fade-in {
   from {
     scale: .8;
-    opacity: 0
+    opacity: 0;
   }
 
   to {
     scale: 1;
     opacity: 1;
   }
-}
+} */
 
 .event-planning-form section h3 {
   font-size: 2.5rem;
