@@ -467,10 +467,12 @@ textarea {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  /* animation: fade-in linear;
-  animation-timeline: view(150px 100px); */
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: 500px;
+  animation-range-end: 700px;
 }
-/* 
+
 @keyframes fade-in {
   from {
     scale: .8;
@@ -481,7 +483,7 @@ textarea {
     scale: 1;
     opacity: 1;
   }
-} */
+}
 
 .event-planning-form section h3 {
   font-size: 2.5rem;
