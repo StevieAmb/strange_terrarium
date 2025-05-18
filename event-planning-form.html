@@ -26,7 +26,7 @@
      </div>
    </nav>
    <main class="event-planning-form">
-    <section>
+    <section class="event-planning-form-container">
       <form action="https://api.web3forms.com/submit" method="POST">
         <h2>Do you need terrariums for an upcoming events?</h2>
         <p>We do that sort of stuff, too!<br> Fill out the form below, and we'll be sure to have
@@ -84,75 +84,77 @@
           <label for="services-needed4"> None - I will handle transport/pickup</label>
         </fieldset>
         <hr>
-        <h3>Let's Get Creative!</h3>
-        <div class="input-field">
-          <label for="event-theme">What is the overall vibe or theme of the event?<span>(required)</span> </label>
-          <input
-            type="text"
-            id="event-theme"
-            name="theme"
-            placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
-            required
-            minlength="4"
-            maxlength="30"
-          />
-        </div>
-        <fieldset>
-          <legend>What size terrariums are you imagining?</legend>
-            <input type="radio" id="small" name="chosen-terrarium-size" value="small" checked />
-            <label for="small">Small (under 6”)</label><br>
-            <input type="radio" id="medium" name="chosen-terrarium-size" value="medium" />
-            <label for="medium">Medium (6–10”)</label><br>
-            <input type="radio" id="large" name="chosen-terrarium-size" value="large" />
-            <label for="large">Large (10”+)</label><br>
-            <input type="radio" id="mix" name="chosen-terrarium-size" value="mix" />
-            <label for="mix">Mix of sizes</label><br>
-            <input type="radio" id="not-sure" name="chosen-terrarium-size" value="not-sure" />
-            <label for="not-sure">Not sure yet</label>
+        <section>
+          <h3>Let's Get Creative!</h3>
+          <div class="input-field">
+            <label for="event-theme">What is the overall vibe or theme of the event?<span>(required)</span> </label>
+            <input
+              type="text"
+              id="event-theme"
+              name="theme"
+              placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+              required
+              minlength="4"
+              maxlength="30"
+            />
           </div>
-        </fieldset>
-        <fieldset>
-          <legend>Do you have a preferred shape or container style?</legend>
-            <input type="radio" id="globe" name="chosen-terrarium-shape" value="globe" checked />
-            <label for="globe">Globe</label><br>
-            <input type="radio" id="apothecary-jars" name="chosen-terrarium-shape" value="apothecary-jars" />
-            <label for="apothecary-jars">Apothecary Jars</label><br>
-            <input type="radio" id="geometric" name="chosen-terrarium-shape" value="geometric" />
-            <label for="geometric">Geometric</label><br>
-            <input type="radio" id="other-shape" name="chosen-terrarium-shape" value="other-shape" />
-            <label for="other-shape">Other</label>
-        </fieldset>
-        <fieldset>
-          <legend>What type of terrarium would you like?</legend>
-            <input type="radio" id="open" name="chosen-terrarium-type" value="open" checked />
-            <label for="open">Open (dry plants like succulents)</label><br>
-            <input type="radio" id="closed" name="chosen-terrarium-type" value="closed" />
-            <label for="closed">Closed (humid, mossy)</label><br>
-            <input type="radio" id="dmix-of-both" name="chosen-terrarium-type" value="mix-of-both" />
-            <label for="mix-of-both">Mix of both</label><br>
-            <input type="radio" id="unsure" name="chosen-terrarium-type" value="unsure" />
-            <label for="unsure">Not sure yet</label>
-        </fieldset>
-        <div class="input-field">
-          <label for="include-or-avoid">Any specific plants, decorations, or materials you'd like included or avoided?<span>(required)</span> </label>
-          <input
-            type="text"
-            id="include-or-avoid"
-            name="include-or-avoid"
-            placeholder="Ex: Avoid succulents, include moss"
-            required
-            minlength="4"
-          />
-        </div>
-        <fieldset>
-          <legend>Would you like the centerpieces to be take-home gifts for guests?</legend>
-            <input type="radio" id="yes" name="take-home-gifts-option" value="yes" checked />
-            <label for="yes">Yes</label><br>
-            <input type="radio" id="no" name="take-home-gifts-option" value="no" />
-            <label for="no">No</label><br>
-            <input type="radio" id="other" name="take-home-gifts-option" value="other" />
-            <label for="other">Other</label>
-        </fieldset>
+          <fieldset>
+            <legend>What size terrariums are you imagining?</legend>
+              <input type="radio" id="small" name="chosen-terrarium-size" value="small" checked />
+              <label for="small">Small (under 6”)</label><br>
+              <input type="radio" id="medium" name="chosen-terrarium-size" value="medium" />
+              <label for="medium">Medium (6–10”)</label><br>
+              <input type="radio" id="large" name="chosen-terrarium-size" value="large" />
+              <label for="large">Large (10”+)</label><br>
+              <input type="radio" id="mix" name="chosen-terrarium-size" value="mix" />
+              <label for="mix">Mix of sizes</label><br>
+              <input type="radio" id="not-sure" name="chosen-terrarium-size" value="not-sure" />
+              <label for="not-sure">Not sure yet</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Do you have a preferred shape or container style?</legend>
+              <input type="radio" id="globe" name="chosen-terrarium-shape" value="globe" checked />
+              <label for="globe">Globe</label><br>
+              <input type="radio" id="apothecary-jars" name="chosen-terrarium-shape" value="apothecary-jars" />
+              <label for="apothecary-jars">Apothecary Jars</label><br>
+              <input type="radio" id="geometric" name="chosen-terrarium-shape" value="geometric" />
+              <label for="geometric">Geometric</label><br>
+              <input type="radio" id="other-shape" name="chosen-terrarium-shape" value="other-shape" />
+              <label for="other-shape">Other</label>
+          </fieldset>
+          <fieldset>
+            <legend>What type of terrarium would you like?</legend>
+              <input type="radio" id="open" name="chosen-terrarium-type" value="open" checked />
+              <label for="open">Open (dry plants like succulents)</label><br>
+              <input type="radio" id="closed" name="chosen-terrarium-type" value="closed" />
+              <label for="closed">Closed (humid, mossy)</label><br>
+              <input type="radio" id="dmix-of-both" name="chosen-terrarium-type" value="mix-of-both" />
+              <label for="mix-of-both">Mix of both</label><br>
+              <input type="radio" id="unsure" name="chosen-terrarium-type" value="unsure" />
+              <label for="unsure">Not sure yet</label>
+          </fieldset>
+          <div class="input-field">
+            <label for="include-or-avoid">Any specific plants, decorations, or materials you'd like included or avoided?<span>(required)</span> </label>
+            <input
+              type="text"
+              id="include-or-avoid"
+              name="include-or-avoid"
+              placeholder="Ex: Avoid succulents, include moss"
+              required
+              minlength="4"
+            />
+          </div>
+          <fieldset>
+            <legend>Would you like the centerpieces to be take-home gifts for guests?</legend>
+              <input type="radio" id="yes" name="take-home-gifts-option" value="yes" checked />
+              <label for="yes">Yes</label><br>
+              <input type="radio" id="no" name="take-home-gifts-option" value="no" />
+              <label for="no">No</label><br>
+              <input type="radio" id="other" name="take-home-gifts-option" value="other" />
+              <label for="other">Other</label>
+          </fieldset>
+        </section>
         <hr>
         <h3>Budget & Extra</h3>
         <div class="input-field">

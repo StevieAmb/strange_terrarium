@@ -460,7 +460,7 @@ textarea {
   justify-content: center;
 }
 
-.event-planning-form section {
+.event-planning-form .event-planning-form-container {
   background-image: url('images/light_green_terra.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
