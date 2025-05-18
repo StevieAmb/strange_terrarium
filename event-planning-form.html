@@ -32,57 +32,59 @@
         <p>We do that sort of stuff, too!<br> Fill out the form below, and we'll be sure to have
           everything you need ready for you to pick up<br> (or delivered, if you live close enough!)
         </p>
-        <div class="input-field">
-          <label for="date-time-of-event">What is the date of your event? <span>(required)</span> </label>
-          <input
-            type="date"
-            id="date-time-of-event"
-            name="date-time-of-event"
-            placeholder="Ex: Sonia Sanchez"
-            required
-          />
-        </div>
-        <div class="input-field">
-          <label for="location">Where is the event located? <span>(required)</span> </label>
-          <input
-            type="text"
-            id="location"
-            name="location"
-            placeholder="Ex: Brooklyn, NY"
-            required
-            minlength="6"
-          />
-        </div>
-        <div class="input-field">
-          <label for="num-of-centerpieces">How many centerpieces are you looking to order? <span>(required)</span> </label>
-          <input
-            type="number"
-            id="num-of-centerpieces"
-            name="num-of-centerpieces"
-            placeholder="Ex: 12"
-            required
-          />
-        </div>
-        <div class="input-field">
-          <label for="setup-time">What time will setup/delivery be required? <span>(required)</span> </label>
-          <input
-            type="time"
-            id="setup-time"
-            name="setup-time"
-            required
-          />
-        </div>
-        <fieldset class="checkbox-fields">
-          <legend>Do you need any of the following services?</legend>
-          <input type="checkbox" id="services-needed1" name="services-needed" value="Delivery">
-          <label for="services-needed1"> Delivery</label><br>
-          <input type="checkbox" id="services-needed2" name="services-needed" value="On-site Setup">
-          <label for="services-needed2"> On-Site setup </label><br>
-          <input type="checkbox" id="services-needed3" name="services-needed" value="Post-event pickup">
-          <label for="services-needed3"> Post-event pickup</label><br>
-          <input type="checkbox" id="services-needed4" name="services-needed" value="None">
-          <label for="services-needed4"> None - I will handle transport/pickup</label>
-        </fieldset>
+        <section>
+          <div class="input-field">
+            <label for="date-time-of-event">What is the date of your event? <span>(required)</span> </label>
+            <input
+              type="date"
+              id="date-time-of-event"
+              name="date-time-of-event"
+              placeholder="Ex: Sonia Sanchez"
+              required
+            />
+          </div>
+          <div class="input-field">
+            <label for="location">Where is the event located? <span>(required)</span> </label>
+            <input
+              type="text"
+              id="location"
+              name="location"
+              placeholder="Ex: Brooklyn, NY"
+              required
+              minlength="6"
+            />
+          </div>
+          <div class="input-field">
+            <label for="num-of-centerpieces">How many centerpieces are you looking to order? <span>(required)</span> </label>
+            <input
+              type="number"
+              id="num-of-centerpieces"
+              name="num-of-centerpieces"
+              placeholder="Ex: 12"
+              required
+            />
+          </div>
+          <div class="input-field">
+            <label for="setup-time">What time will setup/delivery be required? <span>(required)</span> </label>
+            <input
+              type="time"
+              id="setup-time"
+              name="setup-time"
+              required
+            />
+          </div>
+          <fieldset class="checkbox-fields">
+            <legend>Do you need any of the following services?</legend>
+            <input type="checkbox" id="services-needed1" name="services-needed" value="Delivery">
+            <label for="services-needed1"> Delivery</label><br>
+            <input type="checkbox" id="services-needed2" name="services-needed" value="On-site Setup">
+            <label for="services-needed2"> On-Site setup </label><br>
+            <input type="checkbox" id="services-needed3" name="services-needed" value="Post-event pickup">
+            <label for="services-needed3"> Post-event pickup</label><br>
+            <input type="checkbox" id="services-needed4" name="services-needed" value="None">
+            <label for="services-needed4"> None - I will handle transport/pickup</label>
+          </fieldset>
+        </section>
         <hr>
         <section>
           <h3>Let's Get Creative!</h3>
@@ -156,58 +158,62 @@
           </fieldset>
         </section>
         <hr>
-        <h3>Budget & Extra</h3>
-        <div class="input-field">
-          <label for="budget">Do you have a per-piece or total budget in mind?<span>(required)</span> </label>
-          <input
-            type="text"
-            id="budget"
-            name="budget"
-            placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
-            required
-            minlength="4"
-            maxlength="30"
-          />
-        </div>
-        <fieldset class="checkbox-fields">
-          <legend>Do you need any of the following services?</legend>
-            <input type="checkbox" id="keepsake-packaging" name="additional-services" value="keepsake-packaging">
-            <label for="keepsake-packaging"> Keepsake packaging for guests</label><br>
-            <input type="checkbox" id="themed-figurines" name="additional-services" value="themed-figurines">
-            <label for="themed-figurines"> Themed figurines/decorative elements</label><br>
-            <input type="checkbox" id="none" name="additional-services" value="none">
-            <label for="none"> None</label><br>
-            <input type="checkbox" id="other-service" name="additional-services" value="other-service">
-            <label for="other-service"> Other</label>
-        </fieldset>
+        <section>
+          <h3>Budget & Extra</h3>
+          <div class="input-field">
+            <label for="budget">Do you have a per-piece or total budget in mind?<span>(required)</span> </label>
+            <input
+              type="text"
+              id="budget"
+              name="budget"
+              placeholder="Ex:(s) Alice in Wonderland, Lord of the Rings, Narnia, etc..."
+              required
+              minlength="4"
+              maxlength="30"
+            />
+          </div>
+          <fieldset class="checkbox-fields">
+            <legend>Do you need any of the following services?</legend>
+              <input type="checkbox" id="keepsake-packaging" name="additional-services" value="keepsake-packaging">
+              <label for="keepsake-packaging"> Keepsake packaging for guests</label><br>
+              <input type="checkbox" id="themed-figurines" name="additional-services" value="themed-figurines">
+              <label for="themed-figurines"> Themed figurines/decorative elements</label><br>
+              <input type="checkbox" id="none" name="additional-services" value="none">
+              <label for="none"> None</label><br>
+              <input type="checkbox" id="other-service" name="additional-services" value="other-service">
+              <label for="other-service"> Other</label>
+          </fieldset>
+        </section>
         <hr>
-        <h3>Contact Info</h3>
-        <div class="input-field">
-          <label for="name">Name: <span>(required)</span></label>
-          <input 
-            type="text" 
-            id="name" 
-            placeholder="Ex: Sonia Sanchez"
-            required 
-          />
-        </div>
-        <div class="input-field">
-          <label for="email">Email: <span>(required)</span></label>
-          <input 
-            type="email" 
-            id="email" 
-            placeholder="Ex: sonia.sanchez@blahblah.com"
-            required 
-          />
-        </div>
-        <div class="input-field">
-          <label for="phonenumber">Phone Number: <span>(optional)</span></label>
-          <input 
-            type="text" 
-            id="phonenumber" 
-            placeholder="Ex: 303-555-5555"
-          />
-        </div>
+        <section>
+          <h3>Contact Info</h3>
+          <div class="input-field">
+            <label for="name">Name: <span>(required)</span></label>
+            <input 
+              type="text" 
+              id="name" 
+              placeholder="Ex: Sonia Sanchez"
+              required 
+            />
+          </div>
+          <div class="input-field">
+            <label for="email">Email: <span>(required)</span></label>
+            <input 
+              type="email" 
+              id="email" 
+              placeholder="Ex: sonia.sanchez@blahblah.com"
+              required 
+            />
+          </div>
+          <div class="input-field">
+            <label for="phonenumber">Phone Number: <span>(optional)</span></label>
+            <input 
+              type="text" 
+              id="phonenumber" 
+              placeholder="Ex: 303-555-5555"
+            />
+          </div>
+        </section>
         <button class="event-plan-button" type="submit">LET'S PARTY!</button>
         <input type="hidden" name="access_key" value="1ed02a58-8950-4f9c-b33d-e1e60806271e">
         <input type="hidden" name="subject" value="Event Planning Form">
