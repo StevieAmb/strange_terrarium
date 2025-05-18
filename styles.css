@@ -469,6 +469,11 @@ textarea {
   gap: 1.25rem;
 }
 
+.event-planning-form section h3 {
+  font-size: 2.5rem;
+  color: white;
+}
+
 .event-planning-form .event-planning-form-container {
   background-image: url('images/light_green_terra.jpeg');
   background-repeat: no-repeat;
