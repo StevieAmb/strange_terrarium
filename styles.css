@@ -466,7 +466,7 @@ textarea {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 
 .event-planning-form section h3 {
@@ -497,7 +497,7 @@ textarea {
   width: 75%;
   font-weight: 700;
   line-height: 1.8rem;
-  padding-bottom: 6.3rem;
+  padding-bottom: 4.3rem;
 }
 
 .event-planning-form form {
@@ -505,7 +505,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2.8rem;
+  gap: 2rem;
 }
 
 .event-planning-form input[type="text"], 
