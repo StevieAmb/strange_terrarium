@@ -975,7 +975,51 @@ fieldset {
     width: 100%;
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
+  }
+
+  .standout-list {
+    padding-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12rem;
+  }
+
+  .standout-square {
+    border-radius: 14rem 14rem 0rem 0rem;
+    width: 65vw;
+  }
+
+  .expectation-section {
+    background-color: #1E2F23
+  }
+
+  .custom-designs {
+    background: url('images/terrarium_planter.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% -180%;
+  }
+
+  .eco-friendly-materials {
+    background: url('images/eco_friendly_terra.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .award-winning {
+    background: url('images/terrarium_row.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .standout-square div p {
+    margin-left: -2.5rem;
+    margin-top: 32.85rem;
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 2.5rem;
+    letter-spacing: .25rem;
   }
 
   .hidden {
