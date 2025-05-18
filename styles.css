@@ -902,6 +902,15 @@ fieldset {
     }
   }
 
+  .event-planning-form h2 {
+    padding-top: 3rem;
+    font-size: xx-large;
+  }
+
+  .event-planning-form p {
+    
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
