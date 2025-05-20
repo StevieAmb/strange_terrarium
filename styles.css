@@ -1112,6 +1112,22 @@ fieldset {
     margin-top: 1.5rem;
   }
 
+  .about-founder-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-founder-section img {
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .about-paragraph {
+    text-align: center;
+    width: 95%;
+    padding: 1.5rem 0 17rem .5rem;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
