@@ -610,6 +610,10 @@ fieldset {
   gap: 25rem;
 }
 
+.desktop-hidden {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {  /*small-mobile*/
 
   h2 {
