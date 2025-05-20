@@ -225,8 +225,17 @@ h2 {
   justify-content: center;
 }
 
-.custom-orders input, .contact-form-section input {
-  padding: 1rem;
+.custom-orders input[type="text"], 
+.custom-orders input[type="email"],
+.contact-form-section input[type="text"],
+.contact-form-section input[type="email"] {
+  height: 5.5vh;
+  line-height: 100rem;
+  font-size: 1.5rem;
+}
+
+.custom-orders input[type="text"]::placeholder {
+  font-style: italic;
 }
 
 .custom-orders input {
@@ -1097,18 +1106,20 @@ fieldset {
     font-size: 1.75rem;
   }
 
-  .custom-orders input, 
-  .contact-form-section input {
-    padding: 1.5rem;
+  .custom-orders input[type="text"], 
+  .custom-orders input[type="email"],
+  .contact-form-section input[type="text"],
+  .contact-form-section input[type="email"] {
+    font-size: 1.9rem;
+    height: 5.5vh;
   }
 
   .custom-orders input::placeholder, 
   .custom-orders textarea::placeholder,
   .contact-form-section input::placeholder, 
   .contact-form-section textarea::placeholder  {
-    font-size: 1.4rem;
     font-style: italic;
-    color: rgb(174, 174, 174);
+    color: rgb(203, 203, 203);
   }
 
   .custom-terrarium-button {
@@ -1170,6 +1181,10 @@ fieldset {
 
   .contact-form-section .input-field textarea {
     width: 95%;
+  }
+
+  .contact-form-section label {
+    margin-bottom: .7rem;
   }
 
   .footer ul {
