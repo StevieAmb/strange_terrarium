@@ -623,13 +623,6 @@ fieldset {
     width: 30%;
   }
 
-  .nav-links {
-    flex-wrap: wrap;
-    font-size: .5rem;
-    gap: .5rem;
-    margin: 0;
-  }
-
   .hero-image-slides {
     width: 100%;
     background-position: center;
@@ -957,6 +950,218 @@ fieldset {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) { /*mobile/tablet*/
+
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  .disclaimer-strip {
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    line-height: 1.2rem;
+    font-weight: 800;
+  }
+
+  .navigation-bar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-bar a {
+    width: 30%;
+  }
+
+  .hero-image-slides {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+  }
+
+  .standout-list {
+    padding-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12rem;
+    padding-bottom: 10rem;
+  }
+
+  .standout-square {
+    border-radius: 14rem 14rem 0rem 0rem;
+    width: 65vw;
+  }
+
+  .expectation-section {
+    background-color: #1E2F23
+  }
+
+  .custom-designs {
+    background: url('images/terrarium_planter.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% -180%;
+  }
+
+  .eco-friendly-materials {
+    background: url('images/eco_friendly_terra.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .award-winning {
+    background: url('images/terrarium_row.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .standout-square div p {
+    margin-left: -2.5rem;
+    margin-top: 32.85rem;
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 2.5rem;
+    letter-spacing: .25rem;
+  }
+
+  .featured-image-container {
+    width: 100%;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .featured-image-container img {
+    border-radius: 7px;
+    margin: 3rem 0;
+    width: 100%;
+  }
+
+  .get-featured-button {
+    margin-top: 2rem;
+    padding: 2rem 5rem;
+    font-weight: bolder;
+    color: #1E2F23;
+    font-size: 2rem;
+    border-color: #1E2F23;
+    background-color: #fff;
+    border-radius: 7px;
+  }
+
+  .terrarium-videos section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding-bottom: 8rem;
+  }
+
+  .terrarium-videos section :nth-child(2) {
+    height: 85%;
+  }
+
+  .terrarium-videos section :nth-child(3) {
+    height: 75%;
+  }
+
+  .terrarium-videos {
+    padding: 3rem;
+  }
+
+  .terrarium-videos section video {
+    width: 80%;
+  }
+
+  .custom-orders h3 {
+    text-align: center;
+  }
+
+  .custom-orders form {
+    width: 100%;
+    padding-bottom: 5rem;
+    gap: .5rem;
+  }
+
+  .custom-orders form .input-field {
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: .055rem;
+  }
+
+  .custom-orders form textarea {
+    width: 95.5%;
+    margin-bottom: 1.5rem;
+  }
+
+  .custom-orders label {
+    font-size: 1.75rem;
+  }
+
+  .custom-orders input {
+    padding: 1.5rem;
+  }
+
+  .custom-orders input::placeholder, .custom-orders textarea::placeholder  {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: rgb(174, 174, 174);
+  }
+
+  .custom-terrarium-button {
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-of-footer img {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+  
+  .footer .socials-logos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .socials-logos a {
+    width: 10%;
+  }
+  
+  .socials-logos img {
+    width: 100%;
+  }
+  
+  .copyright-section {
+    width: 105%;
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) { /*portrait mode*/
