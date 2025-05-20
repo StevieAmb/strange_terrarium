@@ -1146,6 +1146,8 @@ fieldset {
 
   .main-contact-section p {
     font-size: 2rem;
+    margin: 5rem;
+    line-height: 2.7rem;
   }
 
   .contact-form-section {
