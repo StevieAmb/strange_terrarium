@@ -1081,13 +1081,13 @@ fieldset {
   }
 
   .custom-orders form .input-field {
-    width: 90%;
+    width: 100%;
     font-weight: 500;
     letter-spacing: .055rem;
   }
 
   .custom-orders form textarea {
-    width: 90.5%;
+    width: 95.5%;
     margin-bottom: 1.5rem;
   }
 
