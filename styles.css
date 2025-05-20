@@ -1099,8 +1099,10 @@ fieldset {
     padding: 1.5rem;
   }
 
-  .custom-orders input::placeholder {
-    font-size: 1.5rem;
+  .custom-orders input::placeholder, .custom-orders textarea::placeholder  {
+    font-size: 1.35rem;
+    font-style: italic;
+    color: rgb(152, 152, 152);
   }
 
   .custom-terrarium-button {
