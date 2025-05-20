@@ -1120,7 +1120,8 @@ fieldset {
   }
 
   .top-of-footer img {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     padding-bottom: 2rem;
   }
 
@@ -1130,10 +1131,11 @@ fieldset {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: .7rem;
+    gap: 1.5rem;
     list-style: none;
     padding: 0;
     line-height: 2rem;
+    font-size: 2rem;
   }
   
   .footer .socials-logos {
@@ -1153,6 +1155,7 @@ fieldset {
   
   .copyright-section {
     width: 105%;
+    font-size: 1.75rem;
     text-align: center;
   }
 
