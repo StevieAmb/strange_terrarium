@@ -1110,7 +1110,7 @@ fieldset {
   .custom-orders input[type="email"],
   .contact-form-section input[type="text"],
   .contact-form-section input[type="email"] {
-    font-size: 1.9rem;
+    font-size: 1.75rem;
     height: 5.5vh;
   }
 
