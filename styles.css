@@ -1119,7 +1119,7 @@ fieldset {
   .contact-form-section input::placeholder, 
   .contact-form-section textarea::placeholder  {
     font-style: italic;
-    color: rgb(203, 203, 203);
+    color: rgb(190, 190, 190);
   }
 
   .custom-orders textarea,
