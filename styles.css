@@ -1078,6 +1078,7 @@ fieldset {
   .custom-orders form {
     width: 100%;
     padding-bottom: 5rem;
+    gap: .5rem;
   }
 
   .custom-orders form .input-field {
@@ -1092,7 +1093,7 @@ fieldset {
   }
 
   .custom-orders label {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .custom-orders input {
@@ -1100,9 +1101,9 @@ fieldset {
   }
 
   .custom-orders input::placeholder, .custom-orders textarea::placeholder  {
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-style: italic;
-    color: rgb(152, 152, 152);
+    color: rgb(174, 174, 174);
   }
 
   .custom-terrarium-button {
