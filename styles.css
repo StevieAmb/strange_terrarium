@@ -1118,14 +1118,17 @@ fieldset {
   }
 
   .about-founder-section img {
+    margin: 0 auto;
     width: 70%;
     padding: 1rem;
   }
 
   .about-paragraph {
     text-align: center;
+    font-size: 1.75rem;
     width: 95%;
-    padding: 1.5rem 0 17rem .5rem;
+    padding: 1.5rem 0 0 .5rem;
+    line-height: 3rem;
   }
 
   .footer {
