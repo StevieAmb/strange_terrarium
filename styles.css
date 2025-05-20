@@ -1112,6 +1112,50 @@ fieldset {
     margin-top: 1.5rem;
   }
 
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .top-of-footer img {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .7rem;
+    list-style: none;
+    padding: 0;
+    line-height: 2rem;
+  }
+  
+  .footer .socials-logos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .socials-logos a {
+    width: 10%;
+  }
+  
+  .socials-logos img {
+    width: 100%;
+  }
+  
+  .copyright-section {
+    width: 105%;
+    text-align: center;
+  }
+
   .hidden {
     display: none;
   }
