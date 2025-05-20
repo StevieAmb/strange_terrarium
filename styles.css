@@ -1144,6 +1144,10 @@ fieldset {
     padding-bottom: 2rem;
   }
 
+  .main-contact-section p {
+    font-size: 2rem;
+  }
+
   .contact-form-section {
     display: flex;
     flex-direction: column;
