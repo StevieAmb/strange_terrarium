@@ -717,6 +717,10 @@ fieldset {
     width: 30%;
   }
 
+  .hamburger-menu .menu-links {
+    width: 100%;
+  }
+
   .navigation-bar .hamburger {
     padding-top: .1rem;
     padding-left: 5rem;
