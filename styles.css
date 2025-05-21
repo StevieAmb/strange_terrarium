@@ -940,13 +940,18 @@ fieldset {
 
   .about-founder-section img {
     width: 90%;
+    margin: 0 auto;
     padding: 1rem;
   }
 
   .about-paragraph {
     text-align: center;
-    width: 95%;
-    padding: 1.5rem 0 17rem .5rem;
+    width: 100%;
+    padding-bottom: 57rem;
+  }
+
+  .about-paragraph p {
+    padding-bottom: 1rem;
   }
 
   .main-contact-section p {
