@@ -750,7 +750,7 @@ fieldset {
   }
 
   .standout-list {
-    padding-bottom: 5rem;
+    padding-bottom: 8.5rem;
     display: flex;
     flex-wrap: wrap;
     gap: 9rem;
