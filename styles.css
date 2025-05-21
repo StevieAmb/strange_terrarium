@@ -645,7 +645,7 @@ fieldset {
   }
   
   .close {
-    background: white;
+    background: #F0E9E6;
   }
 
   .hamburger img, .close img {
@@ -663,14 +663,14 @@ fieldset {
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
-    background: white;
+    background: #F0E9E6;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
     align-items: flex-start;
     /* animate slide up/down */
     transform: translateX(-150%);
-    transition: transform 0.2s ease;
+    transition: transform 0.5s ease;
   }
   
   /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
