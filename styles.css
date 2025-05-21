@@ -669,7 +669,7 @@ fieldset {
     justify-content: space-evenly;
     align-items: flex-start;
     /* animate slide up/down */
-    transform: translateY(-100%);
+    transform: translateY(-150%);
     transition: transform 0.2s ease;
   }
   
