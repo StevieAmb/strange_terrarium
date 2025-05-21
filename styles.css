@@ -552,8 +552,12 @@ textarea {
   font-weight: 200;
 }
 
-input::placeholder {
-  color: rgb(62, 62, 62);
+.event-planning-form input[type="text"]::placeholder, 
+.event-planning-form input[type="date"]::placeholder, 
+.event-planning-form input[type="email"]::placeholder,
+.event-planning-form input[type="time"]::placeholder, 
+.event-planning-form input[type="number"]::placeholder {
+  color: #8B5B29;
 }
 
 fieldset {
@@ -1047,6 +1051,11 @@ fieldset {
 
   .event-planning-form p {
     width: 95%;
+  }
+
+  fieldset {
+    padding: .5rem;
+    width: 70%;
   }
 
   .footer {
