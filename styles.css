@@ -647,6 +647,9 @@ fieldset {
   .close {
     background: white;
   }
+  .close img {
+    width: 100%;
+  }
   
   .navbar {
     position: absolute;
@@ -711,6 +714,11 @@ fieldset {
   .navigation-bar a {
     margin: 0 auto;
     width: 30%;
+  }
+
+  .navigation-bar .hamburger {
+    padding-top: .7rem;
+    padding-left: 5rem;
   }
 
   .hero-image-slides {
