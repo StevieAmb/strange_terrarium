@@ -709,6 +709,7 @@ fieldset {
   }
 
   .disclaimer-strip {
+    padding: .2rem;
     font-size: 9px;
     letter-spacing: .15rem;
     line-height: .85rem;
