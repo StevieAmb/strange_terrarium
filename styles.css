@@ -653,6 +653,7 @@ fieldset {
   }
   
   .navbar {
+    padding-left: 3.5rem;
     position: absolute;
     /* a higher z-index put navbar above hamburger */
     z-index: 1000;
@@ -667,7 +668,7 @@ fieldset {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: start;
     /* animate slide up/down */
     transform: translateX(-150%);
     transition: transform 0.5s ease;
