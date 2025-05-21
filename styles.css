@@ -645,11 +645,18 @@ fieldset {
   }
   
   .close {
+    margin-left: 20rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
     background: #F0E9E6;
   }
 
-  .hamburger img, .close img {
-    width: 100%;
+  .hamburger img { 
+    width: 90%;
+  }
+
+  .close img {
+    width: 55%;
   }
   
   .navbar {
