@@ -688,7 +688,7 @@ fieldset {
     transform: translateY(0);
   }
   
-  li a {
+  li .menu-links {
     display: block;
     color: white;
     font-weight: bold;
