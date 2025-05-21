@@ -641,16 +641,11 @@ fieldset {
   }
   
   .hamburger {
-    background: black;
+    background: white;
   }
   
   .close {
-    background: black;
-  }
-  
-  .hamburger img, .close img {
-    width: 100%;
-    height: 100%;
+    background: white;
   }
   
   .navbar {
