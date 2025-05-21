@@ -647,9 +647,9 @@ fieldset {
   .close {
     background: white;
   }
+
   .hamburger img, .close img {
     width: 100%;
-
   }
   
   .navbar {
@@ -714,11 +714,11 @@ fieldset {
 
   .navigation-bar a {
     margin: 0 auto;
-    width: 10%;
+    width: 30%;
   }
 
   .navigation-bar .hamburger {
-    padding-top: .7rem;
+    padding-top: .1rem;
     padding-left: 5rem;
   }
 
