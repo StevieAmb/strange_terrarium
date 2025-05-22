@@ -1567,8 +1567,8 @@ fieldset {
   }
 
   .ct-top-section img, .ot-top-section img {
-    width: 85%;
-    margin: 2rem;
+    width: 75%;
+    margin: 0 auto;
   }
 
   .ct-right-of-img, .ot-left-of-img {
