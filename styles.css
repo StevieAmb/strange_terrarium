@@ -225,6 +225,35 @@ h2 {
   justify-content: center;
 }
 
+.custom-orders label, 
+.contact-form-section label {
+  font-size: 1.15rem;
+}
+
+.custom-orders input[type="text"], 
+.custom-orders input[type="email"],
+.contact-form-section input[type="text"],
+.contact-form-section input[type="email"] {
+  font-size: 1.15rem;
+  height: 5.5vh;
+}
+
+.custom-orders input::placeholder, 
+.custom-orders textarea::placeholder,
+.contact-form-section input::placeholder, 
+.contact-form-section textarea::placeholder  {
+  font-style: italic;
+  color: rgb(195, 195, 195);
+}
+
+.custom-orders textarea,
+.custom-orders textarea::placeholder,
+.contact-form-section textarea, 
+.contact-form-section textarea::placeholder {
+  font-size: 1.15rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 .custom-orders input[type="text"], 
 .custom-orders input[type="email"],
 .contact-form-section input[type="text"],
@@ -337,6 +366,22 @@ textarea {
   width: 55%;
   height: 32rem;
   margin: auto;
+}
+
+.top {
+  --offset: 50px; 
+  margin-left: 40rem;
+  position: sticky;
+  bottom: 20px;      
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  background: #B39C4D;
+  border-radius: 100px;
+  white-space: nowrap;
 }
 
 .closed-terrariums, .open-terrariums {
@@ -479,7 +524,7 @@ textarea {
   animation: fade-in linear;
   animation-timeline: view();
   animation-range-start: 500px;
-  animation-range-end: 700px;
+  animation-range-end: 560px;
 }
 
 @keyframes fade-in {
@@ -552,8 +597,12 @@ textarea {
   font-weight: 200;
 }
 
-input::placeholder {
-  color: rgb(62, 62, 62);
+.event-planning-form input[type="text"]::placeholder, 
+.event-planning-form input[type="date"]::placeholder, 
+.event-planning-form input[type="email"]::placeholder,
+.event-planning-form input[type="time"]::placeholder, 
+.event-planning-form input[type="number"]::placeholder {
+  color: #8B5B29;
 }
 
 fieldset {
@@ -667,7 +716,7 @@ fieldset {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
@@ -704,6 +753,16 @@ fieldset {
     border-bottom: 1px solid white;
   }
 
+
+  .hamburger-menu .menu-links {
+    width: 100%;
+  }
+
+  .navigation-bar .hamburger {
+    padding-top: .61rem;
+    padding-left: 5rem;
+  }
+
   h2 {
     font-size: 1.5rem;
   }
@@ -717,7 +776,7 @@ fieldset {
   }
 
   .navigation-bar {
-    padding: .45rem;
+    padding: .95rem;
   }
 
   .navigation-bar a {
@@ -725,13 +784,8 @@ fieldset {
     width: 30%;
   }
 
-  .hamburger-menu .menu-links {
+  .navigation-bar .page-title {
     width: 100%;
-  }
-
-  .navigation-bar .hamburger {
-    padding-top: .21rem;
-    padding-left: 5rem;
   }
 
   .hero-image-slides {
@@ -743,10 +797,10 @@ fieldset {
 
   .hidden {
     display: none;
-  }
+  } 
 
   .standout-list {
-    padding-bottom: 5rem;
+    padding-bottom: 8.5rem;
     display: flex;
     flex-wrap: wrap;
     gap: 9rem;
@@ -754,7 +808,7 @@ fieldset {
 
   .standout-square {
     border-radius: 8rem 8rem 0rem 0rem;
-    width: 80vw;
+    width: 75vw;
   }
 
   .expectation-section {
@@ -781,8 +835,8 @@ fieldset {
   }
 
   .standout-square div p {
-    margin-left: -1.55rem;
-    margin-top: 22.85rem;
+    margin-left: -1.35rem;
+    margin-top: 20.85rem;
     width: 115%;
   }
 
@@ -841,8 +895,60 @@ fieldset {
   }
 
   .custom-orders form textarea {
-    width: 90.5%;
+    width: 95%;
     margin-bottom: 1.5rem;
+  }
+
+  .custom-orders label, 
+  .contact-form-section label {
+    font-size: 1.15rem;
+  }
+
+  .custom-orders input[type="text"], 
+  .custom-orders input[type="email"],
+  .contact-form-section input[type="text"],
+  .contact-form-section input[type="email"] {
+    font-size: 1.15rem;
+    height: 5.5vh;
+  }
+
+  .custom-orders input::placeholder, 
+  .custom-orders textarea::placeholder,
+  .contact-form-section input::placeholder, 
+  .contact-form-section textarea::placeholder  {
+    font-style: italic;
+    color: rgb(195, 195, 195);
+  }
+
+  .custom-orders textarea,
+  .custom-orders textarea::placeholder,
+  .contact-form-section textarea, 
+  .contact-form-section textarea::placeholder {
+    font-size: 1.15rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .main-contact-section p {
+    padding: 1.2rem;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .contact-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+  }
+
+  .contact-form-section .input-field {
+    width: 100%;
+  }
+
+  .contact-form-section .input-field textarea {
+    width: 100%;
   }
 
   .custom-terrarium-button {
@@ -877,6 +983,22 @@ fieldset {
     width: 95%;
     margin: auto;
     margin-bottom: 10rem;
+  }
+
+  .top {
+    --offset: 50px; 
+    margin-left: 15rem;
+    position: sticky;
+    bottom: 20px;      
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    background: #B39C4D;
+    border-radius: 100px;
+    white-space: nowrap;
   }
 
   .ct-top-section {
@@ -940,36 +1062,18 @@ fieldset {
 
   .about-founder-section img {
     width: 90%;
+    margin: 0 auto;
     padding: 1rem;
   }
 
   .about-paragraph {
     text-align: center;
-    width: 95%;
-    padding: 1.5rem 0 17rem .5rem;
-  }
-
-  .main-contact-section p {
-    padding: 1.2rem;
-    margin: 0;
-    font-size: 1rem;
-  }
-
-  .contact-form-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    padding: .5rem;
+    padding-bottom: 57rem;
   }
 
-  .contact-form-section .input-field {
-    width: 100%;
-  }
-
-  .contact-form-section .input-field textarea {
-    width: 90%;
+  .about-paragraph p {
+    padding-bottom: 1rem;
   }
 
   .event-planning-form .event-planning-form-container {
@@ -991,13 +1095,13 @@ fieldset {
     animation: fade-in linear;
     animation-timeline: view();
     animation-range-start: 400px;
-    animation-range-end: 600px;
+    animation-range-end: 580px;
   }
   
   @keyframes fade-in {
     from {
-      scale: .8;
       opacity: 0;
+      scale: .8;
     }
   
     to {
@@ -1015,6 +1119,11 @@ fieldset {
     width: 95%;
   }
 
+  fieldset {
+    padding: .5rem;
+    width: 70%;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -1024,7 +1133,7 @@ fieldset {
 
   .top-of-footer img {
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   .footer ul {
@@ -1037,6 +1146,7 @@ fieldset {
     list-style: none;
     padding: 0;
     line-height: 2rem;
+    margin-bottom: 1.25rem;
   }
   
   .footer .socials-logos {
@@ -1055,7 +1165,7 @@ fieldset {
   }
   
   .copyright-section {
-    width: 105%;
+    width: 170%;
     text-align: center;
   }
 
@@ -1084,44 +1194,48 @@ fieldset {
     cursor: pointer;
     /* position absolute position the icons relative to the body because they have no position relative parents*/
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 20px;
     width: 36px;
     height: 36px;
   }
   
   .hamburger {
-    background: white;
+    background: #F0E9E6;
   }
   
   .close {
-    background: black;
+    background: #F0E9E6;
+  }
+
+  .hamburger img { 
+    width: 45%;
+  }
+
+  .close img {
+    width: 27%;
   }
   
-  .hamburger img, .close img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  navbar {
+  .navbar {
+    padding-left: 3.5rem;
     position: absolute;
     /* a higher z-index put navbar above hamburger */
     z-index: 1000;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
-    background: black;
+    background: #F0E9E6;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: start;
     /* animate slide up/down */
-    transform: translateY(-100%);
-    transition: transform 0.2s ease;
+    transform: translateX(-150%);
+    transition: transform 0.5s ease;
   }
   
   /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
@@ -1131,12 +1245,11 @@ fieldset {
     transform: translateY(0);
   }
   
-  li a {
+  li .menu-links {
     display: block;
-    font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     /* remove default underline and add our own with padding and border bottom */
     text-decoration: none;
     border-bottom: 1px solid black;
@@ -1148,6 +1261,16 @@ fieldset {
     border-bottom: 1px solid white;
   }
 
+
+  .hamburger-menu .menu-links {
+    width: 100%;
+  }
+
+  .navigation-bar .hamburger {
+    padding-top: .61rem;
+    padding-left: 5rem;
+  }
+
   h2 {
     font-size: 2.8rem;
   }
@@ -1157,6 +1280,7 @@ fieldset {
     letter-spacing: .15rem;
     line-height: 1.2rem;
     font-weight: 800;
+    padding: 1rem;
   }
 
   .navigation-bar {
@@ -1285,7 +1409,7 @@ fieldset {
   }
 
   .custom-orders form textarea {
-    width: 95.5%;
+    width: 100%;
     margin-bottom: 1.5rem;
   }
 
@@ -1376,7 +1500,7 @@ fieldset {
   }
 
   .contact-form-section .input-field textarea {
-    width: 95%;
+    width: 100%;
   }
 
   .contact-form-section label {
@@ -1391,6 +1515,102 @@ fieldset {
     background-color: #fff;
     border: 2px solid black;
     font-weight: 800;
+  }
+
+  .care-tips-intro h2, .care-tips-intro p {
+    padding: 3rem 1rem .5rem .5rem;
+    margin: 0;
+  }
+
+  .care-tips-intro ul {
+    padding: 0;
+    margin: .7rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    gap: 4rem;
+    font-size: 1.7rem;
+    list-style: none;
+  }
+
+  .care-tips-intro ul li {
+    text-align: center;
+  }
+  
+  .care-tips-intro img {
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10rem;
+  }
+
+  .top {
+    --offset: 50px; 
+    margin-left: 21rem;
+    position: sticky;
+    bottom: 20px;      
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 1rem;
+    font-family: sans-serif;
+    background: #B39C4D;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  .ct-top-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    gap: 3.2rem;
+  }
+
+  .ct-top-section img, .ot-top-section img {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .ct-right-of-img, .ot-left-of-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .ct-right-of-img ul, 
+  .ct-maintenance-section ul, 
+  .ot-maintenance-section ul, 
+  .ot-left-of-img ul {
+    padding: 1.5rem;
+  }
+
+  .ct-maintenance-section,
+  .ct-maintenance-section h4, 
+  .ot-maintenance-section h4, 
+  .ot-maintenance-section, 
+  .ct-right-of-img h4, 
+  .ot-left-of-img h4 {
+    margin: 0;
+  }
+
+  .ct-right-of-img h4, .ct-maintenance-section h4, .ot-maintenance-section h4, .ot-left-of-img h4 {
+    text-align: center;
+  }
+
+  .ot-top-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .general-tips {
+    margin: 0;
+  }
+
+  .general-tips ul {
+    padding: 1.5rem;
+  }
+
+  .general-tips p {
+    padding: .5rem;
   }
 
   .footer ul {
@@ -1429,6 +1649,10 @@ fieldset {
 
   .hidden {
     display: none;
+  }
+
+  .desktop-hidden {
+    display: block;
   }
 }
 
