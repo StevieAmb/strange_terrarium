@@ -753,6 +753,16 @@ fieldset {
     border-bottom: 1px solid white;
   }
 
+
+  .hamburger-menu .menu-links {
+    width: 100%;
+  }
+
+  .navigation-bar .hamburger {
+    padding-top: .61rem;
+    padding-left: 5rem;
+  }
+
   h2 {
     font-size: 1.5rem;
   }
@@ -776,15 +786,6 @@ fieldset {
 
   .navigation-bar .page-title {
     width: 100%;
-  }
-
-  .hamburger-menu .menu-links {
-    width: 100%;
-  }
-
-  .navigation-bar .hamburger {
-    padding-top: .61rem;
-    padding-left: 5rem;
   }
 
   .hero-image-slides {
