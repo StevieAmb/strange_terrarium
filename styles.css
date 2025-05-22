@@ -1517,6 +1517,102 @@ fieldset {
     font-weight: 800;
   }
 
+  .care-tips-intro h2, .care-tips-intro p {
+    padding: 3rem 1rem .5rem .5rem;
+    margin: 0;
+  }
+
+  .care-tips-intro ul {
+    padding: 0;
+    margin: .7rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    gap: 3rem;
+    font-size: 1.7rem;
+    list-style: none;
+  }
+
+  .care-tips-intro ul li {
+    text-align: center;
+  }
+  
+  .care-tips-intro img {
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10rem;
+  }
+
+  .top {
+    --offset: 50px; 
+    margin-left: 15rem;
+    position: sticky;
+    bottom: 20px;      
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    background: #B39C4D;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  .ct-top-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    gap: 3.2rem;
+  }
+
+  .ct-top-section img, .ot-top-section img {
+    width: 85%;
+    margin: 2rem;
+  }
+
+  .ct-right-of-img, .ot-left-of-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .ct-right-of-img ul, 
+  .ct-maintenance-section ul, 
+  .ot-maintenance-section ul, 
+  .ot-left-of-img ul {
+    padding: 1.5rem;
+  }
+
+  .ct-maintenance-section,
+  .ct-maintenance-section h4, 
+  .ot-maintenance-section h4, 
+  .ot-maintenance-section, 
+  .ct-right-of-img h4, 
+  .ot-left-of-img h4 {
+    margin: 0;
+  }
+
+  .ct-right-of-img h4, .ct-maintenance-section h4, .ot-maintenance-section h4, .ot-left-of-img h4 {
+    text-align: center;
+  }
+
+  .ot-top-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .general-tips {
+    margin: 0;
+  }
+
+  .general-tips ul {
+    padding: 1.5rem;
+  }
+
+  .general-tips p {
+    padding: .5rem;
+  }
+
   .footer ul {
     display: flex;
     flex-direction: column;
