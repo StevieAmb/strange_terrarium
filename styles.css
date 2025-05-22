@@ -939,6 +939,22 @@ fieldset {
     margin-bottom: 10rem;
   }
 
+  .top {
+    --offset: 50px; 
+    margin-right: 5rem;
+    position: sticky;
+    bottom: 20px;      
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    background: #B39C4D;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
   .ct-top-section {
     display: flex;
     flex-direction: column;
