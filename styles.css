@@ -941,7 +941,7 @@ fieldset {
 
   .top {
     --offset: 50px; 
-    margin-right: 5rem;
+    margin-left: 15rem;
     position: sticky;
     bottom: 20px;      
     margin-top: calc(100vh + var(--offset));
