@@ -671,7 +671,7 @@ fieldset {
     top: 0;
     left: 0;
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
@@ -721,7 +721,7 @@ fieldset {
   }
 
   .navigation-bar {
-    padding: .45rem;
+    padding: .95rem;
   }
 
   .navigation-bar a {
@@ -729,12 +729,16 @@ fieldset {
     width: 30%;
   }
 
+  .navigation-bar .page-title {
+    width: 100%;
+  }
+
   .hamburger-menu .menu-links {
     width: 100%;
   }
 
   .navigation-bar .hamburger {
-    padding-top: .21rem;
+    padding-top: .61rem;
     padding-left: 5rem;
   }
 
@@ -747,7 +751,7 @@ fieldset {
 
   .hidden {
     display: none;
-  }
+  } 
 
   .standout-list {
     padding-bottom: 8.5rem;
