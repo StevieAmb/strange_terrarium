@@ -1500,7 +1500,7 @@ fieldset {
   }
 
   .contact-form-section .input-field textarea {
-    width: 95%;
+    width: 100%;
   }
 
   .contact-form-section label {
