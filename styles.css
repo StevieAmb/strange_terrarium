@@ -1084,6 +1084,7 @@ fieldset {
     list-style: none;
     padding: 0;
     line-height: 2rem;
+    margin-bottom: 1.25rem;
   }
   
   .footer .socials-logos {
@@ -1102,7 +1103,7 @@ fieldset {
   }
   
   .copyright-section {
-    width: 105%;
+    width: 170%;
     text-align: center;
   }
 
