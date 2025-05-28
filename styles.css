@@ -176,15 +176,18 @@ h2 {
 
 
 .featured-image-container {
-  width: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 2rem;
 }
 
 .featured-image-container img {
   border-radius: 7px;
   margin: 3rem 0;
-  width: 100%;
+  width: 50%;
 }
 
 .featured-image-container {
