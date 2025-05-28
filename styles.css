@@ -500,22 +500,24 @@ textarea {
 
 .contact-page-section {
   display: flex;
+  gap: 2rem;
+  flex-direction: row-reverse;
   padding-bottom: 5rem;
 }
 
 .contact-form-section {
-  padding: .2rem 0 0 3rem;
+  padding: .2rem 0 0 1.8rem;
   display: flex;
   gap: 3rem;
   flex-direction: column;
-  width: 50%;
+  width: 47%;
 }
 
 .contact-page-image {
   background: url('images/terrarium_jarwithlid.jpeg');
-  width: 45%;
+  width: 48%;
   background-size: cover;
-  background-position: 0rem -11.5rem;
+  background-position: 0rem -10.5rem;
 }
 
 .footer {
