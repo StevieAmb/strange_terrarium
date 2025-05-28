@@ -477,7 +477,7 @@ textarea {
 .about-paragraph {
   padding: 3rem;
   width: 60%;
-  height: 70vh;
+  /* height: 70vh; */
 }
 
 .about-founder-section img {
@@ -508,14 +508,14 @@ textarea {
   display: flex;
   gap: 3rem;
   flex-direction: column;
-  width: 45%;
+  width: 50%;
 }
 
 .contact-page-image {
-  background-image: url('images/terrarium_jarwithlid.jpeg');
+  background: url('images/terrarium_jarwithlid.jpeg');
   width: 45%;
   background-size: cover;
-  background-position: 0rem -9rem;
+  background-position: 0rem -11.5rem;
 }
 
 .footer {
