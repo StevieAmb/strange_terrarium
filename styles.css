@@ -791,7 +791,7 @@ fieldset {
 
   .hero-image-slides {
     width: 100%;
-    background-position: 59%;
+    background-position: 29%;
     background-size: cover;
     height: 90vh;
   }
@@ -1070,7 +1070,7 @@ fieldset {
   .about-paragraph {
     text-align: center;
     width: 100%;
-    padding-bottom: 57rem;
+    padding-bottom: 10rem;
   }
 
   .about-paragraph p {
