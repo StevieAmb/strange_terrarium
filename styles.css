@@ -1305,7 +1305,7 @@ fieldset {
     display: flex;
     flex-wrap: wrap;
     gap: 12rem;
-    padding-bottom: 10rem;
+    padding-bottom: 15rem;
   }
 
   .standout-square {
@@ -1337,9 +1337,9 @@ fieldset {
   }
 
   .standout-square div p {
-    margin-left: -2.5rem;
-    margin-top: 32.85rem;
-    width: 100%;
+    margin-left: -2.9rem;
+    margin-top: 31.85rem;
+    width: 120%;
     padding: 2.5rem;
     font-size: 2.5rem;
     letter-spacing: .25rem;
