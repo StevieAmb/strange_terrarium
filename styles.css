@@ -1658,7 +1658,7 @@ fieldset {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) { /*portrait mode*/
+@media (min-width: 1024px) and (max-width: 1337px) and (orientation: portrait) { /*portrait mode*/
   * {
     margin: 0;
     padding: 0;
@@ -1817,7 +1817,7 @@ fieldset {
 
   .standout-square div p {
     margin-left: -2.9rem;
-    margin-top: 31.85rem;
+    margin-top: 34.85rem;
     width: 120%;
     padding: 2.5rem;
     font-size: 2.5rem;
@@ -1828,6 +1828,11 @@ fieldset {
     width: 100%;
     justify-content: center;
     padding: 2rem;
+  }
+
+  .featured-image-container h2 {
+    padding: 3rem 0rem;
+    font-size: 2.9rem;
   }
 
   .featured-image-container img {
@@ -1845,6 +1850,10 @@ fieldset {
     border-color: #1E2F23;
     background-color: #fff;
     border-radius: 7px;
+  }
+
+  .terrarium-videos h2 {
+    padding: 8rem 0;
   }
 
   .terrarium-videos section {
