@@ -125,7 +125,6 @@
               <label for="mix">Mix of sizes</label><br>
               <input type="radio" id="not-sure" name="chosen-terrarium-size" value="not-sure" />
               <label for="not-sure">Not sure yet</label>
-            </div>
           </fieldset>
           <fieldset>
             <legend>Do you have a preferred shape or container style?</legend>
@@ -135,8 +134,23 @@
               <label for="apothecary-jars">Apothecary Jars</label><br>
               <input type="radio" id="geometric" name="chosen-terrarium-shape" value="geometric" />
               <label for="geometric">Geometric</label><br>
+              <input type="radio" id="mixed-style-antique" name="chosen-terrarium-shape" value="mixed-style-antique" />
+              <label for="mixed-style-antique">Mixed Style Antique</label><br>
+              <input type="radio" id="mixed-style-repurp" name="chosen-terrarium-shape" value="mixed-style-repurp" />
+              <label for="mixed-style-repurp">Mixed Style Re-purposed</label><br>
               <input type="radio" id="other-shape" name="chosen-terrarium-shape" value="other-shape" />
               <label for="other-shape">Other</label>
+              <div class="input-field">
+                <input
+                  type="text"
+                  id="other-terrarium shape"
+                  name="other-shape"
+                  placeholder="If you don't see a shape you prefer, add it here."
+                  required
+                  minlength="4"
+                  maxlength="30"
+                />
+              </div>
           </fieldset>
           <fieldset>
             <legend>What type of terrarium would you like?</legend>

@@ -541,7 +541,7 @@ textarea {
   animation: fade-in linear;
   animation-timeline: view();
   animation-range-start: 500px;
-  animation-range-end: 560px;
+  animation-range-end: 650px;
 }
 
 @keyframes fade-in {
@@ -576,7 +576,7 @@ textarea {
 .event-planning-form h2, .event-planning-form p {
   opacity: 100%;
   text-align: center;
-  text-shadow: 1.3px 1.3px 1.3px rgb(138, 138, 138);
+  text-shadow: 1.3px 1.3px 1.3px #858585;
 }
 
 .event-planning-form p {
