@@ -158,24 +158,7 @@ h2 {
   display: flex;
 }
 
-.featured-info {
-  text-align: center;
-}
-
-.featured-info .heading {
-  font-weight: bolder;
-  font-size: larger;
-}
-
-.featured-info {
-  text-align: center;
-  padding: 4rem 0rem 15rem 0rem;
-  border: 1px solid #fff;
-  width: 50%;
-}
-
-
-.featured-image-container {
+.featured-image-container, .featured-info {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -194,7 +177,7 @@ h2 {
   background-color: #F0E9E6;
 }
 
-.featured-info h3, .featured-image-container h3 {
+.featured-info h2, .featured-image-container h2 {
   font-size: 2rem;
 }
 
