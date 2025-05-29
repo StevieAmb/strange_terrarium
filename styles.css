@@ -63,9 +63,10 @@ h2 {
 }
 
 .hero-image-slides {
-  background-image: url('images/open_blue_terra.jpeg');
+  background-image: url('images/ST_homepage_top.jpeg');
+  background-position: 70% 77%;
   background-size: cover;
-  height: 90vh;
+  height: 95vh;
   width: 55vw;
 }
 
@@ -144,7 +145,7 @@ h2 {
 
 .standout-square p {
   text-align: center;
-  margin-top: 16.5rem;
+  margin-top: 17rem;
   padding: 1.7rem;
   font-size: 24px;
   font-style: italic;
@@ -157,32 +158,29 @@ h2 {
   display: flex;
 }
 
-.featured-info {
-  text-align: center;
-}
-
-.featured-info .heading {
-  font-weight: bolder;
-  font-size: larger;
-}
-
-.featured-info, .featured-image-container {
-  text-align: center;
-  padding: 4rem 0rem 15rem 0rem;
-  border: 1px solid #fff;
+.featured-image-container, .featured-info {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.featured-image-container img {
+  border-radius: 7px;
+  margin: 3rem 0;
+  width: 40%;
 }
 
 .featured-image-container {
   background-color: #F0E9E6;
 }
 
-.featured-info h3, .featured-image-container h3 {
+.featured-info h2, .featured-image-container h2 {
   font-size: 2rem;
 }
 
 .get-featured-button {
-  margin-top: 2rem;
   padding: 1rem 2.5rem;
   font-weight: bold;
   color: #1E2F23;
@@ -242,6 +240,7 @@ h2 {
 .custom-orders textarea::placeholder,
 .contact-form-section input::placeholder, 
 .contact-form-section textarea::placeholder  {
+  padding: .5rem;
   font-style: italic;
   color: rgb(195, 195, 195);
 }
@@ -250,8 +249,9 @@ h2 {
 .custom-orders textarea::placeholder,
 .contact-form-section textarea, 
 .contact-form-section textarea::placeholder {
-  font-size: 1.15rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  padding: .5rem;
+  font-size: 1.35rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .custom-orders input[type="text"], 
@@ -259,8 +259,7 @@ h2 {
 .contact-form-section input[type="text"],
 .contact-form-section input[type="email"] {
   height: 5.5vh;
-  line-height: 100rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .custom-orders input[type="text"]::placeholder {
@@ -398,7 +397,6 @@ textarea {
 .closed-terrariums img {
   margin: 1rem 6rem;
   width: 30%;
-  height: 32rem;
 }
 
 .ct-top-section, .ot-top-section {
@@ -457,17 +455,18 @@ textarea {
 
 .about-founder-section {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .about-paragraph {
   padding: 3rem;
   width: 60%;
-  height: 70vh;
+  /* height: 70vh; */
 }
 
 .about-founder-section img {
   padding: 3rem;
-  width: 37%;
+  width: 35%;
 }
 
 .about-paragraph {
@@ -485,22 +484,24 @@ textarea {
 
 .contact-page-section {
   display: flex;
+  gap: 2rem;
+  flex-direction: row-reverse;
   padding-bottom: 5rem;
 }
 
 .contact-form-section {
-  padding: .2rem 0 0 3rem;
+  padding: .2rem 0 0 1.8rem;
   display: flex;
   gap: 3rem;
   flex-direction: column;
-  width: 45%;
+  width: 47%;
 }
 
 .contact-page-image {
-  background-image: url('images/terrarium_jarwithlid.jpeg');
-  width: 45%;
+  background: url('images/terrarium_jarwithlid.jpeg');
+  width: 48%;
   background-size: cover;
-  background-position: 0rem -9rem;
+  background-position: 0rem -10.5rem;
 }
 
 .footer {
@@ -524,7 +525,7 @@ textarea {
   animation: fade-in linear;
   animation-timeline: view();
   animation-range-start: 500px;
-  animation-range-end: 560px;
+  animation-range-end: 650px;
 }
 
 @keyframes fade-in {
@@ -559,7 +560,7 @@ textarea {
 .event-planning-form h2, .event-planning-form p {
   opacity: 100%;
   text-align: center;
-  text-shadow: 1.3px 1.3px 1.3px rgb(138, 138, 138);
+  text-shadow: 1.3px 1.3px 1.3px #858585;
 }
 
 .event-planning-form p {
