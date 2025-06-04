@@ -258,7 +258,7 @@ h2 {
 .custom-orders input[type="email"],
 .contact-form-section input[type="text"],
 .contact-form-section input[type="email"] {
-  height: 5.5vh;
+  padding: 1rem;
   font-size: 1.3rem;
 }
 
@@ -523,7 +523,6 @@ textarea {
   gap: 1.5rem;
   animation: fade-in 1s linear;
   animation-timeline: view();
-  animation-range-start: 500px;
   animation-range-end: 570px;
 
 }
