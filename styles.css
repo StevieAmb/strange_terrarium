@@ -521,10 +521,11 @@ textarea {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  animation: fade-in linear;
+  animation: fade-in 1s linear;
   animation-timeline: view();
   animation-range-start: 500px;
-  animation-range-end: 650px;
+  animation-range-end: 570px;
+
 }
 
 @keyframes fade-in {
