@@ -258,7 +258,7 @@ h2 {
 .custom-orders input[type="email"],
 .contact-form-section input[type="text"],
 .contact-form-section input[type="email"] {
-  padding: .75rem;
+  padding: .75rem .25rem;
   font-size: 1.3rem;
 }
 
