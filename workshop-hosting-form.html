@@ -45,8 +45,8 @@
      </div>
    </nav>
    <main>
-    <section class="contact-page-section">
-      <form class="contact-form-section" action="https://api.web3forms.com/submit" method="POST">
+    <section>
+      <form action="https://api.web3forms.com/submit" method="POST">
         <div class="input-field">
           <label>Name: <span class="required-text">(required)</span> </label>
           <input
@@ -69,6 +69,22 @@
             required 
           />
         </div>
+        <div class="input-field">
+            <label for="phonenumber">Phone Number: <span>(optional)</span></label>
+            <input 
+              type="text" 
+              id="phonenumber" 
+              placeholder="Ex: 303-555-5555"
+            />
+          </div>
+           <div class="input-field">
+            <label for="organization">Organization: <span>(optional)</span></label>
+            <input 
+              type="text" 
+              id="organization" 
+              placeholder="Ex: Planned Parenthood, Big Brother, Big Sister..."
+            />
+          </div>
         <div class="input-field">
           <label>General Inquiry <span class="required-text">(required)</span></label>
           <textarea rows="8" cols="65" placeholder="Are you really loving your terrarium? Would you like additional care tips for your terrarium? Want to just send us a compliment? Write it all here!"></textarea>
