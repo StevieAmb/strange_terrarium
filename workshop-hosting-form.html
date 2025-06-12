@@ -39,3 +39,44 @@
        </ul>
      </div>
    </nav>
+   <main>
+    <section class="contact-page-section">
+      <form class="contact-form-section" action="https://api.web3forms.com/submit" method="POST">
+        <div class="input-field">
+          <label>Name: <span class="required-text">(required)</span> </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ex: Sonia Sanchez"
+            required
+            minlength="4"
+            maxlength="30"
+          />
+        </div>
+        <div class="input-field">
+          <label>Email: <span class="required-text">(required)</span></label>
+          <input 
+            type="email" 
+            id="email" 
+            placeholder="Ex: sonia.sanchez@blahblah.com"
+            pattern=".+@example\.com" 
+            required 
+          />
+        </div>
+        <div class="input-field">
+          <label>General Inquiry <span class="required-text">(required)</span></label>
+          <textarea rows="8" cols="65" placeholder="Are you really loving your terrarium? Would you like additional care tips for your terrarium? Want to just send us a compliment? Write it all here!"></textarea>
+        </div>
+        <div>
+          <button class="general-inquiries-button" type="submit">Submit Your Inquiry</button>
+        </div>
+        <input type="hidden" name="access_key" value="1ed02a58-8950-4f9c-b33d-e1e60806271e">
+        <input type="hidden" name="subject" value="General Inquiry For Strange Terrarium">
+        <input type="hidden" name="from_name" value="General Inquiry">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        <input type="hidden" name="redirect" value="https://stevieamb.github.io/strange_terrarium/thank-you-for-your-custom-order.html">
+        <div class="h-captcha" data-captcha="true"></div>
+      </form>
+   </main>
+   </body>
