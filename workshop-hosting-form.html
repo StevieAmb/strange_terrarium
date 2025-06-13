@@ -128,6 +128,27 @@
           <label for="dateOfWorkshop">When would you like to schedule the workshop? 
           (If the date/time you requested is not available, we'll find a date that works!)</label><br>
           <input type="datetime-local" id="dateOfWorkshop" name="workshop-date"/>
+           <fieldset>
+            <legend>Where will your workshop to take place?<br>
+              (It's recommended to have your workshop indoors, but outside is possible as long as shade is provided)</legend>
+              <input type="radio" id="privateResidence" name="location-of-workshop" value="private-residence" checked />
+              <label for="privateResidence">In a private residence</label><br>
+              <input type="radio" id="corporateLocation" name="location-of-workshop" value="corporate-location" />
+              <label for="corporateLocation">At a corporate location</label><br>
+              <input type="radio" id="communityCenter" name="location-of-workshop" value="community-center" />
+              <label for="communityCenter">At a community center</label><br>
+              <label for="otherLocation">Somewhere else? Tell us more!</label>
+              <input type="text" id="otherLocation" placeholder="Another location? Tell us where!" required>
+          </fieldset>
+              <label for="accommodations">Accessibility and Accommodations (optional)</label><br>
+              <input type="text" id="accommodations" placeholder="Need accommodations? Let us know about it here!" required>
+             <fieldset>
+            <legend>Does anyone in the group have severe plant/soil related allergies?</legend>
+              <input type="radio" id="yes" name="plant-soil-allergies" value="yes" checked />
+              <label for="yes">In a private residence</label><br>
+              <input type="radio" id="no" name="plant-soil-allergies" value="no" />
+              <label for="no">At a corporate location</label><br>
+          </fieldset>
         <div>
           <button class="general-inquiries-button" type="submit">Submit Your Inquiry</button>
         </div>
