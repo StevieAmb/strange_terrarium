@@ -70,7 +70,7 @@
           />
         </div>
         <div class="input-field">
-            <label for="phonenumber">Phone Number: <span>(optional)</span></label>
+            <label for="phonenumber">Phone Number: <span class="required-text">(required)</span></label>
             <input 
               type="text" 
               id="phonenumber" 
@@ -125,9 +125,11 @@
               <label for="mixed-bag-description">Mixed bag of participants? Tell us more!</label>
               <input type="text" id="mixed-bag-description" placeholder="Mixed bag? Please describe here!" required>
           </fieldset>
-          <label for="dateOfWorkshop">When would you like to schedule the workshop? 
-          (If the date/time you requested is not available, we'll find a date that works!)</label><br>
-          <input type="datetime-local" id="dateOfWorkshop" name="workshop-date"/>
+          <div class="input-field">
+            <label for="dateOfWorkshop">When would you like to schedule the workshop? 
+            (If the date/time you requested is not available, we'll find a date that works!)</label><br>
+            <input type="datetime-local" id="dateOfWorkshop" name="workshop-date"/>
+          </div>
            <fieldset>
             <legend>Where will your workshop to take place?<br>
               (It's recommended to have your workshop indoors, but outside is possible as long as shade is provided)</legend>
@@ -144,14 +146,18 @@
              <fieldset>
             <legend>Does anyone in the group have severe plant/soil related allergies?</legend>
               <input type="radio" id="yes" name="plant-soil-allergies" value="yes" checked />
-              <label for="yes">Yes/label><br>
+              <label for="yes">Yes<br>
               <input type="radio" id="no" name="plant-soil-allergies" value="no" />
               <label for="no">No</label><br>
           </fieldset>
-          <label for="special-accommodations">Are there any special accommodations we need to know about? </label>
-          <input type="text" id="special-accommodations" placeholder="Please list any accommodations you/your participants may need to be able to freely engage in the workshop." required>
-          <label for="questions-concerns">Are there any other questions or concerns not listed in this form?</label>
-          <input type="text" id="questions-concerns" required>
+          <div class="input-field">
+            <label for="special-accommodations">Are there any special accommodations we need to know about? </label>
+            <input type="text" id="special-accommodations" placeholder="Please list any accommodations you/your participants may need to be able to freely engage in the workshop." required>
+          </div>
+          <div class="input-field">
+            <label for="questions-concerns">Are there any other questions or concerns not listed in this form?</label>
+            <input type="text" id="questions-concerns" required>
+          </div>
         <div>
           <button class="general-inquiries-button" type="submit">Submit Your Inquiry</button>
         </div>
