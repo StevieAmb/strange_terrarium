@@ -107,9 +107,27 @@
               <label for="twentyToThirty">20-30 participants</label><br>
               <input type="radio" id="thirtyToFourty" name="number-of-participants" value="30-40" />
               <label for="thirtyToFourty">30-40 participants</label><br>
-              <label for="quantity">Other: (Pick a number between 40-200)</label>
-              <input type="number" id="quantity" name="quantity" min="1" max="5">
+              <input type="radio" id="other" name="number-of-participants" value="Other" />
+              <label for="other">Other</label><br>
+              <label for="quantity">If Other,<br>pick a number between 41-200)</label>
+              <input type="number" id="quantity" name="" min="41" max="200">
           </fieldset>
+          <fieldset>
+            <legend>What is the age range of the participants? <br>(Keep in mind, we offer terrariums workshops for children <strong>6 years and older</strong>. If you need some age flexibility, please let us know below!)</legend>
+              <input type="radio" id="kids" name="participants-age-range" value="kids" checked />
+              <label for="kids">Kids: 6-12 years old</label><br>
+              <input type="radio" id="teens" name="participants-age-range" value="teens" />
+              <label for="teens">Teens: 12 - 19 years old</label><br>
+              <input type="radio" id="youngAdult" name="participants-age-range" value="young-adult" />
+              <label for="youngAdult">Young Adults: 18 - 21 years</label><br>
+              <input type="radio" id="adults" name="participants-age-range" value="adults" />
+              <label for="adults">Adults: 21+</label><br>
+              <label for="mixed-bag-description">Mixed bag of participants? Tell us more!</label>
+              <input type="text" id="mixed-bag-description" placeholder="Mixed bag? Please describe here!" required>
+          </fieldset>
+          <label for="dateOfWorkshop">When would you like to schedule the workshop? 
+          (If the date/time you requested is not available, we'll find a date that works!)</label><br>
+          <input type="datetime-local" id="dateOfWorkshop" name="workshop-date"/>
         <div>
           <button class="general-inquiries-button" type="submit">Submit Your Inquiry</button>
         </div>
