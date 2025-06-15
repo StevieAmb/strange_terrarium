@@ -647,11 +647,12 @@ fieldset {
 }
 
 .workshop-host-form form {
-  width: 95%;
+  width: 90%;
 }
 
 .workshop-host-form input[type=text],
-.workshop-host-form input[type=email] {
+.workshop-host-form input[type=email],
+.workshop-host-form input[type=datetime-local] {
   margin: .5rem 1rem 1.75rem 1rem;
   padding: .85rem;
   width: 85%;
@@ -674,7 +675,9 @@ fieldset {
 }
 
 .hoster-info img {
+  padding-top: 1rem;
   width: 33%;
+  border-radius: 50% 50% 0 0;
 }
 
 .hoster-info .hi-layout, .what-hoster-wants div {
@@ -687,8 +690,14 @@ fieldset {
   display: flex;
 }
 
+.what-hoster-wants img {
+  padding-right: 2rem;
+  width: 30%;
+  border-radius: 50% 50% 0 0;
+}
+
 .what-hoster-wants fieldset {
-  width: 70%;
+  width: 80%;
 }
 
 .footer ul {
