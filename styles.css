@@ -495,7 +495,6 @@ textarea {
   line-height: 2rem;
 }
 
-
 .main-contact-section p {
   margin: 5rem 14rem;
   text-align: center;
@@ -636,6 +635,38 @@ fieldset {
   padding: 1rem 2.5rem;
   border: 2px solid #1E2F23;
   font-weight: 700;
+}
+
+.workshop-host-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.workshop-host-form form {
+  width: 95%;
+}
+
+.workshop-host-form input[type=text],
+.workshop-host-form input[type=email] {
+  margin: .5rem 1rem 1.75rem 1rem;
+  padding: .85rem;
+  width: 70%;
+  border: 2px solid black;
+}
+
+.workshop-host-form label {
+  margin: 1rem 1rem .25rem 1rem;
+  font-weight: 600;
+}
+
+.hoster-info {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 80%;
 }
 
 .footer ul {
