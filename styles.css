@@ -651,7 +651,8 @@ fieldset {
 }
 
 .workshop-host-form input[type=text],
-.workshop-host-form input[type=email] {
+.workshop-host-form input[type=email],
+.workshop-host-form fieldset {
   margin: .5rem 1rem 1.75rem 1rem;
   padding: .85rem;
   width: 70%;
@@ -663,7 +664,7 @@ fieldset {
   font-weight: 600;
 }
 
-.hoster-info {
+.hoster-info .hi-layout {
   display: grid;
   grid-template-columns: 2fr 2fr;
   width: 80%;
