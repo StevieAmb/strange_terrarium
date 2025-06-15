@@ -543,7 +543,7 @@ textarea {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  animation: fade-in 1s linear;
+  animation: fade-in 1s ease-in;
   animation-timeline: view();
   animation-range-end: 570px;
 
