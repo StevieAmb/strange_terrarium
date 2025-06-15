@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Learn About The Founder | Strange Terrariums</title>
+   <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://api.web3forms.com/submit https://web3forms.com/client/script.js https://newassets.hcaptcha.com/; script-src 'self' https://api.web3forms.com/submit https://web3forms.com/client/script.js https://js.hcaptcha.com/1/api.js?recaptchacompat=off; img-src 'self' https://api.web3forms.com/submit https://web3forms.com/client/script.js https://stevieamb.github.io; style-src 'self' 'unsafe-inline' https://api.web3forms.com/submit https://web3forms.com/client/script.js https://stevieamb.github.io; base-uri 'self'; form-action 'self' https://api.web3forms.com/submit https://web3forms.com/client/script.js;">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Planning an event and need some award-winning indoor gardens? Fill out the form, and let us fulfill your terrarium needs and make your event a success! We can even prepare them for your guests to take terrariums home as gifts! We’ll meet all your event planning needs!">
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+   <header class="disclaimer-strip">
+     <p>SMALL TERRARIUMS ONLY ARE AVAILABLE FOR SHIPPING.</p>
+   </header>
+   <nav class="navigation-bar">
+    <a href="index.html"><img class="page-title" src="images/ST_logo_stacked.png" alt="strange terrarium logo"/></a>
+     <div>
+      <section class="hamburger-menu desktop-hidden">
+        <ul class="navbar" id="navbar">
+          <li><a class="menu-links" href="about-the-founder.html">About</a></li>
+          <li><a class="menu-links" href="contact-strange-terrariums.html">Contact Us</a></li>
+          <li><a class="menu-links" href="index.html#custom-orders">Custom Orders</a></li>
+          <li><a class="menu-links" href="terrarium-care-tips.html">Terrarium Care Tips</a></li>
+          <li><a class="menu-links" href="event-planning-form.html">Planning an Event?</a></li>
+          <a class="close" href="#">
+            <img src="images/close-x-svgrepo-com.svg" alt="close">
+          </a>
+        </ul>
+        <a class="hamburger" href="#navbar">
+            <img src="images/burger-menu-svgrepo-com.svg" alt="menu">
+        </a>
+      </section>
+       <ul class="nav-links hidden">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="index.html#custom-orders">Custom Orders</a></li>
+         <li><a href="terrarium-care-tips.html">Care Tips</a></li>
+         <li><a href="about-the-founder.html">About</a></li>
+         <li><a href="contact-strange-terrariums.html">Contact Us</a></li>
+          <li class="dropdown">Events For You
+            <ul class="dropdown-content">
+              <li><a href="event-planning-form.html">Planning an Event?</a></li>
+              <li><a href="workshop-hosting-form.html">Want Us To Host A Workshop?</a></li>
+            </ul>
+          </li>
+       </ul>
+     </div>
+   </nav>
+   <main>
+    <section class="workshop-host-form">
+      <h2>Would you like Strange Terrariums to host a workshop for you?</h2>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <section class="hoster-info">
+          <div class="hi-layout">
+            <div class="input-field">
+              <label>Name: <span class="required-text">(required)</span> </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Ex: Sonia Sanchez"
+                required
+                minlength="4"
+                maxlength="30"
+              />
+            </div>
+            <div class="input-field">
+              <label>Email: <span class="required-text">(required)</span></label>
+              <input 
+                type="email" 
+                id="email" 
+                placeholder="Ex: sonia.sanchez@blahblah.com"
+                pattern=".+@example\.com" 
+                required 
+              />
+            </div>
+            <div class="input-field">
+                <label for="phonenumber">Phone Number: <span class="required-text">(required)</span></label>
+                <input 
+                  type="text" 
+                  id="phonenumber" 
+                  placeholder="Ex: 303-555-5555"
+                />
+              </div>
+               <div class="input-field">
+                <label for="organization">Organization: <span>(optional)</span></label>
+                <input 
+                  type="text" 
+                  id="organization" 
+                  placeholder="Ex: Planned Parenthood, Big Brother, Big Sister..."
+                />
+              </div>
+          </div>
+          <img src="images/group_building_terras.jpeg" alt="image of group of women building terrariums"/>
+        </section>
+          <fieldset class="checkbox-fields">
+            <legend>Preferred Method of Contact</legend>
+            <input type="checkbox" id="phoneCall" name="method-of-contact" value="PhoneCall">
+            <label for="phoneCall">Phone Call</label><br>
+            <input type="checkbox" id="text" name="method-of-contact" value="Text">
+            <label for="text"> Text </label><br>
+            <input type="checkbox" id="email" name="method-of-contact" value="Email">
+            <label for="email"> Email</label><br>
+          </fieldset>
+          <h2>Let's Figure Out What You're Looking For!</h2>
+          <!-- <section class="what-hoster-wants">
+            <img src="images/hands_on_terras.jpeg" alt="image of terrarium building workflow setup"/>
+            <div>
+              <fieldset>
+                <legend>How many people will be attending?</legend>
+                  <input type="radio" id="twoToFive" name="number-of-participants" value="2-5" checked />
+                  <label for="twoToFive">2-5 participants</label><br>
+                  <input type="radio" id="fiveToTen" name="number-of-participants" value="5-10" />
+                  <label for="fiveToTen">5-10 participants</label><br>
+                  <input type="radio" id="tenToTwenty" name="number-of-participants" value="10-20" />
+                  <label for="tenToTwenty">10-20 participants</label><br>
+                  <input type="radio" id="twentyToThirty" name="number-of-participants" value="20-30" />
+                  <label for="twentyToThirty">20-30 participants</label><br>
+                  <input type="radio" id="thirtyToFourty" name="number-of-participants" value="30-40" />
+                  <label for="thirtyToFourty">30-40 participants</label><br>
+                  <input type="radio" id="other" name="number-of-participants" value="Other" />
+                  <label for="other">Other</label><br>
+                  <label for="quantity">If Other,<br>pick a number between 41-200)</label>
+                  <input type="number" id="quantity" name="" min="41" max="200">
+              </fieldset>
+              <fieldset>
+                <legend>What is the age range of the participants? <br>(Keep in mind, we offer terrariums workshops for children <strong>6 years and older</strong>. If you need some age flexibility, please let us know below!)</legend>
+                  <input type="radio" id="kids" name="participants-age-range" value="kids" checked />
+                  <label for="kids">Kids: 6-12 years old</label><br>
+                  <input type="radio" id="teens" name="participants-age-range" value="teens" />
+                  <label for="teens">Teens: 12 - 19 years old</label><br>
+                  <input type="radio" id="youngAdult" name="participants-age-range" value="young-adult" />
+                  <label for="youngAdult">Young Adults: 18 - 21 years</label><br>
+                  <input type="radio" id="adults" name="participants-age-range" value="adults" />
+                  <label for="adults">Adults: 21+</label><br>
+                  <label for="mixed-bag-description">Mixed bag of participants? Tell us more!</label>
+                  <input type="text" id="mixed-bag-description" placeholder="Mixed bag? Please describe here!" required>
+              </fieldset>
+              <div class="input-field">
+                <label for="dateOfWorkshop">When would you like to schedule the workshop? 
+                (If the date/time you requested is not available, we'll find a date that works!)</label><br>
+                <input 
+                  type="datetime-local" 
+                  id="dateOfWorkshop" 
+                  name="workshop-date"
+                  required
+                />
+              </div>
+               <fieldset>
+                <legend>Where will your workshop to take place?<br>
+                  (It's recommended to have your workshop indoors, but outside is possible as long as shade is provided)</legend>
+                  <input type="radio" id="privateResidence" name="location-of-workshop" value="private-residence" checked />
+                  <label for="privateResidence">In a private residence</label><br>
+                  <input type="radio" id="corporateLocation" name="location-of-workshop" value="corporate-location" />
+                  <label for="corporateLocation">At a corporate location</label><br>
+                  <input type="radio" id="communityCenter" name="location-of-workshop" value="community-center" />
+                  <label for="communityCenter">At a community center</label><br>
+                  <label for="otherLocation">Somewhere else? Tell us more!</label>
+                  <input type="text" id="otherLocation" placeholder="Another location? Tell us where!" required>
+              </fieldset>
+            </div>
+          </section>
+             <h2>ACCESSIBILITY AND ACCOMMODATIONS</h2>
+             <fieldset>
+            <legend>Does anyone in the group have severe plant/soil related allergies?</legend>
+              <input type="radio" id="yes" name="plant-soil-allergies" value="yes" checked />
+              <label for="yes">Yes<br>
+              <input type="radio" id="no" name="plant-soil-allergies" value="no" />
+              <label for="no">No</label><br>
+          </fieldset>
+          <div class="input-field">
+            <label for="special-accommodations">Are there any special accommodations we need to know about? </label>
+            <input type="text" id="special-accommodations" placeholder="Please list any accommodations you/your participants may need to be able to freely engage in the workshop." required>
+          </div>
+          <div class="input-field">
+            <label for="questions-concerns">Are there any other questions or concerns not listed in this form?</label>
+            <input type="text" id="questions-concerns" required>
+          </div>
+        <div>
+          <button class="general-inquiries-button" type="submit">Submit Your Inquiry</button>
+        </div> -->
+        <input type="hidden" name="access_key" value="1ed02a58-8950-4f9c-b33d-e1e60806271e">
+        <input type="hidden" name="subject" value="General Inquiry For Strange Terrarium">
+        <input type="hidden" name="from_name" value="General Inquiry">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        <input type="hidden" name="redirect" value="https://stevieamb.github.io/strange_terrarium/thank-you-for-your-custom-order.html">
+        <div class="h-captcha" data-captcha="true"></div>
+      </form>
+   </main>
+    <footer class="footer">
+    <section class="top-of-footer">
+      <img class="page-title" src="images/ST_logo_stacked.png" alt="strange terrarium logo"/>
+    </section>
+    <ul>
+      <li><a href="about-the-founder.html">About</a></li>
+      <li><a href="#custom-orders">Custom Orders</a></li>
+      <li><a href="terrarium-care-tips.html">Care Tips</a></li>
+      <li><a href="contact-strange-terrariums.html">Contact Strange Terrariums</a></li>
+      <li><a href="event-planning-form.html">Planning an Event?</a></li>
+    </ul>
+    <div class="socials-logos">
+        <a href="https://www.instagram.com/strangeterrariums/" target="_blank">
+          <img src="images/instagram-logo-svgrepo-com_black.svg" alt="instagram logo">
+        </a>
+    </div>
+    <section class="copyright-section">
+      <p>Copyright 2025 &#20;&#20;&#20;|&#20;&#20;&#20;<a href="index.html">Strange Terrariums</a>&#20;&#20;&#20;|&#20;&#20;&#20;<a href="https://softsolves.com/">Powered by SoftSolves, LLC</a></p>
+    </section>
+   </footer>
+   </body>
+   </html>
