@@ -91,8 +91,31 @@ h2 {
   background-image: url('images/ST_homepage_top.jpeg');
   background-position: 50% 46%;
   background-size: cover;
-  height: 95vh;
+  height: 80vh;
   width: 53vw;
+  animation: fade-in-slides 25s ease-in 1 forwards;
+}
+
+@keyframes fade-in-slides {
+  25% { 
+    background-image: url('images/ST_homepage_top.jpeg');
+    background-size: cover;
+  }
+
+  50% {
+    background-image: url('images/red_top_terrarium.jpeg');
+    background-size: cover;
+  }
+
+  75% {
+    background-image: url('images/closed_terra_blue.jpeg');
+    background-size: cover;
+  }
+
+  100% {
+    background-image: url('images/terra_with_bear.jpeg');
+    background-size: cover;
+  }
 }
 
 .hero-shop-button {
@@ -644,6 +667,7 @@ fieldset {
   align-items: center;
   width: 90%;
   margin: auto;
+  padding-bottom: 5rem;
 }
 
 .workshop-host-form form {
@@ -657,7 +681,7 @@ fieldset {
   padding: .85rem;
   width: 85%;
   border: 2px solid black;
-  border-radius: 7px;
+  border-radius: 7px 7px 40px 3px;
 }
 
 .workshop-host-form fieldset {
@@ -669,6 +693,7 @@ fieldset {
 
 .workshop-host-form label, .workshop-host-form legend {
   margin: 1rem 1rem .25rem 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
