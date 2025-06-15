@@ -706,7 +706,7 @@ fieldset {
   border-radius: 50% 50% 0 0;
 }
 
-.hoster-info .hi-layout, .what-hoster-wants div {
+.hoster-info .hi-layout {
   display: grid;
   grid-template-columns: 2fr 2fr;
   width: 80%;
