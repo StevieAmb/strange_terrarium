@@ -677,14 +677,14 @@ fieldset {
   width: 33%;
 }
 
-.hoster-info .hi-layout, .what-hoster-wants {
+.hoster-info .hi-layout, .what-hoster-wants div {
   display: grid;
   grid-template-columns: 2fr 2fr;
   width: 80%;
 }
 
 .what-hoster-wants fieldset {
-  width: 85%;
+  width: 90%;
 }
 
 .footer ul {
