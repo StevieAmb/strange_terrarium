@@ -657,9 +657,11 @@ fieldset {
   padding: .85rem;
   width: 85%;
   border: 2px solid black;
+  border-radius: 7px;
 }
 
 .workshop-host-form fieldset {
+  border-radius: 7px;
   border: 2px solid black;
   margin: .5rem 1rem 1.75rem 1rem;
   width: 23%;
@@ -675,7 +677,6 @@ fieldset {
 }
 
 .hoster-info img {
-  padding-top: 1rem;
   width: 33%;
   border-radius: 50% 50% 0 0;
 }
