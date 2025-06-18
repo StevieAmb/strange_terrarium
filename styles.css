@@ -500,7 +500,6 @@ textarea {
 .about-paragraph {
   padding: 3rem;
   width: 60%;
-  /* height: 70vh; */
 }
 
 .about-founder-section img {
@@ -667,6 +666,12 @@ fieldset {
 
 .workshop-host-form form {
   width: 90%;
+}
+
+.workshop-host-form h2 {
+  width: 50%;
+  padding: 3rem 0 4rem;
+  margin: auto;
 }
 
 .workshop-host-form input[type=text],
