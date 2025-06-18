@@ -670,8 +670,9 @@ fieldset {
 
 .workshop-host-form h2 {
   width: 50%;
-  padding: 3rem 0 4rem;
+  padding: 3rem 0 4rem 0;
   margin: auto;
+  padding-left: 15rem;
 }
 
 .workshop-host-form input[type=text],
@@ -693,7 +694,8 @@ fieldset {
 
 .workshop-host-form label, .workshop-host-form legend {
   margin: 1rem 1rem .25rem 1rem;
-  font-size: 1.1rem;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -708,8 +710,8 @@ fieldset {
 
 .hoster-info .hi-layout {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  width: 80%;
+  grid-template-columns: 25rem 25rem;
+  width: 55%;
 }
 
 .what-hoster-wants {
@@ -717,9 +719,9 @@ fieldset {
 }
 
 .what-hoster-wants img {
-  padding-right: 2rem;
+  padding-right: 8rem;
   width: 30%;
-  border-radius: 50% 50% 0 0;
+  border-radius: 7px;
 }
 
 .what-hoster-wants fieldset {
