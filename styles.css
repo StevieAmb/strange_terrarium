@@ -669,7 +669,7 @@ fieldset {
 }
 
 .workshop-host-form h2 {
-  width: 50%;
+  width: 60%;
   padding: 3rem 0 4rem 0;
   margin: auto;
   padding-left: 15rem;
@@ -711,7 +711,7 @@ fieldset {
 .hoster-info .hi-layout {
   display: grid;
   grid-template-columns: 25rem 25rem;
-  width: 55%;
+  width: 75%;
 }
 
 .what-hoster-wants {
