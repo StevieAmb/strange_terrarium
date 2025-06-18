@@ -93,21 +93,16 @@ h2 {
   background-size: cover;
   height: 80vh;
   width: 53vw;
-  animation: fade-in-slides 25s ease-in 1 forwards;
+  animation: fade-in-slides 18s ease-in 1 forwards;
 }
 
 @keyframes fade-in-slides {
-  25% { 
-    background-image: url('images/ST_homepage_top.jpeg');
+  33% { 
+    background-image: url('images/terrarium_bow.jpeg');
     background-size: cover;
   }
 
-  50% {
-    background-image: url('images/red_top_terrarium.jpeg');
-    background-size: cover;
-  }
-
-  75% {
+  67% {
     background-image: url('images/closed_terra_blue.jpeg');
     background-size: cover;
   }
