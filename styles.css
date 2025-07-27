@@ -194,45 +194,6 @@ h2 {
   color: white;
 }
 
-.featured-plant-section {
-  display: flex;
-}
-
-.featured-image-container, .featured-info {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-}
-
-.featured-image-container img {
-  border-radius: 7px;
-  margin: 3rem 0;
-  width: 40%;
-}
-
-.featured-image-container {
-  background-color: #F0E9E6;
-}
-
-.featured-info h2, .featured-image-container h2 {
-  font-size: 2rem;
-}
-
-.get-featured-button {
-  padding: 1rem 2.5rem;
-  font-weight: bold;
-  color: #1E2F23;
-  font-size: 20px;
-  border-color: #1E2F23;
-  background-color: #fff;
-}
-
-.get-featured-button:hover {
-  background-color: #1E2F23;
-  color: white;
-}
 
 .terrarium-videos {
   padding: 7rem;
@@ -952,19 +913,6 @@ fieldset {
     width: 115%;
   }
 
-
-  .featured-image-container {
-    width: 100%;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  .featured-image-container img {
-    border-radius: 7px;
-    margin: 3rem 0;
-    width: 100%;
-  }
-
   .terrarium-videos section {
     display: flex;
     flex-direction: column;
@@ -1456,29 +1404,6 @@ fieldset {
     letter-spacing: .25rem;
   }
 
-  .featured-image-container {
-    width: 100%;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  .featured-image-container img {
-    border-radius: 7px;
-    margin: 3rem 0;
-    width: 100%;
-  }
-
-  .get-featured-button {
-    margin-top: 2rem;
-    padding: 2rem 5rem;
-    font-weight: bolder;
-    color: #1E2F23;
-    font-size: 2rem;
-    border-color: #1E2F23;
-    background-color: #fff;
-    border-radius: 7px;
-  }
-
   .terrarium-videos section {
     display: flex;
     flex-direction: column;
@@ -1933,34 +1858,6 @@ fieldset {
     padding: 2.5rem;
     font-size: 2.5rem;
     letter-spacing: .25rem;
-  }
-
-  .featured-image-container {
-    width: 100%;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  .featured-image-container h2 {
-    padding: 3rem 0rem;
-    font-size: 2.9rem;
-  }
-
-  .featured-image-container img {
-    border-radius: 7px;
-    margin: 3rem 0;
-    width: 100%;
-  }
-
-  .get-featured-button {
-    margin-top: 2rem;
-    padding: 2rem 5rem;
-    font-weight: bolder;
-    color: #1E2F23;
-    font-size: 2rem;
-    border-color: #1E2F23;
-    background-color: #fff;
-    border-radius: 7px;
   }
 
   .terrarium-videos h2 {
