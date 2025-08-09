@@ -601,7 +601,7 @@ textarea {
 .event-planning-form input[type="email"]::placeholder,
 .event-planning-form input[type="time"], 
 .event-planning-form input[type="number"]::placeholder {
-  color: #8B5B29;
+  color: #7f5325;
 }
 
 fieldset {
