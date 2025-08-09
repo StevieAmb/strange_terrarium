@@ -543,12 +543,12 @@ textarea {
   color: white;
 }
 
-.event-planning-form .event-planning-form-container {
+.event-planning-form-container {
   background-image: url('images/light_green_terra.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  opacity: 78%;
+  opacity: 98%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
@@ -556,14 +556,13 @@ textarea {
 }
 
 .event-planning-form h2, .event-planning-form p {
-  opacity: 100%;
+  /* text-shadow: 1.3px 1.3px 1.3px #858585; */
   text-align: center;
-  text-shadow: 1.3px 1.3px 1.3px #858585;
 }
 
 .event-planning-form p {
   font-size: 1.3rem;
-  width: 75%;
+  width: 35%;
   font-weight: 700;
   line-height: 1.8rem;
   padding-bottom: 4.3rem;
