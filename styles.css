@@ -395,26 +395,26 @@ textarea {
 }
 
 .closed-terrariums img {
-  margin: 1rem 6rem;
-  width: 30%;
+  margin: 1rem 2.5rem;
+  width: 46%;
 }
 
 .ct-top-section, .ot-top-section {
   margin-top: 5rem;
   display: flex;
-  gap: 3.2rem;
 }
 
 .ct-right-of-img, .ot-left-of-img {
   display: flex;
   font-size: 20px;
   line-height: 2rem;
-  width: 40%;
+  width: 48%;
   flex-direction: column;
 }
 
 .ot-left-of-img {
-  margin: 1rem 5rem;
+  margin: 1rem 2.5rem;
+  width: 50%;
 }
 
 .ct-maintenance-section, .ot-maintenance-section {
@@ -424,8 +424,8 @@ textarea {
 }
 
 .open-terrariums img {
-  margin: 1rem 3rem;
-  width: 31%;
+  margin: 1rem 1rem;
+  width: 46%;
   height: 28.5rem;
 }
 
