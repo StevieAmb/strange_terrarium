@@ -597,9 +597,9 @@ textarea {
 }
 
 .event-planning-form input[type="text"]::placeholder, 
-.event-planning-form input[type="date"]::placeholder, 
+.event-planning-form input[type="date"], 
 .event-planning-form input[type="email"]::placeholder,
-.event-planning-form input[type="time"]::placeholder, 
+.event-planning-form input[type="time"], 
 .event-planning-form input[type="number"]::placeholder {
   color: #8B5B29;
 }
