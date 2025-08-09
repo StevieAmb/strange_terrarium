@@ -556,7 +556,6 @@ textarea {
 }
 
 .event-planning-form h2, .event-planning-form p {
-  /* text-shadow: 1.3px 1.3px 1.3px #858585; */
   text-align: center;
 }
 
@@ -600,7 +599,7 @@ textarea {
 .event-planning-form input[type="email"]::placeholder,
 .event-planning-form input[type="time"], 
 .event-planning-form input[type="number"]::placeholder {
-  color: #7f5325;
+  color: #000000
 }
 
 fieldset {
