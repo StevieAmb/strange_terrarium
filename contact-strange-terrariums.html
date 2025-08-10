@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-   <title>Contact | Strange Terrariums</title>
+   <title>Contact Form | Strange Terrariums</title>
    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://web3forms.com/client/script.js https://api.web3forms.com/submit; img-src 'self'; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self';">
    <meta name="description" content="Have a compliment about our terrariums? An issue than can’t be handle by our other pages? Additional indoor garden care tips you want to share? Fill out the contact form and tell us!">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,15 +37,15 @@
          <li><a href="contact-strange-terrariums.html">Contact Us</a></li>
           <li class="dropdown">Events For You
             <ul class="dropdown-content">
-              <li><a href="event-planning-form.html">Planning an Event?</a></li>
-              <li><a href="workshop-hosting-form.html">Want Us To Host A Workshop?</a></li>
+              <li><a href="event-planning-form.html">Centerpieces and Event Decor?</a></li>
+              <li><a href="workshop-hosting-form.html">Private Parties and Workshops?</a></li>
             </ul>
           </li>
        </ul>
      </div>
    </nav>
    <main class="main-contact-section">
-     <p>Thank you for stopping by Strange Terrariums! <br> If you have any further questions, or want to share additional care tips for terrariums, 
+     <p>Thank you for stopping by Strange Terrariums! <br> If you have any further questions, or need additional care tips for terrariums, 
        please feel free to use the following form!</p>
     <section class="contact-page-section">
       <form class="contact-form-section" action="https://api.web3forms.com/submit" method="POST">
@@ -55,7 +55,7 @@
             type="text"
             id="name"
             name="name"
-            placeholder="Ex: Sonia Sanchez"
+            placeholder="Ex: Moss Lover"
             required
             minlength="4"
             maxlength="30"
@@ -66,7 +66,7 @@
           <input 
             type="email" 
             id="email" 
-            placeholder="Ex: sonia.sanchez@blahblah.com"
+            placeholder="Ex: moss.lover@blahblah.com"
             pattern=".+@example\.com" 
             required 
           />
@@ -76,14 +76,13 @@
           <textarea rows="8" cols="65" placeholder="Are you really loving your terrarium? Would you like additional care tips for your terrarium? Want to just send us a compliment? Write it all here!"></textarea>
         </div>
         <div>
-          <button class="general-inquiries-button" type="submit">Submit Your Inquiry</button>
+          <input type="submit" class="general-inquiries-button" value="SUBMIT YOUR INQUIRY"/>
         </div>
         <input type="hidden" name="access_key" value="1ed02a58-8950-4f9c-b33d-e1e60806271e">
         <input type="hidden" name="subject" value="General Inquiry For Strange Terrarium">
         <input type="hidden" name="from_name" value="General Inquiry">
         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
         <input type="hidden" name="redirect" value="https://stevieamb.github.io/strange_terrarium/thank-you-for-your-custom-order.html">
-        <div class="h-captcha" data-captcha="true"></div>
       </form>
       <div class="contact-page-image hidden">
       </div>

@@ -93,21 +93,16 @@ h2 {
   background-size: cover;
   height: 80vh;
   width: 53vw;
-  animation: fade-in-slides 25s ease-in 1 forwards;
+  animation: fade-in-slides 18s ease-in 1 forwards;
 }
 
 @keyframes fade-in-slides {
-  25% { 
-    background-image: url('images/ST_homepage_top.jpeg');
+  33% { 
+    background-image: url('images/terrarium_bow.jpeg');
     background-size: cover;
   }
 
-  50% {
-    background-image: url('images/red_top_terrarium.jpeg');
-    background-size: cover;
-  }
-
-  75% {
+  67% {
     background-image: url('images/closed_terra_blue.jpeg');
     background-size: cover;
   }
@@ -199,45 +194,6 @@ h2 {
   color: white;
 }
 
-.featured-plant-section {
-  display: flex;
-}
-
-.featured-image-container, .featured-info {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-}
-
-.featured-image-container img {
-  border-radius: 7px;
-  margin: 3rem 0;
-  width: 40%;
-}
-
-.featured-image-container {
-  background-color: #F0E9E6;
-}
-
-.featured-info h2, .featured-image-container h2 {
-  font-size: 2rem;
-}
-
-.get-featured-button {
-  padding: 1rem 2.5rem;
-  font-weight: bold;
-  color: #1E2F23;
-  font-size: 20px;
-  border-color: #1E2F23;
-  background-color: #fff;
-}
-
-.get-featured-button:hover {
-  background-color: #1E2F23;
-  color: white;
-}
 
 .terrarium-videos {
   padding: 7rem;
@@ -316,6 +272,7 @@ h2 {
 }
 
 .custom-terrarium-button {
+  margin-top: 2rem;
   background-color: #768948;
   padding: 1rem 2.5rem;
   border: 2px solid #1E2F23;
@@ -433,32 +390,32 @@ textarea {
 }
 
 .closed-terrariums h3, .open-terrariums h3, .general-tips h3 {
-  margin-top: 6rem;
+  margin: 6rem 0rem;
   text-align: center;
   font-size: 24px;
 }
 
 .closed-terrariums img {
-  margin: 1rem 6rem;
-  width: 30%;
+  margin: 1rem 2.5rem;
+  width: 46%;
 }
 
 .ct-top-section, .ot-top-section {
   margin-top: 5rem;
   display: flex;
-  gap: 3.2rem;
 }
 
 .ct-right-of-img, .ot-left-of-img {
   display: flex;
   font-size: 20px;
   line-height: 2rem;
-  width: 40%;
+  width: 48%;
   flex-direction: column;
 }
 
 .ot-left-of-img {
-  margin: 1rem 5rem;
+  margin: 0rem 1rem;
+  width: 50%;
 }
 
 .ct-maintenance-section, .ot-maintenance-section {
@@ -467,9 +424,13 @@ textarea {
   line-height: 2rem;
 }
 
+.ot-maintenance-section {
+  margin-left: 1rem;
+}
+
 .open-terrariums img {
-  margin: 1rem 3rem;
-  width: 31%;
+  margin: 1rem 1rem;
+  width: 46%;
   height: 28.5rem;
 }
 
@@ -478,10 +439,6 @@ textarea {
   margin: 4rem 18rem;
   font-size: 20px;
   line-height: 2rem;
-}
-
-.general-tips ul {
-  padding-top: 2rem;
 }
 
 .general-inquiries-button {
@@ -505,7 +462,6 @@ textarea {
 .about-paragraph {
   padding: 3rem;
   width: 60%;
-  /* height: 70vh; */
 }
 
 .about-founder-section img {
@@ -526,16 +482,16 @@ textarea {
 }
 
 .contact-page-section {
+  width: 100%;
   display: flex;
-  gap: 2rem;
-  flex-direction: row-reverse;
+  gap: 1rem;
   padding-bottom: 5rem;
 }
 
 .contact-form-section {
   padding: .2rem 0 0 1.8rem;
   display: flex;
-  gap: 3rem;
+  gap: 3.2rem;
   flex-direction: column;
   width: 47%;
 }
@@ -544,7 +500,7 @@ textarea {
   background: url('images/terrarium_jarwithlid.jpeg');
   width: 48%;
   background-size: cover;
-  background-position: 0rem -10.5rem;
+  background-position: 0rem -4.5rem;
 }
 
 .footer {
@@ -588,12 +544,12 @@ textarea {
   color: white;
 }
 
-.event-planning-form .event-planning-form-container {
+.event-planning-form-container {
   background-image: url('images/light_green_terra.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
-  opacity: 78%;
+  background-position: 40% 50%;
+  opacity: 98%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
@@ -601,14 +557,12 @@ textarea {
 }
 
 .event-planning-form h2, .event-planning-form p {
-  opacity: 100%;
   text-align: center;
-  text-shadow: 1.3px 1.3px 1.3px #858585;
 }
 
 .event-planning-form p {
   font-size: 1.3rem;
-  width: 75%;
+  width: 35%;
   font-weight: 700;
   line-height: 1.8rem;
   padding-bottom: 4.3rem;
@@ -642,11 +596,11 @@ textarea {
 }
 
 .event-planning-form input[type="text"]::placeholder, 
-.event-planning-form input[type="date"]::placeholder, 
+.event-planning-form input[type="date"], 
 .event-planning-form input[type="email"]::placeholder,
-.event-planning-form input[type="time"]::placeholder, 
+.event-planning-form input[type="time"], 
 .event-planning-form input[type="number"]::placeholder {
-  color: #8B5B29;
+  color: #000000
 }
 
 fieldset {
@@ -674,6 +628,13 @@ fieldset {
   width: 90%;
 }
 
+.workshop-host-form h2 {
+  width: 60%;
+  padding: 3rem 0 4rem 0;
+  margin: auto;
+  padding-left: 15rem;
+}
+
 .workshop-host-form input[type=text],
 .workshop-host-form input[type=email],
 .workshop-host-form input[type=datetime-local] {
@@ -693,7 +654,8 @@ fieldset {
 
 .workshop-host-form label, .workshop-host-form legend {
   margin: 1rem 1rem .25rem 1rem;
-  font-size: 1.1rem;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -708,8 +670,8 @@ fieldset {
 
 .hoster-info .hi-layout {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  width: 80%;
+  grid-template-columns: 25rem 25rem;
+  width: 75%;
 }
 
 .what-hoster-wants {
@@ -717,9 +679,9 @@ fieldset {
 }
 
 .what-hoster-wants img {
-  padding-right: 2rem;
+  padding-right: 8rem;
   width: 30%;
-  border-radius: 50% 50% 0 0;
+  border-radius: 7px;
 }
 
 .what-hoster-wants fieldset {
@@ -948,19 +910,6 @@ fieldset {
     margin-left: -1.35rem;
     margin-top: 21.85rem;
     width: 115%;
-  }
-
-
-  .featured-image-container {
-    width: 100%;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  .featured-image-container img {
-    border-radius: 7px;
-    margin: 3rem 0;
-    width: 100%;
   }
 
   .terrarium-videos section {
@@ -1454,29 +1403,6 @@ fieldset {
     letter-spacing: .25rem;
   }
 
-  .featured-image-container {
-    width: 100%;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  .featured-image-container img {
-    border-radius: 7px;
-    margin: 3rem 0;
-    width: 100%;
-  }
-
-  .get-featured-button {
-    margin-top: 2rem;
-    padding: 2rem 5rem;
-    font-weight: bolder;
-    color: #1E2F23;
-    font-size: 2rem;
-    border-color: #1E2F23;
-    background-color: #fff;
-    border-radius: 7px;
-  }
-
   .terrarium-videos section {
     display: flex;
     flex-direction: column;
@@ -1931,34 +1857,6 @@ fieldset {
     padding: 2.5rem;
     font-size: 2.5rem;
     letter-spacing: .25rem;
-  }
-
-  .featured-image-container {
-    width: 100%;
-    justify-content: center;
-    padding: 2rem;
-  }
-
-  .featured-image-container h2 {
-    padding: 3rem 0rem;
-    font-size: 2.9rem;
-  }
-
-  .featured-image-container img {
-    border-radius: 7px;
-    margin: 3rem 0;
-    width: 100%;
-  }
-
-  .get-featured-button {
-    margin-top: 2rem;
-    padding: 2rem 5rem;
-    font-weight: bolder;
-    color: #1E2F23;
-    font-size: 2rem;
-    border-color: #1E2F23;
-    background-color: #fff;
-    border-radius: 7px;
   }
 
   .terrarium-videos h2 {
