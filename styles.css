@@ -663,15 +663,10 @@ fieldset {
   display: flex;
 }
 
-.hoster-info img {
-  width: 33%;
-  border-radius: 50% 50% 0 0;
-}
-
 .hoster-info .hi-layout {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 25rem 25rem;
-  width: 75%;
+  width: 75%; */
 }
 
 .what-hoster-wants {
