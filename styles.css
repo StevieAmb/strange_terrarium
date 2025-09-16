@@ -503,12 +503,6 @@ textarea {
   background-position: 0rem -4.5rem;
 }
 
-.footer {
-  font-size: 20px;
-  padding: 5rem;
-  background-color: #294030;
-}
-
 .event-planning-form {
   display: flex;
   justify-content: center;
@@ -622,21 +616,12 @@ fieldset {
   width: 100%;
 }
 
-.hoster-info, .what-hoster-wants {
-  color: #fff;
-  font-size: 1.29rem;
-  text-shadow: 1.1px 1.1px 3.9px black;
-  letter-spacing: .09rem;
-  padding-bottom: .3rem;
-  font-weight: 200;
-}
-
 .workshop-form-container {
-  background-image: url('images/Workshop_workflow_setup.jpeg');
+  background-image: url('images/group_building_terras.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 50%;
-  opacity: 98%;
+  opacity: 70%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
@@ -674,6 +659,19 @@ fieldset {
 
 .what-hoster-wants fieldset {
   width: 80%;
+  /* color: #fff; */
+}
+
+.what-hoster-wants fieldset, 
+.what-hoster-wants fieldset legend, 
+.what-hoster-wants fieldset label {
+  letter-spacing: .17rem;
+}
+
+.footer {
+  font-size: 20px;
+  padding: 5rem;
+  background-color: #294030;
 }
 
 .footer ul {
