@@ -623,7 +623,7 @@ fieldset {
 }
 
 .hoster-info, .what-hoster-wants {
-  color: #f1eeee;
+  color: #fff;
   font-size: 1.29rem;
   text-shadow: 1.1px 1.1px 3.9px black;
   letter-spacing: .09rem;
@@ -661,7 +661,7 @@ fieldset {
 .workshop-form-container form .what-hoster-wants fieldset {
   border-radius: 7px;
   border: 2px solid black;
-  margin: 0 auto;
+  margin: 2rem auto;
   width: 80%;
 }
 
