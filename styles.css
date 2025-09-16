@@ -622,6 +622,10 @@ fieldset {
   width: 100%;
 }
 
+.hoster-info {
+  color: #fff;
+}
+
 .workshop-form-container {
   background-image: url('images/Workshop_workflow_setup.jpeg');
   background-repeat: no-repeat;
