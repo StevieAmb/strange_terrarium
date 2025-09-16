@@ -622,8 +622,8 @@ fieldset {
   width: 100%;
 }
 
-.hoster-info {
-  color: #fff;
+.hoster-info, .what-hoster-wants {
+  color: #f1eeee;
   font-size: 1.29rem;
   text-shadow: 1.1px 1.1px 3.9px black;
   letter-spacing: .09rem;
@@ -651,11 +651,18 @@ fieldset {
   border: 2px solid black;
 }
 
-.workshop-host-form fieldset {
+.workshop-form-container form fieldset {
   border-radius: 7px;
   border: 2px solid black;
   margin: .5rem 1rem 1.75rem 1rem;
   width: 23%;
+}
+
+.workshop-form-container form .what-hoster-wants fieldset {
+  border-radius: 7px;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .workshop-host-form label, .workshop-host-form legend {
