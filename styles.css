@@ -614,24 +614,23 @@ fieldset {
   font-weight: 700;
 }
 
-.workshop-host-form {
+.workshop-host-form, form, .hoster-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding-bottom: 5rem;
+  width: 100%;
 }
 
 .workshop-form-container {
-  background-image: url('images/hands_on_terras.jpeg');
+  background-image: url('images/Workshop_workflow_setup.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 40% 50%;
+  background-position: 0% 50%;
   opacity: 98%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
-  color: white;
 }
 
 .workshop-host-form input[type=text],
@@ -641,7 +640,6 @@ fieldset {
   padding: .85rem;
   width: 85%;
   border: 2px solid black;
-  border-radius: 7px 7px 40px 3px;
 }
 
 .workshop-host-form fieldset {
@@ -656,17 +654,6 @@ fieldset {
   line-height: 1.75rem;
   font-size: 1.25rem;
   font-weight: 600;
-}
-
-.hoster-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.hoster-info .hi-layout {
-  /* display: grid;
-  grid-template-columns: 25rem 25rem;
-  width: 75%; */
 }
 
 .what-hoster-wants {
