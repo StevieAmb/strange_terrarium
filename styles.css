@@ -614,7 +614,7 @@ fieldset {
   font-weight: 700;
 }
 
-.workshop-host-form, form, .hoster-info {
+.workshop-host-form, form, .hoster-info, .what-hoster-wants {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -624,6 +624,11 @@ fieldset {
 
 .hoster-info {
   color: #fff;
+  font-size: 1.29rem;
+  text-shadow: 1.1px 1.1px 3.9px black;
+  letter-spacing: .09rem;
+  padding-bottom: .3rem;
+  font-weight: 200;
 }
 
 .workshop-form-container {
@@ -658,16 +663,6 @@ fieldset {
   line-height: 1.75rem;
   font-size: 1.25rem;
   font-weight: 600;
-}
-
-.what-hoster-wants {
-  display: flex;
-}
-
-.what-hoster-wants img {
-  padding-right: 8rem;
-  width: 30%;
-  border-radius: 7px;
 }
 
 .what-hoster-wants fieldset {
