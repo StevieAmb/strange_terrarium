@@ -614,7 +614,19 @@ fieldset {
   font-weight: 700;
 }
 
-.workshop-host-form {
+.workshop-form-container {
+  background-image: url('images/hands_on_terras.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 50%;
+  opacity: 98%;
+  padding: 4rem;
+  border: .5px solid #1E2F23;
+  width: 80%;
+  justify-content: center;
+}
+
+/* .workshop-host-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -622,18 +634,7 @@ fieldset {
   width: 90%;
   margin: auto;
   padding-bottom: 5rem;
-}
-
-.workshop-host-form form {
-  width: 90%;
-}
-
-.workshop-host-form h2 {
-  width: 60%;
-  padding: 3rem 0 4rem 0;
-  margin: auto;
-  padding-left: 15rem;
-}
+} */
 
 .workshop-host-form input[type=text],
 .workshop-host-form input[type=email],
