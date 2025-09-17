@@ -628,8 +628,6 @@ fieldset {
 }
 
 .workshop-form-container input[type="text"], 
-.workshop-form-container input[type="date"], 
-.workshop-form-container input[type="time"], 
 .workshop-form-container input[type="number"],
 .workshop-form-container input[type="email"],
 .workshop-form-container input[type=datetime-local] {
@@ -643,9 +641,7 @@ fieldset {
 }
 
 .workshop-form-container input[type="text"]::placeholder, 
-.workshop-form-container input[type="date"], 
 .workshop-form-container input[type="email"]::placeholder,
-.workshop-form-container input[type="time"], 
 .workshop-form-container input[type="number"]::placeholder {
   color: #000000
 }
@@ -653,15 +649,8 @@ fieldset {
 .workshop-form-container form fieldset {
   border-radius: 7px;
   border: 2px solid black;
-  margin: .5rem 1rem 1.75rem 1rem;
-  width: 23%;
-}
-
-.workshop-form-container form .what-hoster-wants fieldset {
-  border-radius: 7px;
-  border: 2px solid black;
   margin: 2rem auto;
-  width: 80%;
+  width: 23%;
 }
 
 .workshop-host-form label, .workshop-host-form legend {
@@ -669,11 +658,6 @@ fieldset {
   line-height: 1.75rem;
   font-size: 1.25rem;
   font-weight: 600;
-}
-
-.what-hoster-wants fieldset {
-  width: 80%;
-  color: #fff;
 }
 
 .what-hoster-wants fieldset, 
