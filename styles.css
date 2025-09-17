@@ -608,20 +608,19 @@ fieldset {
   font-weight: 700;
 }
 
-.workshop-host-form, form, .hoster-info, .what-hoster-wants div {
+.workshop-host-form, form, .hoster-info, .what-hoster-wants div, .accessibility-needs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 5rem;
   width: 100%;
 }
 
 .workshop-form-container {
-  /* background-image: url('images/group_building_terras.jpeg'); */
+  background-image: url('images/IMG_1365.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 50%;
-  opacity: 75%;
+  background-position: 19% 30%;
+  opacity: 95%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
