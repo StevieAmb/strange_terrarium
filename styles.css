@@ -91,7 +91,7 @@ h2 {
   background-image: url('images/ST_homepage_top.jpeg');
   background-position: 50% 46%;
   background-size: cover;
-  height: 80vh;
+  height: 90vh;
   width: 53vw;
   animation: fade-in-slides 18s ease-in 1 forwards;
 }
@@ -128,7 +128,7 @@ h2 {
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 25rem 25rem;
+  background-size: 30rem 30rem;
   width: 45vw;
   height: 90vh;
 }
@@ -503,12 +503,6 @@ textarea {
   background-position: 0rem -4.5rem;
 }
 
-.footer {
-  font-size: 20px;
-  padding: 5rem;
-  background-color: #294030;
-}
-
 .event-planning-form {
   display: flex;
   justify-content: center;
@@ -614,78 +608,74 @@ fieldset {
   font-weight: 700;
 }
 
-.workshop-host-form {
+.workshop-host-form, form, .hoster-info, .what-hoster-wants div, .accessibility-needs {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 90%;
-  margin: auto;
-  padding-bottom: 5rem;
+  width: 100%;
 }
 
-.workshop-host-form form {
-  width: 90%;
+.workshop-form-container {
+  background-image: url('images/terrarium_planter.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 1% 90%;
+  opacity: 75%;
+  padding: 4rem;
+  border: .5px solid #1E2F23;
+  width: 80%;
 }
 
-.workshop-host-form h2 {
-  width: 60%;
-  padding: 3rem 0 4rem 0;
-  margin: auto;
-  padding-left: 15rem;
-}
-
-.workshop-host-form input[type=text],
-.workshop-host-form input[type=email],
-.workshop-host-form input[type=datetime-local] {
+.workshop-form-container input[type="text"], 
+.workshop-form-container input[type="number"],
+.workshop-form-container input[type="email"],
+.workshop-form-container input[type=datetime-local] {
   margin: .5rem 1rem 1.75rem 1rem;
   padding: .85rem;
   width: 85%;
   border: 2px solid black;
-  border-radius: 7px 7px 40px 3px;
+  background-color: #B39C4D;
+  border: .5px solid black;
+  padding: 1rem;
 }
 
-.workshop-host-form fieldset {
+.workshop-form-container input[type="text"]::placeholder, 
+.workshop-form-container input[type="email"]::placeholder,
+.workshop-form-container input[type="number"]::placeholder {
+  color: #000000
+}
+
+.workshop-form-container form fieldset {
   border-radius: 7px;
   border: 2px solid black;
-  margin: .5rem 1rem 1.75rem 1rem;
-  width: 23%;
+  margin: 2rem auto;
+  width: 57%;
 }
 
 .workshop-host-form label, .workshop-host-form legend {
   margin: 1rem 1rem .25rem 1rem;
   line-height: 1.75rem;
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.29rem;
+  letter-spacing: .09rem;
+  padding-bottom: .3rem;
+  font-weight: 200;
 }
 
-.hoster-info {
-  display: flex;
+.what-hoster-wants fieldset, 
+.what-hoster-wants fieldset legend, 
+.what-hoster-wants fieldset label {
+  letter-spacing: .17rem;
 }
 
-.hoster-info img {
-  width: 33%;
-  border-radius: 50% 50% 0 0;
+.accessibility-needs {
+  color: #fff;
+  text-shadow: 8px -8px 15px rgb(0, 0, 0);
 }
 
-.hoster-info .hi-layout {
-  display: grid;
-  grid-template-columns: 25rem 25rem;
-  width: 75%;
-}
-
-.what-hoster-wants {
-  display: flex;
-}
-
-.what-hoster-wants img {
-  padding-right: 8rem;
-  width: 30%;
-  border-radius: 7px;
-}
-
-.what-hoster-wants fieldset {
-  width: 80%;
+.footer {
+  font-size: 20px;
+  padding: 5rem;
+  background-color: #294030;
 }
 
 .footer ul {

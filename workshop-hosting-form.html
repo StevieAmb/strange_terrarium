@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-   <title>Workshop Hosting Form | Strange Terrariums</title>
+   <title>Private Parties and Workshops | Strange Terrariums</title>
    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://api.web3forms.com/submit https://web3forms.com/client/script.js https://newassets.hcaptcha.com/; script-src 'self' https://api.web3forms.com/submit https://web3forms.com/client/script.js https://js.hcaptcha.com/1/api.js?recaptchacompat=off; img-src 'self' https://api.web3forms.com/submit https://web3forms.com/client/script.js https://stevieamb.github.io; style-src 'self' 'unsafe-inline' https://api.web3forms.com/submit https://web3forms.com/client/script.js https://stevieamb.github.io; base-uri 'self'; form-action 'self' https://api.web3forms.com/submit https://web3forms.com/client/script.js;">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="Planning an event and need some award-winning indoor gardens? Fill out the form, and let us fulfill your terrarium needs and make your event a success! We can even prepare them for your guests to take terrariums home as gifts! We’ll meet all your event planning needs!">
@@ -44,14 +44,14 @@
        </ul>
      </div>
    </nav>
-   <main>
+  <main>
     <section class="workshop-host-form">
-      <h2>Would you like Strange Terrariums to host a workshop for you?</h2>
-      <form action="https://api.web3forms.com/submit" method="POST">
-        <section class="hoster-info">
-          <div class="hi-layout">
+      <section class="workshop-form-container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <h2>Want Strange Terrariums to Host a Workshop or Private Party?</h2>
+          <section class="hoster-info">
             <div class="input-field">
-              <label>Name: <span class="required-text">(required)</span> </label>
+              <label>Name: <span>(required)</span> </label>
               <input
                 type="text"
                 id="name"
@@ -63,7 +63,7 @@
               />
             </div>
             <div class="input-field">
-              <label>Email: <span class="required-text">(required)</span></label>
+              <label>Email: <span>(required)</span></label>
               <input 
                 type="email" 
                 id="email" 
@@ -73,36 +73,33 @@
               />
             </div>
             <div class="input-field">
-                <label for="phonenumber">Phone Number: <span class="required-text">(required)</span></label>
-                <input 
-                  type="text" 
-                  id="phonenumber" 
-                  placeholder="Ex: 303-555-5555"
-                />
-              </div>
-               <div class="input-field">
-                <label for="organization">Organization: <span>(optional)</span></label>
-                <input 
-                  type="text" 
-                  id="organization" 
-                  placeholder="Ex: Planned Parenthood, Big Brother, Big Sister..."
-                />
-              </div>
-          </div>
-          <img src="images/group_building_terras.jpeg" alt="image of group of women building terrariums"/>
-        </section>
-          <fieldset class="checkbox-fields">
-            <legend>Preferred Method of Contact</legend>
-            <input type="checkbox" id="phoneCall" name="method-of-contact" value="PhoneCall">
-            <label for="phoneCall">Phone Call</label><br>
-            <input type="checkbox" id="text" name="method-of-contact" value="Text">
-            <label for="text"> Text </label><br>
-            <input type="checkbox" id="email" name="method-of-contact" value="Email">
-            <label for="email"> Email</label><br>
-          </fieldset>
-          <h2>Let's Figure Out What You're Looking For!</h2>
-           <section class="what-hoster-wants">
-            <img src="images/hands_on_terras.jpeg" alt="image of terrarium building workflow setup"/>
+              <label for="phonenumber">Phone Number: <span>(required)</span></label>
+              <input 
+                type="text" 
+                id="phonenumber" 
+                placeholder="Ex: 303-555-5555"
+              />
+            </div>
+            <div class="input-field">
+              <label for="organization">Organization: <span>(optional)</span></label>
+              <input 
+                type="text" 
+                id="organization" 
+                placeholder="Ex: Planned Parenthood, Big Brother, Big Sister..."
+              />
+            </div>
+            <fieldset>
+              <legend>Preferred Method of Contact</legend>
+              <input type="checkbox" id="phoneCall" name="method-of-contact" value="PhoneCall">
+              <label for="phoneCall">Phone Call</label><br>
+              <input type="checkbox" id="text" name="method-of-contact" value="Text">
+              <label for="text"> Text </label><br>
+              <input type="checkbox" id="email" name="method-of-contact" value="Email">
+              <label for="email"> Email</label><br>
+            </fieldset>
+          </section>
+          <section class="what-hoster-wants">
+            <h2>Let's Figure Out What You're Looking For!</h2>
             <div>
               <fieldset>
                 <legend>How many people will be attending?</legend>
@@ -134,57 +131,60 @@
                   <label for="mixed-bag-description">Mixed bag of participants? Tell us more!</label>
                   <input type="text" id="mixed-bag-description" placeholder="Mixed bag? Please describe here!" required>
               </fieldset>
-              <div class="input-field">
-                <label for="dateOfWorkshop">When would you like to schedule the workshop? 
-                (If the date/time you requested is not available, we'll find a date that works!)</label><br>
-                <input 
-                  type="datetime-local" 
-                  id="dateOfWorkshop" 
-                  name="workshop-date"
-                  required
-                />
+                <div class="input-field">
+                  <label for="dateOfWorkshop">When would you like to schedule the workshop? 
+                  (If the date/time you request is not available, we'll find one that works!)</label><br>
+                  <input 
+                    type="datetime-local" 
+                    id="dateOfWorkshop" 
+                    name="workshop-date"
+                    required
+                  />
+                </div>
+                 <fieldset>
+                  <legend>Where will your workshop to take place?
+                    (It's recommended to have your workshop indoors, but outside is possible as long as shade is provided)</legend>
+                    <input type="radio" id="privateResidence" name="location-of-workshop" value="private-residence" checked />
+                    <label for="privateResidence">In a private residence</label><br>
+                    <input type="radio" id="corporateLocation" name="location-of-workshop" value="corporate-location" />
+                    <label for="corporateLocation">At a corporate location</label><br>
+                    <input type="radio" id="communityCenter" name="location-of-workshop" value="community-center" />
+                    <label for="communityCenter">At a community center</label><br>
+                    <label for="otherLocation">Somewhere else? Tell us more!</label>
+                    <input type="text" id="otherLocation" placeholder="Another location? Tell us where!" required>
+                </fieldset>
               </div>
-               <fieldset>
-                <legend>Where will your workshop to take place?
-                  (It's recommended to have your workshop indoors, but outside is possible as long as shade is provided)</legend>
-                  <input type="radio" id="privateResidence" name="location-of-workshop" value="private-residence" checked />
-                  <label for="privateResidence">In a private residence</label><br>
-                  <input type="radio" id="corporateLocation" name="location-of-workshop" value="corporate-location" />
-                  <label for="corporateLocation">At a corporate location</label><br>
-                  <input type="radio" id="communityCenter" name="location-of-workshop" value="community-center" />
-                  <label for="communityCenter">At a community center</label><br>
-                  <label for="otherLocation">Somewhere else? Tell us more!</label>
-                  <input type="text" id="otherLocation" placeholder="Another location? Tell us where!" required>
+            </section>
+            <section class="accessibility-needs">
+              <h2>ACCESSIBILITY AND ACCOMMODATIONS</h2>
+              <fieldset>
+                <legend>Does anyone in the group have severe plant/soil related allergies?</legend>
+                <input type="radio" id="yes" name="plant-soil-allergies" value="yes" checked />
+                <label for="yes">Yes<br>
+                <input type="radio" id="no" name="plant-soil-allergies" value="no" />
+                <label for="no">No</label><br>
               </fieldset>
-            </div>
-          </section>
-             <!-- <h2>ACCESSIBILITY AND ACCOMMODATIONS</h2>
-             <fieldset>
-            <legend>Does anyone in the group have severe plant/soil related allergies?</legend>
-              <input type="radio" id="yes" name="plant-soil-allergies" value="yes" checked />
-              <label for="yes">Yes<br>
-              <input type="radio" id="no" name="plant-soil-allergies" value="no" />
-              <label for="no">No</label><br>
-          </fieldset>
-          <div class="input-field">
-            <label for="special-accommodations">Are there any special accommodations we need to know about? </label>
-            <input type="text" id="special-accommodations" placeholder="Please list any accommodations you/your participants may need to be able to freely engage in the workshop." required>
-          </div>
-          <div class="input-field">
-            <label for="questions-concerns">Are there any other questions or concerns not listed in this form?</label>
-            <input type="text" id="questions-concerns" required>
-          </div>
-        <div>
-          <button class="general-inquiries-button" type="submit">Submit Your Inquiry</button> -->
-        </div>
-        <input type="hidden" name="access_key" value="1ed02a58-8950-4f9c-b33d-e1e60806271e">
-        <input type="hidden" name="subject" value="General Inquiry For Strange Terrarium">
-        <input type="hidden" name="from_name" value="General Inquiry">
-        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-        <input type="hidden" name="redirect" value="https://stevieamb.github.io/strange_terrarium/thank-you-for-your-custom-order.html">
-        <div class="h-captcha" data-captcha="true"></div>
-      </form>
-   </main>
+              <div class="input-field">
+                <label for="special-accommodations">Are there any special accommodations we need to know about? </label>
+                <input type="text" id="special-accommodations" placeholder="Please list any accommodations you/your participants may need to be able to freely engage in the workshop." required>
+              </div>
+              <div class="input-field">
+                <label for="questions-concerns">Are there any other questions or concerns not listed in this form?</label>
+                <input type="text" id="questions-concerns" required>
+              </div>
+              <div>
+                </section>
+                <button class="general-inquiries-button" type="submit">Submit Your Inquiry</button>
+              </div>
+              <input type="hidden" name="access_key" value="1ed02a58-8950-4f9c-b33d-e1e60806271e">
+              <input type="hidden" name="subject" value="General Inquiry For Strange Terrarium">
+              <input type="hidden" name="from_name" value="General Inquiry">
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              <input type="hidden" name="redirect" value="https://stevieamb.github.io/strange_terrarium/thank-you-for-your-custom-order.html">
+              <div class="h-captcha" data-captcha="true"></div>
+            </form>
+      </section>
+    </main>
     <footer class="footer">
     <section class="top-of-footer">
       <img class="page-title" src="images/ST_logo_stacked.png" alt="strange terrarium logo"/>
