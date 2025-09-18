@@ -616,11 +616,11 @@ fieldset {
 }
 
 .workshop-form-container {
-  background-image: url('images/ST_featured_terrarium.jpeg');
+  background-image: url('images/terrarium_planter.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 5% 5% 9%;
-  opacity: 85%;
+  background-position: 1% 90%;
+  opacity: 75%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
@@ -656,7 +656,6 @@ fieldset {
   margin: 1rem 1rem .25rem 1rem;
   line-height: 1.75rem;
   font-size: 1.29rem;
-  /* text-shadow: 1.1px 1.1px 3.9px black; */
   letter-spacing: .09rem;
   padding-bottom: .3rem;
   font-weight: 200;
@@ -666,6 +665,11 @@ fieldset {
 .what-hoster-wants fieldset legend, 
 .what-hoster-wants fieldset label {
   letter-spacing: .17rem;
+}
+
+.accessibility-needs {
+  color: #fff;
+  text-shadow: 8px -8px 15px rgb(0, 0, 0);
 }
 
 .footer {
