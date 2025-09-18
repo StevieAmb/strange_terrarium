@@ -616,11 +616,11 @@ fieldset {
 }
 
 .workshop-form-container {
-  background-image: url('images/IMG_1365.jpeg');
+  background-image: url('images/ST_featured_terrarium.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 19% 30%;
-  opacity: 95%;
+  background-position: 5% 5% 9%;
+  opacity: 85%;
   padding: 4rem;
   border: .5px solid #1E2F23;
   width: 80%;
