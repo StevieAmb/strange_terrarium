@@ -552,7 +552,7 @@ textarea {
 .event-planning-form-container {
   background-color: #cdc4a7;
   opacity: .86;
-  padding: 2.5rem;
+  padding: 3.5rem;
 }
 
 .event-planning-form h2, .event-planning-form p {
@@ -561,7 +561,7 @@ textarea {
 
 .event-planning-form p {
   font-size: 1.3rem;
-  width: 95%;
+  width: 90%;
   font-weight: 700;
   line-height: 1.8rem;
   padding-bottom: 4.3rem;
@@ -580,7 +580,7 @@ textarea {
 .event-planning-form input[type="time"], 
 .event-planning-form input[type="number"],
 .event-planning-form input[type="email"] {
-  background-color: #c9c9c9;
+  background-color: #d7d7d7;
   border: .5px solid black;
   padding: 1rem;
 }
