@@ -503,6 +503,12 @@ textarea {
   background-position: 0rem -4.5rem;
 }
 
+.popup-section-content {
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+}
+
 .event-planning-form {
   display: flex;
   justify-content: center;
