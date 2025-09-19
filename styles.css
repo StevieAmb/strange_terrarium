@@ -504,7 +504,7 @@ textarea {
 }
 
 .popup-section-content {
-  padding-top: 7rem;
+  padding: 7rem 0;
   display: flex;
   justify-content: center;
   gap: 19rem;
@@ -517,6 +517,7 @@ textarea {
   height: 5rem;
   text-align: center;
   padding-top: .41rem;
+  margin-top: 7rem;
 }
 
 .popup-date-time h3 {
@@ -525,6 +526,14 @@ textarea {
   width: 76%;
   color: #fff;
   padding: .25rem;
+}
+
+.popup-main .popup-cta {
+  text-align: center;
+}
+
+.popup-main .popup-cta a {
+  text-decoration: underline;
 }
 
 .event-planning-form {
