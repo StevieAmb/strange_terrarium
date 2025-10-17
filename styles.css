@@ -39,6 +39,7 @@ h2 {
   top: 0;
   position: sticky;
   z-index: 2;
+  gap: 3.5rem;
 }
 
 .navigation-bar a {
