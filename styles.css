@@ -35,7 +35,7 @@ h2 {
   display: flex;
   background-color: #F0E9E6;
   box-shadow: 0 0 20px black;
-  padding: .75rem 2rem;
+  padding: .5rem 2rem;
   top: 0;
   position: sticky;
   z-index: 2;
@@ -51,7 +51,7 @@ h2 {
 
 .nav-links {
   margin: 3rem 0  0 4rem;
-  font-size: 1.15rem;
+  font-size: 1.02rem;
   display: flex;
   letter-spacing: .07rem;
   gap: 4rem;
