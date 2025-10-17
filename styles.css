@@ -114,16 +114,6 @@ h2 {
   }
 }
 
-.hero-shop-button {
-  margin: 32rem 0 0 18rem;
-  padding: 1.2rem 3rem;
-  background-color: #1E2F23;
-  border-radius: 7px;
-  font-weight: bold;
-  color: #fff;
-  font-size: 24px;
-}
-
 .logo-section {
   background-image: url('images/STLogo.png');
   text-align: center;
@@ -147,7 +137,7 @@ h2 {
 
 .expectation-section {
   background-color: #294030;
-  padding: 4rem 0;
+  padding: 7rem 0;
 }
 
 .expectation-section h2 {
@@ -155,7 +145,7 @@ h2 {
 }
 
 .standout-list {
-  padding: 5rem 0;
+  padding: 5rem 0 2rem 0;
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -204,11 +194,8 @@ h2 {
   border-radius: .8rem;
 }
 
-.terrarium-videos h2 {
-  padding-bottom: 2.5rem;
-}
-
 .terrarium-videos section {
+  padding-top: 5rem;
   display: flex;
   justify-content: center;
   gap: 6.5rem;
