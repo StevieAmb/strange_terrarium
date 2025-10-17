@@ -1150,6 +1150,11 @@ fieldset {
     padding-bottom: 1rem;
   }
 
+  .event-planning-form {
+    padding: .75rem;
+    width: 100%;
+  }
+
   .event-planning-form .event-planning-form-container {
     padding: 0;
     width: 100%;
