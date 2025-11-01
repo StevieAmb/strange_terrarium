@@ -23,11 +23,11 @@ h2 {
 
 .disclaimer-strip {
   margin: 0;
-  padding: .001rem 0;
+  padding: .0005rem 0;
   text-align: center;
   background-color: rgb(229, 183, 35);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 3.7px;
 }
 
