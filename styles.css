@@ -33,9 +33,9 @@ h2 {
 
 .navigation-bar {
   display: flex;
-  background-color: #F0E9E6;
+  background-color: #f0eee6;
   box-shadow: 0 2px 5px black;
-  padding: .6rem 2rem;
+  padding: .4rem 2rem;
   top: 0;
   position: sticky;
   z-index: 2;
@@ -51,7 +51,7 @@ h2 {
 }
 
 .nav-links {
-  margin: 3rem 0  0 4rem;
+  margin: 2.25rem 0  0 4rem;
   font-size: 1.25rem;
   display: flex;
   letter-spacing: .07rem;
