@@ -796,6 +796,7 @@ fieldset {
   }
   
   .navbar {
+    padding-top: 3rem;
     padding-left: 3.5rem;
     position: absolute;
     /* a higher z-index put navbar above hamburger */
@@ -810,7 +811,7 @@ fieldset {
     background: #F0E9E6;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    gap: 2rem;
     align-items: start;
     /* animate slide up/down */
     transform: translateX(-150%);
@@ -832,7 +833,6 @@ fieldset {
     /* remove default underline and add our own with padding and border bottom */
     text-decoration: none;
     border-bottom: 1px solid black;
-    padding-bottom: 0.5rem;
   }
 
   .hamburger-menu .menu-links {
