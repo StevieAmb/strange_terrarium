@@ -1206,6 +1206,34 @@ fieldset {
     width: 70%;
   }
 
+  .popup-section-content {
+    padding: 7rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .popup-date-time {
+    border: 2px solid #294030;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    padding-top: .41rem;
+    margin-top: 7rem;
+  }
+
+  .popup-description img {
+    width: 95%;
+  }
+
+  .popup-date-time h3 {
+    margin: 0 auto;
+    background-color: #1E2F23;
+    width: 76%;
+    color: #fff;
+    padding: .25rem;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
