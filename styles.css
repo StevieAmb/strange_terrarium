@@ -28,6 +28,7 @@ h2 {
   background-color: rgb(229, 183, 35);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
+  font-weight: 800;
   letter-spacing: 3.7px;
 }
 
@@ -51,7 +52,7 @@ h2 {
 }
 
 .nav-links {
-  margin: 2.25rem 0  0 5.2rem;
+  margin: 2.25rem 0  0 3.8rem;
   font-size: 1.25rem;
   display: flex;
   letter-spacing: .07rem;
