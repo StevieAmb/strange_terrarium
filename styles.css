@@ -834,12 +834,6 @@ fieldset {
     border-bottom: 1px solid black;
     padding-bottom: 0.5rem;
   }
-  
-  li a:hover, li a:focus {
-    /* show border bottom */
-    border-bottom: 1px solid white;
-  }
-
 
   .hamburger-menu .menu-links {
     width: 100%;
