@@ -832,7 +832,7 @@ fieldset {
     font-size: 1.25rem;
     /* remove default underline and add our own with padding and border bottom */
     text-decoration: none;
-    border-bottom: 1px solid black;
+    padding-bottom: .75rem;
   }
 
   .hamburger-menu .menu-links {
