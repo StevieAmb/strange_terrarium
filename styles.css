@@ -23,22 +23,24 @@ h2 {
 
 .disclaimer-strip {
   margin: 0;
-  padding: .001rem 0;
+  padding: .0005rem 0;
   text-align: center;
   background-color: rgb(229, 183, 35);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 800;
   letter-spacing: 3.7px;
 }
 
 .navigation-bar {
   display: flex;
-  background-color: #F0E9E6;
-  box-shadow: 0 0 20px black;
-  padding: .75rem 2rem;
+  background-color: #f0eee6;
+  box-shadow: 0 2px 5px black;
+  padding: .4rem 2rem;
   top: 0;
   position: sticky;
   z-index: 2;
+  gap: 3.5rem;
 }
 
 .navigation-bar a {
@@ -50,8 +52,8 @@ h2 {
 }
 
 .nav-links {
-  margin: 3rem 0  0 4rem;
-  font-size: 1.15rem;
+  margin: 2.25rem 0  0 3.8rem;
+  font-size: 1.25rem;
   display: flex;
   letter-spacing: .07rem;
   gap: 4rem;
@@ -113,16 +115,6 @@ h2 {
   }
 }
 
-.hero-shop-button {
-  margin: 32rem 0 0 18rem;
-  padding: 1.2rem 3rem;
-  background-color: #1E2F23;
-  border-radius: 7px;
-  font-weight: bold;
-  color: #fff;
-  font-size: 24px;
-}
-
 .logo-section {
   background-image: url('images/STLogo.png');
   text-align: center;
@@ -146,7 +138,7 @@ h2 {
 
 .expectation-section {
   background-color: #294030;
-  padding: 4rem 0;
+  padding: 7rem 0;
 }
 
 .expectation-section h2 {
@@ -154,7 +146,7 @@ h2 {
 }
 
 .standout-list {
-  padding: 5rem 0;
+  padding: 5rem 0 2rem 0;
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -203,11 +195,8 @@ h2 {
   border-radius: .8rem;
 }
 
-.terrarium-videos h2 {
-  padding-bottom: 2.5rem;
-}
-
 .terrarium-videos section {
+  padding-top: 5rem;
   display: flex;
   justify-content: center;
   gap: 6.5rem;
@@ -216,7 +205,7 @@ h2 {
 .custom-orders {
   scroll-margin-top: 118px;
   padding: 2.5rem;
-  background-color: #768948;
+  background-color: #97b05e;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -227,6 +216,7 @@ h2 {
 .custom-orders label, 
 .contact-form-section label {
   font-size: 1.15rem;
+  font-weight: 400;
 }
 
 .custom-orders input[type="text"], 
@@ -273,8 +263,8 @@ h2 {
 
 .custom-terrarium-button {
   margin-top: 2rem;
-  background-color: #768948;
-  padding: 1rem 2.5rem;
+  background-color: #97b05e;
+  padding: 1.75rem 3.5rem;
   border: 2px solid #1E2F23;
   font-weight: 700;
 }
@@ -1161,6 +1151,11 @@ fieldset {
     padding-bottom: 1rem;
   }
 
+  .event-planning-form {
+    padding: .75rem;
+    width: 100%;
+  }
+
   .event-planning-form .event-planning-form-container {
     padding: 0;
     width: 100%;
@@ -1250,7 +1245,7 @@ fieldset {
   }
   
   .copyright-section {
-    width: 170%;
+    width: 70%;
     text-align: center;
   }
 
