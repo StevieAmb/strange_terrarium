@@ -824,6 +824,11 @@ fieldset {
     /* show navbar */
     transform: translateY(0);
   }
+
+  .navbar li {
+    font-size: xx-large;
+    text-align: center;
+  }
   
   li .menu-links {
     display: block;
