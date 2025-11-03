@@ -87,7 +87,6 @@ h2 {
 
 .hero-image-section {
   display: flex;
-  flex-direction: row-reverse;
 }
 
 .hero-image-slides {
