@@ -1354,7 +1354,7 @@ fieldset {
     top: 0;
     left: 0;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
@@ -1369,10 +1369,11 @@ fieldset {
   }
 
   .navbar li {
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
     padding-bottom: .75rem;
     font-weight: 600;
+    color: #294030;
   }
   
   /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
