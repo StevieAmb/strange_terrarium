@@ -1715,10 +1715,10 @@ fieldset {
   }
 
   .popup-section-content {
-    padding: 3.5rem 1rem;
+    padding: 3.5rem 2rem;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .popup-date-time {
@@ -1734,14 +1734,22 @@ fieldset {
     padding-top: -4rem;
   }
 
+  .popup-description h3 {
+    font-size: 1.75rem;
+  }
+
+  .popup-description p {
+    font-size: 1.5rem;
+  }
+
   .popup-description img {
-    width: 100%;
+    width: 90%;
   }
 
   .popup-date-time h3 {
     margin: 0 auto;
     background-color: #1E2F23;
-    width: 76%;
+    width: 77%;
     color: #fff;
     padding: .25rem;
   }
