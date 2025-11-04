@@ -494,12 +494,12 @@ textarea {
   background-position: 0rem -4.5rem;
 }
 
-.popup-section-content {
-  padding: 7rem 8rem;
-  display: flex;
-  justify-content: center;
-  gap: 9rem;
-}
+  .popup-section-content {
+    padding: 7rem 8rem;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+  }
 
   .popup-main h2 {
     padding-top: 3.5rem;
@@ -516,11 +516,10 @@ textarea {
 
   .popup-date-time {
     border: 2px solid #294030;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     text-align: center;
     padding-top: .41rem;
-    margin-top: 7rem;
   }
 
   .popup-date-time h3 {
