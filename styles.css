@@ -1754,6 +1754,13 @@ fieldset {
     padding: .25rem;
   }
 
+  .popup-cta {
+    padding-top: 2rem;
+    font-size: 1.75rem;
+    width: 70%;
+    margin: auto;
+  }
+
   .footer ul {
     display: flex;
     flex-direction: column;
