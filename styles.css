@@ -34,8 +34,8 @@ h2 {
 
 .navigation-bar {
   display: flex;
-  background-color: #f0eee6;
-  box-shadow: 0 2px 5px black;
+  background-color: #fff;
+  box-shadow: 0 .5px 1px black;
   padding: .4rem 2rem;
   top: 0;
   position: sticky;
@@ -118,6 +118,7 @@ h2 {
 .logo-section {
   background-image: url('images/STLogo.png');
   text-align: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30rem 30rem;
@@ -493,68 +494,78 @@ textarea {
   background-position: 0rem -4.5rem;
 }
 
-.popup-section-content {
-  padding: 7rem 0;
-  display: flex;
-  justify-content: center;
-  gap: 19rem;
-}
-
-
-.popup-date-time {
-  border: 2px solid #294030;
-  width: 5rem;
-  height: 5rem;
-  text-align: center;
-  padding-top: .41rem;
-  margin-top: 7rem;
-}
-
-.popup-date-time h3 {
-  margin: 0 auto;
-  background-color: #1E2F23;
-  width: 76%;
-  color: #fff;
-  padding: .25rem;
-}
-
-.popup-main .popup-cta {
-  text-align: center;
-}
-
-.popup-main .popup-cta a {
-  text-decoration: underline;
-}
-
-.event-planning-form {
-  display: flex;
-  justify-content: center;
-}
-
-.event-planning-form .form-section {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  animation: fade-in 1s ease-in;
-  animation-timeline: view();
-  animation-range-end: 570px;
-
-}
-
-@keyframes fade-in {
-  from {
-    scale: .8;
-    opacity: 0;
+  .popup-section-content {
+    padding: 7rem 8rem;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
   }
 
-  to {
-    scale: 1;
-    opacity: 1;
+  .popup-main h2 {
+    padding-top: 3.5rem;
   }
-}
+
+  .popup-description {
+    padding-top: -4rem;
+    width: 60%;
+  }
+
+  .popup-description img {
+    width: 100%;
+  }
+
+  .popup-date-time {
+    border: 2px solid #294030;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    padding-top: .41rem;
+  }
+
+  .popup-date-time h3 {
+    margin: 0 auto;
+    background-color: #1E2F23;
+    width: 76%;
+    color: #fff;
+    padding: .25rem;
+  }
+
+  .popup-main .popup-cta {
+    text-align: center;
+  }
+
+  .popup-main .popup-cta a {
+    text-decoration: underline;
+  }
+
+  .event-planning-form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .event-planning-form .form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    animation: fade-in 1s ease-in;
+    animation-timeline: view();
+    animation-range-end: 570px;
+  }
+
+  @keyframes fade-in {
+    from {
+      scale: .8;
+      opacity: 0;
+    }
+
+    to {
+      scale: 1;
+      opacity: 1;
+    }
+  }
 
 .event-planning-form section h3 {
   font-size: 2.5rem;
@@ -757,7 +768,6 @@ fieldset {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
   }
   
   body {
@@ -778,14 +788,14 @@ fieldset {
   }
   
   .hamburger {
-    background: #F0E9E6;
+    background: #fff;
   }
   
   .close {
     margin-left: 20rem;
     padding-top: 1rem;
     padding-left: 3rem;
-    background: #F0E9E6;
+    background: #97b05e;
   }
 
   .hamburger img { 
@@ -797,6 +807,7 @@ fieldset {
   }
   
   .navbar {
+    padding-top: 3rem;
     padding-left: 3.5rem;
     position: absolute;
     /* a higher z-index put navbar above hamburger */
@@ -804,18 +815,19 @@ fieldset {
     top: 0;
     left: 0;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
-    background: #F0E9E6;
+    background: #97b05e;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    gap: 2rem;
     align-items: start;
     /* animate slide up/down */
     transform: translateX(-150%);
     transition: transform 0.5s ease;
+    color: #294030
   }
   
   /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
@@ -824,23 +836,24 @@ fieldset {
     /* show navbar */
     transform: translateY(0);
   }
+
+  .navbar li {
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: .75rem;
+    font-weight: 600;
+  }
   
   li .menu-links {
     display: block;
     color: white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     /* remove default underline and add our own with padding and border bottom */
     text-decoration: none;
-    border-bottom: 1px solid black;
-    padding-bottom: 0.5rem;
+    padding-bottom: .75rem;
+    font-style: normal;
   }
-  
-  li a:hover, li a:focus {
-    /* show border bottom */
-    border-bottom: 1px solid white;
-  }
-
 
   .hamburger-menu .menu-links {
     width: 100%;
@@ -933,6 +946,7 @@ fieldset {
     flex-direction: column;
     justify-content: center;
     gap: 4rem;
+    padding-top: 0rem;
   }
 
   .terrarium-videos section :nth-child(2) {
@@ -1204,6 +1218,42 @@ fieldset {
     width: 70%;
   }
 
+  .popup-main h2 {
+    padding-top: 3.5rem;
+  }
+
+  .popup-section-content {
+    padding: 3.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .popup-date-time {
+    border: 2px solid #294030;
+    width: 5rem;
+    height: 6.5rem;
+    text-align: center;
+    padding-top: .41rem;
+    margin-top: 0rem;
+  }
+
+  .popup-description {
+    padding-top: -4rem;
+  }
+
+  .popup-description img {
+    width: 100%;
+  }
+
+  .popup-date-time h3 {
+    margin: 0 auto;
+    background-color: #1E2F23;
+    width: 76%;
+    color: #fff;
+    padding: .25rem;
+  }
+
   .footer {
     display: flex;
     flex-direction: column;
@@ -1281,11 +1331,11 @@ fieldset {
   }
   
   .hamburger {
-    background: #F0E9E6;
+    background: #fff;
   }
   
   .close {
-    background: #F0E9E6;
+    background: #768948;
   }
 
   .hamburger img { 
@@ -1304,11 +1354,11 @@ fieldset {
     top: 0;
     left: 0;
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     overflow: hidden;
     /* basic menu styling*/
     list-style: none;
-    background: #F0E9E6;
+    background: #768948;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
@@ -1316,6 +1366,14 @@ fieldset {
     /* animate slide up/down */
     transform: translateX(-150%);
     transition: transform 0.5s ease;
+  }
+
+  .navbar li {
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: .75rem;
+    font-weight: 600;
+    color: #294030;
   }
   
   /* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
@@ -1668,6 +1726,57 @@ fieldset {
 
   .general-tips p {
     padding: .5rem;
+  }
+
+   .popup-main h2 {
+    padding-top: 3.5rem;
+  }
+
+  .popup-section-content {
+    padding: 3.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .popup-date-time {
+    border: 2px solid #294030;
+    width: 5rem;
+    height: 6.5rem;
+    text-align: center;
+    padding-top: .41rem;
+    margin-top: 0rem;
+  }
+
+  .popup-description {
+    padding-top: -4rem;
+  }
+
+  .popup-description h3 {
+    font-size: 1.75rem;
+  }
+
+  .popup-description p {
+    font-size: 1.5rem;
+  }
+
+  .popup-description img {
+    width: 90%;
+  }
+
+  .popup-date-time h3 {
+    margin: 0 auto;
+    background-color: #1E2F23;
+    width: 77%;
+    color: #fff;
+    padding: .25rem;
+  }
+
+  .popup-cta {
+    padding-top: 10%;
+    font-size: 1.75rem;
+    width: 70%;
+    margin: auto;
   }
 
   .footer ul {
