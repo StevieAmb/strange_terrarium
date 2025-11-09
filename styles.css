@@ -661,10 +661,9 @@ fieldset {
 }
 
 .workshop-form-container {
-  background-color: #B39C4D;
+  background-color: #cdc4a7;
   opacity: 75%;
   padding: 4rem;
-  border: .5px solid #1E2F23;
   width: 80%;
 }
 
