@@ -652,11 +652,16 @@ fieldset {
   width: 100%;
 }
 
-.workshop-form-container {
+.workshop-host-form {
   background-image: url('images/terrarium_planter.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 1% 90%;
+
+}
+
+.workshop-form-container {
+  background-color: #B39C4D;
   opacity: 75%;
   padding: 4rem;
   border: .5px solid #1E2F23;
