@@ -88,7 +88,8 @@ h2 {
 .hero-image-section {
   display: flex;
   position: relative;
-  background-color: #f7ffe4;
+  /* flex-direction: row-reverse; */
+  background-color: #fcfff4
 }
 
 .hero-image-slides {
@@ -124,13 +125,14 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30rem 30rem;
-  width: 40vw;
-  height: 65vh;
-  left: 30rem;
-  top: 5rem;
+  width: 30vw;
+  height: 63vh;
+  left: 33rem;
+  top: 5.25rem;
+  border-radius: 50% 50% 0 0;
   position: absolute;
-  background-color: #FFF;
-  box-shadow: 1px 1px 1px #1E2F23;
+  background-color: transparent;
+  /* box-shadow: -1px -1px 1px #1E2F23; */
 }
 
 .welcome-line {
