@@ -652,14 +652,18 @@ fieldset {
   width: 100%;
 }
 
-.workshop-form-container {
+.workshop-host-form {
   background-image: url('images/terrarium_planter.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 4rem;
   background-position: 1% 90%;
+}
+
+.workshop-form-container {
+  background-color: #cdc4a7;
   opacity: 75%;
   padding: 4rem;
-  border: .5px solid #1E2F23;
   width: 80%;
 }
 
@@ -670,8 +674,8 @@ fieldset {
   margin: .5rem 1rem 1.75rem 1rem;
   padding: .85rem;
   width: 85%;
+  background-color: #d7d7d7;
   border: 2px solid black;
-  background-color: #B39C4D;
   border: .5px solid black;
   padding: 1rem;
 }
@@ -686,27 +690,25 @@ fieldset {
   border-radius: 7px;
   border: 2px solid black;
   margin: 2rem auto;
-  width: 57%;
+  width: 61%;
 }
 
 .workshop-host-form label, .workshop-host-form legend {
   margin: 1rem 1rem .25rem 1rem;
-  line-height: 1.75rem;
+  line-height: 1rem;
   font-size: 1.29rem;
   letter-spacing: .09rem;
-  padding-bottom: .3rem;
   font-weight: 200;
+}
+
+.workshop-host-form legend {
+  line-height: 1.75rem;
 }
 
 .what-hoster-wants fieldset, 
 .what-hoster-wants fieldset legend, 
 .what-hoster-wants fieldset label {
   letter-spacing: .17rem;
-}
-
-.accessibility-needs {
-  color: #fff;
-  text-shadow: 8px -8px 15px rgb(0, 0, 0);
 }
 
 .footer {
