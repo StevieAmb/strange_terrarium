@@ -695,21 +695,20 @@ fieldset {
 
 .workshop-host-form label, .workshop-host-form legend {
   margin: 1rem 1rem .25rem 1rem;
-  line-height: .5rem;
+  line-height: 1rem;
   font-size: 1.29rem;
   letter-spacing: .09rem;
   font-weight: 200;
+}
+
+.workshop-host-form legend {
+  line-height: 1.75rem;
 }
 
 .what-hoster-wants fieldset, 
 .what-hoster-wants fieldset legend, 
 .what-hoster-wants fieldset label {
   letter-spacing: .17rem;
-}
-
-.accessibility-needs {
-  color: #fff;
-  text-shadow: 8px -8px 15px rgb(0, 0, 0);
 }
 
 .footer {
