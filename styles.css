@@ -476,16 +476,15 @@ textarea {
 .contact-page-section {
   width: 100%;
   display: flex;
-  gap: 1rem;
+  gap: 1.75rem;
   padding-bottom: 5rem;
 }
 
 .contact-form-section {
-  padding: .2rem 0 0 1.8rem;
   display: flex;
   gap: 3.2rem;
   flex-direction: column;
-  width: 47%;
+  width: 45%;
 }
 
 .contact-page-image {
