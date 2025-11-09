@@ -714,6 +714,12 @@ fieldset {
   line-height: 1.75rem;
 }
 
+.additional-form-input {
+  font-weight: 600;
+  padding-left: 2rem;
+  margin: .1rem;
+}
+
 .what-hoster-wants fieldset, 
 .what-hoster-wants fieldset legend, 
 .what-hoster-wants fieldset label {
