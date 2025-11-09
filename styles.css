@@ -87,6 +87,9 @@ h2 {
 
 .hero-image-section {
   display: flex;
+  position: relative;
+  /* flex-direction: row-reverse; */
+  background-color: #fcfff4
 }
 
 .hero-image-slides {
@@ -94,7 +97,7 @@ h2 {
   background-position: 50% 46%;
   background-size: cover;
   height: 90vh;
-  width: 53vw;
+  width: 50vw;
   animation: fade-in-slides 18s ease-in 1 forwards;
 }
 
@@ -122,8 +125,14 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30rem 30rem;
-  width: 45vw;
-  height: 90vh;
+  width: 29vw;
+  height: 67vh;
+  left: 32rem;
+  top: 4.25rem;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  background-color: transparent;
+  /* box-shadow: -1px -1px 1px #1E2F23; */
 }
 
 .welcome-line {
@@ -243,6 +252,7 @@ h2 {
 .contact-form-section textarea::placeholder {
   padding: .5rem;
   font-size: 1.35rem;
+  line-height: 1.35;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
@@ -475,16 +485,15 @@ textarea {
 .contact-page-section {
   width: 100%;
   display: flex;
-  gap: 1rem;
+  gap: 1.75rem;
   padding-bottom: 5rem;
 }
 
 .contact-form-section {
-  padding: .2rem 0 0 1.8rem;
   display: flex;
   gap: 3.2rem;
   flex-direction: column;
-  width: 47%;
+  width: 45%;
 }
 
 .contact-page-image {
@@ -703,6 +712,13 @@ fieldset {
 
 .workshop-host-form legend {
   line-height: 1.75rem;
+}
+
+.additional-form-input {
+  font-weight: 600;
+  padding-left: 2rem;
+  margin: .1rem;  
+  padding-top: .35rem;
 }
 
 .what-hoster-wants fieldset, 
