@@ -132,7 +132,7 @@ h2 {
   border-radius: 50% 50% 0 0;
   position: absolute;
   background-color: transparent;
-  /* box-shadow: -1px -1px 1px #1E2F23; */
+  box-shadow: -1px -1px 5px #1E2F23;
 }
 
 .welcome-line {
