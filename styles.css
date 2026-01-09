@@ -1232,8 +1232,16 @@ fieldset {
     width: 95%;
   }
 
+  .workshop-form-container h2 {
+    padding-bottom: 3.5rem;
+  }
+
   .workshop-form-container .input-field {
     width: 100%;
+  }
+
+  .workshop-form-container .input-field label {
+    font-size: 1.15rem;
   }
 
   fieldset {
