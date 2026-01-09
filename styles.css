@@ -1183,8 +1183,9 @@ fieldset {
     padding-bottom: 1rem;
   }
 
-  .event-planning-form {
+  .event-planning-form, .workshop-host-form, .workshop-form-container {
     padding: .75rem;
+    padding-top: .75rem;
     width: 100%;
   }
 
