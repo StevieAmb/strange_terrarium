@@ -13,7 +13,7 @@ html {
 }
 
 a:active, a:visited, a {
-  color: black !important; 
+  color: black 
 }
 
 h2 {
@@ -1304,6 +1304,7 @@ fieldset {
     padding: .75rem;
     align-items: center;
     justify-content: center;
+    color: #ccc 
   }
 
   .top-of-footer img {
@@ -1330,6 +1331,10 @@ fieldset {
     gap: 3rem;
     align-items: center;
   }
+
+  .footer a:active, .footer a:visited {
+    color: #ccc 
+}
   
   .socials-logos a {
     width: 15%;
