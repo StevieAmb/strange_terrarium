@@ -13,7 +13,7 @@ html {
 }
 
 a:active, a:visited, a {
-  color: black !important; 
+  color: black 
 }
 
 h2 {
@@ -132,7 +132,7 @@ h2 {
   border-radius: 50% 50% 0 0;
   position: absolute;
   background-color: transparent;
-  /* box-shadow: -1px -1px 1px #1E2F23; */
+  box-shadow: -1px -1px 7px #1E2F23;
 }
 
 .welcome-line {
@@ -864,7 +864,7 @@ fieldset {
   
   li .menu-links {
     display: block;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 1.25rem;
     /* remove default underline and add our own with padding and border bottom */
@@ -1183,13 +1183,15 @@ fieldset {
     padding-bottom: 1rem;
   }
 
-  .event-planning-form {
+  .event-planning-form, .workshop-host-form, .workshop-form-container {
     padding: .75rem;
+    padding-top: .75rem;
     width: 100%;
   }
 
   .event-planning-form .event-planning-form-container {
     padding: 0;
+    padding-bottom: .75rem;
     width: 100%;
   }
 
@@ -1229,6 +1231,30 @@ fieldset {
 
   .event-planning-form p {
     width: 95%;
+  }
+
+  .workshop-form-container h2 {
+    padding: 2.85rem 0rem;
+  }
+
+  .workshop-form-container .input-field {
+    width: 100%;
+  }
+
+  .workshop-form-container .input-field label {
+    font-size: 1.15rem;
+  }
+
+  .workshop-form-container form fieldset {
+    width: 90%;
+  }
+
+  .workshop-host-form legend, .workshop-host-form label {
+    margin: 1rem 1rem .25rem 1rem;
+    line-height: 1.25rem;
+    font-size: 1.1rem;
+    letter-spacing: .09rem;
+    font-weight: 200;
   }
 
   fieldset {
@@ -1275,8 +1301,10 @@ fieldset {
   .footer {
     display: flex;
     flex-direction: column;
+    padding: .75rem;
     align-items: center;
     justify-content: center;
+    color: #a9a9a9 
   }
 
   .top-of-footer img {
@@ -1303,6 +1331,10 @@ fieldset {
     gap: 3rem;
     align-items: center;
   }
+
+  .footer a:active, .footer a:visited {
+    color: #a9a9a9 
+}
   
   .socials-logos a {
     width: 15%;
@@ -1313,7 +1345,9 @@ fieldset {
   }
   
   .copyright-section {
-    width: 70%;
+    width: 90%;
+    font-size: 1rem;
+    letter-spacing: .05rem;
     text-align: center;
   }
 
