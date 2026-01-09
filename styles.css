@@ -1191,6 +1191,7 @@ fieldset {
 
   .event-planning-form .event-planning-form-container {
     padding: 0;
+    padding-bottom: .75rem;
     width: 100%;
   }
 
