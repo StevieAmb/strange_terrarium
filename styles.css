@@ -1304,7 +1304,7 @@ fieldset {
     padding: .75rem;
     align-items: center;
     justify-content: center;
-    color: #ccc 
+    color: #b1b1b1 
   }
 
   .top-of-footer img {
@@ -1333,7 +1333,7 @@ fieldset {
   }
 
   .footer a:active, .footer a:visited {
-    color: #ccc 
+    color: #b1b1b1 
 }
   
   .socials-logos a {
