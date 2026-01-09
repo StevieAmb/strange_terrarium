@@ -864,7 +864,7 @@ fieldset {
   
   li .menu-links {
     display: block;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 1.25rem;
     /* remove default underline and add our own with padding and border bottom */
