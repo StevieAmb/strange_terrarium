@@ -510,6 +510,11 @@ textarea {
   background-color: #dce6c4;
 }
 
+.contact-form-section input {
+  border-radius: .5rem;
+  border: 1px solid #768948;
+}
+
 .contact-page-image {
   background: url('images/terrarium_jarwithlid.jpeg');
   width: 42%;
