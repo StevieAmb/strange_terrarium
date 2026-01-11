@@ -503,6 +503,10 @@ textarea {
   gap: 3.2rem;
   flex-direction: column;
   width: 45%;
+  margin-left: 3rem;
+  border-radius: 1rem;
+  padding: 3.5rem 0rem;
+  box-shadow: 2px 2px 7px #1E2F23;
 }
 
 .contact-page-image {
