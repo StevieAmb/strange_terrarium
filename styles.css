@@ -451,19 +451,6 @@ textarea {
   line-height: 2rem;
 }
 
-.general-inquiries-button {
-  padding: 1rem 2.5rem;
-  background-color: #fff;
-  border: 2px solid black;
-  font-weight: 800;
-}
-
-.general-inquiries-button:hover {
-  background-color: rgb(229, 183, 35);
-  border: 2px solid #fff;
-  color: #FFF;
-}
-
 .about-founder-section {
   display: flex;
   flex-direction: row-reverse;
@@ -507,10 +494,10 @@ textarea {
   border-radius: 1rem;
   padding: 3.5rem 0rem;
   box-shadow: 2px 2px 5px #1E2F23;
-  background-color: #dce6c4;
+  background-color: #c1caad;
 }
 
-.contact-form-section input {
+.contact-form-section input[type="text"] {
   border-radius: .5rem;
   border: 1px solid #768948;
 }
@@ -521,6 +508,25 @@ textarea {
   background-size: cover;
   background-position: 0rem -2.5rem;
   border-radius: 30rem 30rem 0rem 0rem;
+}
+
+.general-inquiries-button {
+  padding: 1rem 2.5rem;
+  background-color: #fff;
+  border-radius: none;
+  border: 2px solid black;
+  font-weight: 800;
+}
+
+.general-inquiries-button:hover {
+  box-shadow: 2px 2px 2px black;
+  background-color: #294030;
+  color: #fff
+}
+
+.general-inquiries-button:active {
+  transition: translateY(0px);
+  box-shadow: 1px 1px 1px #000000;
 }
 
   .popup-section-content {
