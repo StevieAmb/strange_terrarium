@@ -297,6 +297,8 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  box-shadow: 1px 1px 7px #1E2F23;
+  padding-bottom: 2rem;
 }
 
 .thank-you-custom-order, 
