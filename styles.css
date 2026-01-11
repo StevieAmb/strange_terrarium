@@ -282,7 +282,14 @@ h2 {
 
 .custom-terrarium-button:hover {
   background-color: #1E2F23;
+  transition: translateY(-1px);
+  box-shadow: 2px 2px 2px #1E2F23;
   color: #FFF;
+}
+
+.custom-terrarium-button:active {
+  transition: translateY(0);
+  box-shadow: 1px 1px 1px #1E2F23;
 }
 
 .custom-orders h3 {
