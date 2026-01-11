@@ -494,7 +494,7 @@ textarea {
 .contact-page-section {
   width: 100%;
   display: flex;
-  gap: 1.75rem;
+  gap: 5.75rem;
   padding-bottom: 5rem;
 }
 
@@ -506,14 +506,16 @@ textarea {
   margin-left: 3rem;
   border-radius: 1rem;
   padding: 3.5rem 0rem;
-  box-shadow: 2px 2px 7px #1E2F23;
+  box-shadow: 2px 2px 5px #1E2F23;
+  background-color: #f8f3dd;
 }
 
 .contact-page-image {
   background: url('images/terrarium_jarwithlid.jpeg');
-  width: 48%;
+  width: 42%;
   background-size: cover;
-  background-position: 0rem -4.5rem;
+  background-position: 0rem -2.5rem;
+  border-radius: 30rem 30rem 0rem 0rem;
 }
 
   .popup-section-content {
@@ -1000,12 +1002,14 @@ fieldset {
     padding: 4rem 0;
   }
 
-  .custom-orders h3 {
+  .custom-orders h2 {
     text-align: center;
+    padding-bottom: 2.5rem;
   }
 
   .custom-orders form {
     width: 100%;
+    box-shadow: none;
   }
 
   .custom-orders form .input-field {
@@ -1060,7 +1064,8 @@ fieldset {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: .5rem;
+    padding: 1rem 1rem;
+    margin: .4rem;
   }
 
   .contact-form-section .input-field {
