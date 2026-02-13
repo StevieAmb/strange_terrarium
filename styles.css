@@ -304,7 +304,6 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  box-shadow: 1px 1px 7px #1E2F23;
   padding-bottom: 2rem;
 }
 
@@ -493,13 +492,15 @@ textarea {
   margin-left: 3rem;
   border-radius: 1rem;
   padding: 3.5rem 0rem;
-  box-shadow: 2px 2px 5px #1E2F23;
-  background-color: #c1caad;
+  box-shadow: 1px -1px 3px #e3efc9;
+  border: 2px solid #b4be9e ;
 }
 
-.contact-form-section input[type="text"] {
+.contact-form-section input[type="text"],
+.contact-form-section input[type="email"],
+.contact-form-section textarea {
   border-radius: .5rem;
-  border: 1px solid #768948;
+  border: 1px solid #b4be9e;
 }
 
 .contact-page-image {
