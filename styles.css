@@ -1659,7 +1659,8 @@ fieldset {
     text-align: center;
     font-size: 1.75rem;
     width: 95%;
-    padding: 1.5rem 0 0 .5rem;
+    margin: 0 auto;
+    padding: 1.5rem 0 5rem .5rem;
     line-height: 2.8rem;
   }
 
@@ -2172,7 +2173,8 @@ fieldset {
     text-align: center;
     font-size: 1.75rem;
     width: 95%;
-    padding: 1.5rem 0 0 .5rem;
+    margin: 0 auto;
+    padding: 1.5rem 0 5rem .5rem;
     line-height: 2.8rem;
   }
 
