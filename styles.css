@@ -1766,6 +1766,7 @@ fieldset {
   .ct-top-section img, .ot-top-section img {
     width: 75%;
     margin: 0 auto;
+    padding-bottom: 3rem;
   }
 
   .ct-right-of-img, .ot-left-of-img {
@@ -2278,6 +2279,7 @@ fieldset {
   .ct-top-section img, .ot-top-section img {
     width: 75%;
     margin: 0 auto;
+    padding-bottom: 3rem;
   }
 
   .ct-right-of-img, .ot-left-of-img {
