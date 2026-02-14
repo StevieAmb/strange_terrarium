@@ -2208,8 +2208,9 @@ fieldset {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: .5rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
   }
 
   .contact-form-section .input-field {
