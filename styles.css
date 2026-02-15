@@ -576,11 +576,6 @@ textarea {
     text-decoration: underline;
   }
 
-  .event-planning-form {
-    display: flex;
-    justify-content: center;
-  }
-
   .event-planning-form .form-section {
     width: 100%;
     display: flex;
@@ -617,7 +612,7 @@ textarea {
   opacity: 98%;
   padding: 4rem;
   border: .5px solid #1E2F23;
-  width: 90%;
+  display: flex;
   justify-content: center; 
 }
 
