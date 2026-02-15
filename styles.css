@@ -716,7 +716,8 @@ fieldset {
 .workshop-form-container input[type="text"]::placeholder, 
 .workshop-form-container input[type="email"]::placeholder,
 .workshop-form-container input[type="number"]::placeholder {
-  color: #000000
+  color: #616161;
+  font-size: larger
 }
 
 .workshop-form-container form fieldset {
@@ -731,7 +732,7 @@ fieldset {
 .workshop-host-form label, .workshop-host-form legend {
   margin: 1rem 1rem .25rem 1rem;
   line-height: 1.75rem;
-  font-size: 1.29rem;
+  font-size: 1.39rem;
   letter-spacing: .09rem;
   font-weight: 200;
 }
