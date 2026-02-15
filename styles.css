@@ -696,8 +696,8 @@ fieldset {
 .workshop-form-container {
   background-color: #cdc4a7;
   opacity: 75%;
-  padding: 4rem;
-  width: 80%;
+  padding: 3rem;
+  width: 85%;
 }
 
 .workshop-form-container input[type="text"], 
@@ -723,12 +723,14 @@ fieldset {
   border-radius: 7px;
   border: 2px solid black;
   margin: 2rem auto;
-  width: 61%;
+  width: 81%;
+  padding: .5rem 1rem;
+  line-height: 1.75;
 }
 
 .workshop-host-form label, .workshop-host-form legend {
   margin: 1rem 1rem .25rem 1rem;
-  line-height: 1rem;
+  line-height: 1.75rem;
   font-size: 1.29rem;
   letter-spacing: .09rem;
   font-weight: 200;
