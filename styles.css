@@ -567,6 +567,9 @@ textarea {
 
   .popup-main .popup-cta {
     text-align: center;
+    padding-bottom: 2.5rem;
+    margin: 0 auto;
+    width: 80%;
   }
 
   .popup-main .popup-cta a {
