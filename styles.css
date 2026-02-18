@@ -758,6 +758,7 @@ fieldset {
   font-size: 20px;
   padding: 5rem;
   background-color: #294030;
+  color: #fff;
 }
 
 .footer ul {
@@ -779,6 +780,10 @@ fieldset {
   gap: 1rem;
   align-items: center;
 }
+
+  .footer a:active, .footer a, .footer a:visited {
+    color: #fff;
+  }
 
 .socials-logos a {
   width: 2%;
@@ -1335,7 +1340,7 @@ fieldset {
     padding: .75rem;
     align-items: center;
     justify-content: center;
-    color: #a9a9a9 
+    color: #fff
   }
 
   .top-of-footer img {
@@ -1363,9 +1368,9 @@ fieldset {
     align-items: center;
   }
 
-  .footer a:active, .footer a:visited {
-    color: #a9a9a9 
-}
+  .footer a:active, .footer a, .footer a:visited {
+    color: #fff;
+  }
   
   .socials-logos a {
     width: 15%;
