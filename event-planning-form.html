@@ -116,7 +116,7 @@
         <section class="form-section">
           <h3>Let's Get Creative!</h3>
           <div class="input-field">
-            <label for="event-theme">What is the overall vibe or theme of the event? <span>(required)</span> </label>
+            <label for="event-theme">What is the overall vibe or theme of the event? <span class="required-text">*</span> </label>
             <input
               type="text"
               id="event-theme"
@@ -128,7 +128,7 @@
             />
           </div>
           <fieldset>
-            <legend>What size terrariums are you imagining?</legend>
+            <legend>What size terrariums are you imagining?<span class="required-text">*</span></legend>
               <input type="radio" id="small" name="chosen-terrarium-size" value="small" checked />
               <label for="small">Small (under 6”)</label><br>
               <input type="radio" id="medium" name="chosen-terrarium-size" value="medium" />
@@ -141,7 +141,7 @@
               <label for="not-sure">Not sure yet</label>
           </fieldset>
           <fieldset>
-            <legend>Do you have a preferred shape or container style?</legend>
+            <legend>Do you have a preferred shape or container style?<span class="required-text">*</span></legend>
               <input type="radio" id="globe" name="chosen-terrarium-shape" value="globe" checked />
               <label for="globe">Globe</label><br>
               <input type="radio" id="apothecary-jars" name="chosen-terrarium-shape" value="apothecary-jars" />
@@ -168,7 +168,7 @@
               </div>
           </fieldset>
           <fieldset>
-            <legend>What type of terrarium would you like?</legend>
+            <legend>What type of terrarium would you like <span class="required-text">*</span></legend>
               <input type="radio" id="open" name="chosen-terrarium-type" value="open" checked />
               <label for="open">Open (dry plants like succulents)</label><br>
               <input type="radio" id="closed" name="chosen-terrarium-type" value="closed" />
@@ -179,7 +179,7 @@
               <label for="unsure">Not sure yet</label>
           </fieldset>
           <div class="input-field">
-            <label for="include-or-avoid">Any specific plants, decorations, or materials you'd like included or avoided? <span>(required)</span> </label>
+            <label for="include-or-avoid">Any specific plants, decorations, or materials you'd like included or avoided? <span class="required-text">*</span> </label>
             <input
               type="text"
               id="include-or-avoid"
@@ -190,7 +190,7 @@
             />
           </div>
           <fieldset>
-            <legend>Would you like the centerpieces to be take-home gifts for guests?</legend>
+            <legend>Would you like the centerpieces to be take-home gifts for guests?<span class="required-text">*</span></legend>
               <input type="radio" id="yes" name="take-home-gifts-option" value="yes" checked />
               <label for="yes">Yes</label><br>
               <input type="radio" id="no" name="take-home-gifts-option" value="no" />
@@ -203,7 +203,7 @@
         <section class="form-section">
           <h3>Budget & Extra</h3>
           <div class="input-field">
-            <label for="budget">Do you have a per-piece or total budget in mind? <span>(required)</span> </label>
+            <label for="budget">Do you have a per-piece or total budget in mind? <span class="required-text">*</span> </label>
             <input
               type="text"
               id="budget"
@@ -215,7 +215,7 @@
             />
           </div>
           <fieldset class="checkbox-fields">
-            <legend>Do you need any of the following services?</legend>
+            <legend>Do you need any of the following services?<span class="required-text">*</span></legend>
               <input type="checkbox" id="keepsake-packaging" name="additional-services" value="keepsake-packaging">
               <label for="keepsake-packaging"> Keepsake packaging for guests</label><br>
               <input type="checkbox" id="themed-figurines" name="additional-services" value="themed-figurines">
@@ -230,7 +230,7 @@
         <section class="form-section">
           <h3>Contact Info</h3>
           <div class="input-field">
-            <label for="name">Name: <span>(required)</span></label>
+            <label for="name">Name: <span class="required-text">*</span></label>
             <input 
               type="text" 
               id="name" 
@@ -239,7 +239,7 @@
             />
           </div>
           <div class="input-field">
-            <label for="email">Email: <span>(required)</span></label>
+            <label for="email">Email: <span class="required-text">*</span></label>
             <input 
               type="email" 
               id="email" 
@@ -248,7 +248,7 @@
             />
           </div>
           <div class="input-field">
-            <label for="phonenumber">Phone Number: <span>(optional)</span></label>
+            <label for="phonenumber">Phone Number: <span class="required-text">*</span></label>
             <input 
               type="text" 
               id="phonenumber" 
