@@ -342,7 +342,7 @@ h2 {
 }
 
 .required-text {
-  color: red;
+  color: rgb(152, 27, 27);
 }
 
 textarea {
