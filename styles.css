@@ -125,7 +125,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30rem 30rem;
-  width: clamp(30vw, 80%, 31vw);
+  width: 30vw;
   height: 67vh;
   left: clamp(35vw, 20vw, 38rem);
   top: 4.25rem;
