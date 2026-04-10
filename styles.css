@@ -125,9 +125,9 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30rem 30rem;
-  width: 29vw;
+  width: clamp(32vw, 29vw, 31vw);
   height: 67vh;
-  left: 32rem;
+  left: clamp(35vw, 20vw, 38rem);
   top: 4.25rem;
   border-radius: 50% 50% 0 0;
   position: absolute;
