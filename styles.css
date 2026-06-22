@@ -120,14 +120,13 @@ h2 {
 
 .logo-section {
   background-image: url('images/STLogo.png');
-  text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: 30rem 30rem;
-  width: 30vw;
-  height: 67vh;
-  left: clamp(35vw, 20vw, 38rem);
+  width: 32vw;
+  height: 68.8vh;
+  left: clamp(34.25vw, 21vw, 38rem);
   top: 4.25rem;
   border-radius: 50% 50% 0 0;
   position: absolute;
@@ -850,7 +849,7 @@ fieldset {
   }
 
   .hamburger img { 
-    width: 90%;
+    width: 120%;
   }
 
   .close img {
@@ -937,7 +936,7 @@ fieldset {
   }
 
   .navigation-bar .page-title {
-    width: 100%;
+    width: 130%;
   }
 
   .hero-image-slides {
