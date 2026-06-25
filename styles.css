@@ -549,10 +549,13 @@ textarea {
     width: 100%;
   }
 
+  .popup-section-content {
+    flex-wrap: wrap;
+  }
+
   .popup-date-time {
     border: 2px solid #294030;
     width: 6rem;
-    height: 6rem;
     text-align: center;
     padding-top: .41rem;
   }
